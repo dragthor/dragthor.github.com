@@ -1,5 +1,13 @@
 [
 {
+	"Date":"September 2nd 2012",
+	"Title":"Do Not Covet",
+	"Speaker":"Ben Stapley",
+	"Passage":"Philippians 4:3-12",
+	"Image":"TENderCommandments.004.jpg",
+	"Mp3":"TENderCommandments_DoNotCovet.mp3"
+},
+{
 	"Date":"August 26th 2012",
 	"Title":"Do Not Give False Testimony",
 	"Speaker":"Mat Dawson",
@@ -73,7 +81,7 @@
 },
 {
 	"Date":"June 24th 2012",
-	"Title":"Have no Other Gods",
+	"Title":"Have No Other Gods",
 	"Speaker":"Nathan Tuckey",
 	"Passage":"Romans 1:18-25",
 	"Image":"TENderCommandments.004.jpg",
@@ -199,5 +207,29 @@
 	"Passage":"1 Cor. 2:1-12 & 14",
 	"Image":"Whispers.003.jpg",
 	"Mp3":"Whispers_Part3.mp3"	
+},
+{
+	"Date":"March 4th 2012",
+	"Title":"Whispers: Part 2",
+	"Speaker":"Nathan Tuckey",
+	"Passage":"Isaiah 30:1-5 & 8-15",
+	"Image":"Whispers.003.jpg",
+	"Mp3":"Whispers_Part2.mp3"	
+},
+{
+	"Date":"February 26th 2012",
+	"Title":"Whispers: Part 1",
+	"Speaker":"Nathan Tuckey",
+	"Passage":"John 14:15-21 & 25-27",
+	"Image":"Whispers.003.jpg",
+	"Mp3":"Whispers_Part1.mp3"	
+},
+{
+	"Date":"February 19th 2012",
+	"Title":"Blessings & Cursings - Panel",
+	"Speaker":"Nathan Tuckey",
+	"Passage":"N/A",
+	"Image":"BlessingsCursings.005_003.jpg",
+	"Mp3":"BlessingsCursings_EmotionsPanel.mp3"	
 }
 ]
