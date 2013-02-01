@@ -9,11 +9,12 @@ public class MyClass
 	{
 		try
         {	
+			var passage = "Mark 1:21-34";
 			var file = @"C:\Users\Krause\Documents\GitHub\dragthor.github.com\southridge\eNews.txt";
 			var outFile = @"C:\Users\Krause\Documents\GitHub\dragthor.github.com\southridge\eNews.json";
 			var result = new StringBuilder();
 			
-			result.Append("[{\"Date\":\"" + DateTime.Today.ToLongDateString() + "\",\"Author\":\"Nathan Tuckey\",\"Message\":\"");
+			result.Append("[{\"Date\":\"" + DateTime.Today.ToLongDateString() + "\",\"Author\":\"Nathan Tuckey\",\"Passage\":\"" + passage + "\",\"Message\":\"");
 			
 			// Default encoding, which uses the current system's ANSI codepage.
             using (StreamReader sr = new StreamReader(file, Encoding.Default, true))
