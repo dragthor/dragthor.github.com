@@ -1,5 +1,13 @@
 [
 {
+	"Date":"February 10th 2013",
+	"Title":"Deep Healing",
+	"Speaker":"Mat Dawson",
+	"Passage":"Mark 2:1-12",
+	"Image":"Footsteps.004.jpg",
+	"Mp3":"Footsteps_DeepHealing.mp3"
+},
+{
 	"Date":"February 3rd 2013",
 	"Title":"Kingdom Conflict",
 	"Speaker":"Nathan Tuckey",
@@ -70,13 +78,5 @@
 	"Passage":"Genesis 3:14-15",
 	"Image":"OldFashionedChristmas.005.jpg",
 	"Mp3":"OldFashionedChristmas_TriumphofLife.mp3"
-},
-{
-	"Date":"November 25th 2012",
-	"Title":"Encounter... Equip... Extend..",
-	"Speaker":"Pete Gatto",
-	"Passage":"John 8:3-11",
-	"Image":"Encounter&Equip&Extend&.003.jpg",
-	"Mp3":"Encounter&Equip&Extend&.mp3"
 }
 ]
