@@ -9,7 +9,7 @@ public class MyClass
 	{
 		try
         {	
-			var passage = "Mark 1:21-34";
+			var passage = "Mark 2:23 - 3:6";
 			var file = @"C:\Users\Krause\Documents\GitHub\dragthor.github.com\southridge\eNews.txt";
 			var outFile = @"C:\Users\Krause\Documents\GitHub\dragthor.github.com\southridge\eNews.json";
 			var result = new StringBuilder();
@@ -26,6 +26,7 @@ public class MyClass
 					line = line.Replace("“", "\"");
 					line = line.Replace("”", "\"");
 					line = line.Replace("\"", "\\\"");
+					line = line.Replace("–", "-");
 					
 					if (line.IndexOf("’") > -1) throw new Exception();
 					
@@ -40,7 +41,7 @@ public class MyClass
 			
             using (StreamWriter sw = File.CreateText(outFile)) 
             {
-                sw.Write(result.ToString());
+                sw.Write(result.ToString().Replace("<p></p>", ""));
 				sw.Close();
             }	
         }
