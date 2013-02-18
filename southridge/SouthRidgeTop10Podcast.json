@@ -1,5 +1,13 @@
 [
 {
+	"Date":"February 17th 2013",
+	"Title":"Rest",
+	"Speaker":"Nathan Tuckey",
+	"Passage":"Mark 2:23-3:6",
+	"Image":"Footsteps.004.jpg",
+	"Mp3":"Footsteps_Rest.mp3"
+},
+{
 	"Date":"February 10th 2013",
 	"Title":"Deep Healing",
 	"Speaker":"Mat Dawson",
@@ -70,13 +78,5 @@
 	"Passage":"John 1:1-4,14",
 	"Image":"OldFashionedChristmas.005.jpg",
 	"Mp3":"OldFashionedChristmas_TriumphofPresence.mp3"
-},
-{
-	"Date":"December 2nd 2012",
-	"Title":"Triumph of Life",
-	"Speaker":"Nathan Tuckey",
-	"Passage":"Genesis 3:14-15",
-	"Image":"OldFashionedChristmas.005.jpg",
-	"Mp3":"OldFashionedChristmas_TriumphofLife.mp3"
 }
 ]
