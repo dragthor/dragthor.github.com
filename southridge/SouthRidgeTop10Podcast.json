@@ -1,7 +1,15 @@
 [
 {
+	"Date":"February 24th 2013",
+	"Title":"Reconciliation & Forgiveness",
+	"Speaker":"Nyasha Manyau",
+	"Passage":"Mark 2:23-3:6",
+	"Image":"ReconciliationForgiveness.004.jpg",
+	"Mp3":"ReconciliationForgiveness.mp3"
+},
+{
 	"Date":"February 17th 2013",
-	"Title":"Rest",
+	"Title":"Rest Part 1",
 	"Speaker":"Nathan Tuckey",
 	"Passage":"Mark 2:23-3:6",
 	"Image":"Footsteps.004.jpg",
@@ -70,13 +78,5 @@
 	"Passage":"Genesis 3:10",
 	"Image":"OldFashionedChristmas.005.jpg",
 	"Mp3":"OldFashionedChristmas_TriumphofPeace.mp3"
-},
-{
-	"Date":"December 16th 2012",
-	"Title":"Triumph of Presence",
-	"Speaker":"Nathan Tuckey",
-	"Passage":"John 1:1-4,14",
-	"Image":"OldFashionedChristmas.005.jpg",
-	"Mp3":"OldFashionedChristmas_TriumphofPresence.mp3"
 }
 ]
