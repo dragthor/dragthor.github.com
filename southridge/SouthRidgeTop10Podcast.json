@@ -1,5 +1,13 @@
 [
 {
+	"Date":"March 10th 2013",
+	"Title":"A Meal to Remember",
+	"Speaker":"Nathan Tuckey",
+	"Passage":"Mark 14:12-16",
+	"Image":"PathtotheCross.003.jpg",
+	"Mp3":"PathtotheCross_AMealtheRemember.mp3"
+},
+{
 	"Date":"March 3rd 2013",
 	"Title":"Rest Part 2",
 	"Speaker":"Nathan Tuckey",
@@ -70,13 +78,5 @@
 	"Passage":"Matthew 28:16-20",
 	"Image":"FromWheretoHere.003.jpg",
 	"Mp3":"HereFromWhere.mp3"
-},
-{
-	"Date":"December 30th 2012",
-	"Title":"Triumph of Blessing",
-	"Speaker":"Jeremy Moore",
-	"Passage":"Luke 2:25-35",
-	"Image":"OldFashionedChristmas.005.jpg",
-	"Mp3":"OldFashionedChristmas_TriumphofBlessing.mp3"
 }
 ]
