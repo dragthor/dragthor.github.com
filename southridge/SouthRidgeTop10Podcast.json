@@ -1,5 +1,13 @@
 [
 {
+	"Date":"March 17th 2013",
+	"Title":"Weight of Love",
+	"Speaker":"Nathan Tuckey",
+	"Passage":"Mark 14:32-42",
+	"Image":"PathtotheCross.003.jpg",
+	"Mp3":"PathtotheCross_TheWeightofLove.mp3"
+},
+{
 	"Date":"March 10th 2013",
 	"Title":"A Meal to Remember",
 	"Speaker":"Nathan Tuckey",
@@ -70,13 +78,5 @@
 	"Passage":"Acts 6:1-7",
 	"Image":"FromWheretoHere.003.jpg",
 	"Mp3":"WhereFromHere.mp3"
-},
-{
-	"Date":"January 6th 2013",
-	"Title":"Here From Where",
-	"Speaker":"Nathan Tuckey",
-	"Passage":"Matthew 28:16-20",
-	"Image":"FromWheretoHere.003.jpg",
-	"Mp3":"HereFromWhere.mp3"
 }
 ]
