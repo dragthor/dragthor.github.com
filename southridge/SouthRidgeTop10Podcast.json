@@ -1,5 +1,13 @@
 [
 {
+	"Date":"April 14th 2013",
+	"Title":"Strength of Grace",
+	"Speaker":"Nathan Tuckey",
+	"Passage":"Mark 3:23-35",
+	"Image":"Footsteps.003_005.jpg",
+	"Mp3":"Footsteps_TheStrengthofGrace.mp3"
+},
+{
 	"Date":"April 7th 2013",
 	"Title":"Power Struggle",
 	"Speaker":"Nathan Tuckey",
@@ -70,13 +78,5 @@
 	"Passage":"Mark 2:23-3:6",
 	"Image":"Footsteps.004.jpg",
 	"Mp3":"Footsteps_Rest.mp3"
-},
-{
-	"Date":"February 10th 2013",
-	"Title":"Deep Healing",
-	"Speaker":"Mat Dawson",
-	"Passage":"Mark 2:1-12",
-	"Image":"Footsteps.004.jpg",
-	"Mp3":"Footsteps_DeepHealing.mp3"
 }
 ]
