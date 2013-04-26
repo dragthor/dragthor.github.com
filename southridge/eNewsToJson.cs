@@ -9,7 +9,7 @@ public class MyClass
 	{
 		try
         {	
-			var passage = "Mark 5:1-20";
+			var passage = "Mark 5:21-24, 35-43";
 			var file = @"C:\Users\Krause\Documents\GitHub\dragthor.github.com\southridge\eNews.txt";
 			var outFile = @"C:\Users\Krause\Documents\GitHub\dragthor.github.com\southridge\eNews.json";
 			var result = new StringBuilder();
