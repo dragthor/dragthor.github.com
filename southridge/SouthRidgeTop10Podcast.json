@@ -1,5 +1,21 @@
 [
 {
+	"Date":"April 27th 2013",
+	"Title":"Mystery in Waiting",
+	"Speaker":"Nathan Tuckey",
+	"Passage":"Mark 5:21-24, 35-43",
+	"Image":"Footsteps.003_005.jpg",
+	"Mp3":"Footsteps_MysteryinWaiting.mp3"
+},
+{
+	"Date":"April 21st 2013",
+	"Title":"Display of Evil",
+	"Speaker":"Ben Stapley",
+	"Passage":"Mark 5:1-20",
+	"Image":"Footsteps.003_005.jpg",
+	"Mp3":"Footsteps_TheDisplayofEvil.mp3"
+},
+{
 	"Date":"April 14th 2013",
 	"Title":"Strength of Grace",
 	"Speaker":"Nathan Tuckey",
@@ -62,21 +78,5 @@
 	"Passage":"Mark 2:23-3:6",
 	"Image":"Footsteps.004.jpg",
 	"Mp3":"Footsteps_RestPart2.mp3"
-},
-{
-	"Date":"February 24th 2013",
-	"Title":"Reconciliation & Forgiveness",
-	"Speaker":"Nyasha Manyau",
-	"Passage":"Mark 2:23-3:6",
-	"Image":"ReconciliationForgiveness.004.jpg",
-	"Mp3":"ReconciliationForgiveness.mp3"
-},
-{
-	"Date":"February 17th 2013",
-	"Title":"Rest Part 1",
-	"Speaker":"Nathan Tuckey",
-	"Passage":"Mark 2:23-3:6",
-	"Image":"Footsteps.004.jpg",
-	"Mp3":"Footsteps_Rest.mp3"
 }
 ]
