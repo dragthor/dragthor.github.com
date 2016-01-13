@@ -1,2 +1,2 @@
 # dragthor.github.com
-Hosting and app support.  Contains code sampples posted on http://metroize.com
+Hosting and app support.  Contains code samples posted on http://metroize.com
