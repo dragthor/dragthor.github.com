@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi.  My name is Kris.  I write software.  Language and platform?  Does not matter.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+First computer programmed?  <a href="https://en.wikipedia.org/wiki/TRS-80">TRS-80</a>
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+First computer owned?  <a href="https://en.wikipedia.org/wiki/Commodore_64">Commodore 64</a>

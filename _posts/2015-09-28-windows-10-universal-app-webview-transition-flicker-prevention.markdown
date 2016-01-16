@@ -22,7 +22,7 @@ One way to address the flicker is to explicitly pass a null [NavigationTransitio
 
 Another way to prevent the flicker is set your ```frame.ContentTransitions = null``` programmatically. Or use a much cleaner way by removing the Frame.ContentTransitions element in the Xaml - 
 
-```<Frame x:Name="frame" Navigating="OnNavigatingToPage" Navigated="OnNavigatedToPage">
+    <Frame x:Name="frame" Navigating="OnNavigatingToPage" Navigated="OnNavigatedToPage">
     <!-- <Frame.ContentTransitions>
             <TransitionCollection>
                 <NavigationThemeTransition>
@@ -32,5 +32,6 @@ Another way to prevent the flicker is set your ```frame.ContentTransitions = nul
                 </NavigationThemeTransition>
             </TransitionCollection>
         </Frame.ContentTransitions> -->
-    </Frame>```
+    </Frame>
 
+<a href="{{ site.post_source_root }}2015-09-28-windows-10-universal-app-webview-transition-flicker-prevention.markdown">Contibute and Fork</a>

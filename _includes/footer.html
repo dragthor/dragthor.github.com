@@ -7,8 +7,9 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li><a href="/">{{ site.title }}</a></li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>New Jersey (and Colorado)</li>
         </ul>
       </div>
 
@@ -42,6 +43,14 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.stackoverflow_account %}
+          <li>
+            @ <a href="http://stackoverflow.com/users/{{ site.stackoverflow_account }}">stackoverflow</a>
+
+
+          </li>
+          {% endif %}
         </ul>
       </div>
 
@@ -53,3 +62,4 @@
   </div>
 
 </footer>
+

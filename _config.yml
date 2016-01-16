@@ -2,11 +2,13 @@
 title: metroize
 email: kris.krause@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Technology software development blog - android, unit testing.
+  Technology software development blog - android, unit testing, windows, linux, .NET, javascript.  And anything that might help someone.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dragthor.github.io" # the base hostname & protocol for your site
-twitter_username: dragthor
+twitter_username: metroize
 github_username:  dragthor
+stackoverflow_account: 139547/kris-krause
+post_source_root: https://github.com/dragthor/dragthor.github.com/blob/master/_posts/
 
 # Build settings
 markdown: kramdown

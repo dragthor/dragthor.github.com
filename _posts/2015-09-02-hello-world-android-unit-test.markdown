@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World! Android Unit Test"
+title: "Hello World! Android Unit Testing"
 permalink: /hello-world-android-unit-test/
 categories: android unit-testing
 ---
@@ -10,27 +10,26 @@ Historically extending [ApplicationTestCase](http://developer.android.com/refere
 
 The latest version of [Android Studio](https://developer.android.com/sdk/index.html) provides the developer with [Espresso](http://developer.android.com/reference/android/support/test/package-summary.html) included in the [Android Testing Support Library](http://developer.android.com/tools/testing-support-library/index.html).  And yes no one is forcing you to stop using [Robolectric](http://robolectric.org) if desired.  However, I believe the fluid API of Espresso makes it (and feels) easier to find views, perform actions, and verify state.  
 
+    onView(withId(R.id.txtHello))
+		.check(matches(withText("")));
 
-```
-onView(withId(R.id.txtHello))
-   .check(matches(withText("")));
+	onView(withId(R.id.btnHello))
+		.check(matches(withText(R.string.clickme)))
+		.perform(click());
 
-onView(withId(R.id.btnHello))
-   .check(matches(withText(R.string.clickme)))
-   .perform(click());
+	onView(withId(R.id.txtHello))
+		.check(matches(withText(R.string.helloworld)));
 
-onView(withId(R.id.txtHello))
-   .check(matches(withText(R.string.helloworld)));
-
-onView(withId(R.id.btnHello))
-   .check(matches(not(isEnabled())));
-   ```
+	onView(withId(R.id.btnHello))
+		.check(matches(not(isEnabled())));
 
 And yes, JUnit tests tend to be faster than Espresso tests since they can avoid context and the android framework.
 
 Important for your app's build.gradle -
 
-```defaultConfig { testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner' }```
+	defaultConfig { 
+		testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+	}
 
 And then utilize your project's Build Variants to toggle between JUnit tests and Espresso tests.
 
@@ -40,3 +39,5 @@ Android Studio 1.5.1
 JUnit 4.1.1
 Espresso 2.+
 Android Support Library 23.1.1
+
+<a href="{{ site.post_source_root }}2015-09-02-hello-world-android-unit-test.markdown">Contibute and Fork</a>
