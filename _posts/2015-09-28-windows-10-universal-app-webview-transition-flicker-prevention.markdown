@@ -4,7 +4,9 @@ title: "Windows 10 Universal App WebView Transition Flicker Prevention"
 permalink: /windows-10-universal-app-webview-transition-flicker-prevention/
 categories: windows-app zurb
 ---
-Currently I am developing a Windows 10 Universal App that utilizes a [WebView](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.webview), [knockout](http://knockoutjs.com), and [Zurb Foundation](http://foundation.zurb.com). Yeah, I know nothing earth shattering. [Xaml](https://msdn.microsoft.com/en-us/library/cc295302%28v=expression.40%29.aspx) is fine and probably preferred for a larger app (and this is a small app) using [Blend](https://en.wikipedia.org/wiki/Microsoft_Blend) and at least one ~~other developer~~ designer.  I am not a designer.  As an weekend warrior after hours programming hobbyist I have no problem off loading much of this to [Zurb](http://foundation.zurb.com/).  And I want to personally prove that it can be done (and get another ~~profitable~~ app in the store) while leveraging my existing knowledge of C#, Javascript, and [Zurb](http://foundation.zurb.com/).
+Currently I am developing a Windows 10 Universal App that utilizes a [WebView](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.webview), [Knockout Js](http://knockoutjs.com), and [Zurb Foundation](http://foundation.zurb.com).  Yeah, I know nothing earth shattering.
+
+[Xaml](https://msdn.microsoft.com/en-us/library/cc295302%28v=expression.40%29.aspx) is fine and probably preferred for a larger app (and this is a small app) using [Blend](https://en.wikipedia.org/wiki/Microsoft_Blend) and at least one ~~other developer~~ designer.  I am not a designer.  As an weekend warrior after hours programming hobbyist I have no problem off loading much of this to [Zurb](http://foundation.zurb.com/).  And I want to personally prove that it can be done (and get another ~~profitable~~ app in the store) while leveraging my existing knowledge of C#, Javascript, and [Zurb](http://foundation.zurb.com/).
 
 I really like the idea of a [Zurb](http://foundation.zurb.com) frontend communicating with a C# backend utilizing -
 
