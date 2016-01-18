@@ -9,6 +9,7 @@ twitter_username: metroize
 github_username:  dragthor
 stackoverflow_account: 139547/kris-krause
 post_source_root: https://github.com/dragthor/dragthor.github.com/blob/master/_posts/
+rooturl: http://metroize.com
 
 # Build settings
 markdown: kramdown

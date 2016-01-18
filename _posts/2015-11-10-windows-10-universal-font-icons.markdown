@@ -34,3 +34,5 @@ See that U+E001 value?  That translates to - ```FontIcon = "\ue001"```
 
 
 <a href="{{ site.post_source_root }}2015-11-10-windows-10-universal-font-icons.markdown">Contibute and Fork</a>
+
+{% include disqus.html %}

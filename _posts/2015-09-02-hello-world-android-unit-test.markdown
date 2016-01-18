@@ -43,3 +43,5 @@ Espresso 2.+
 Android Support Library 23.1.1
 
 <a href="{{ site.post_source_root }}2015-09-02-hello-world-android-unit-test.markdown">Contibute and Fork</a>
+
+{% include disqus.html %}

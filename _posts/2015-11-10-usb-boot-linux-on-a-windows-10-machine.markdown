@@ -23,3 +23,5 @@ Save and restart your computer (with the USB device plugged in).
 Your system should now boot from USB.
 
 <a href="{{ site.post_source_root }}2015-11-10-usb-boot-linux-on-a-windows-10-machine.markdown">Contibute and Fork</a>
+
+{% include disqus.html %}

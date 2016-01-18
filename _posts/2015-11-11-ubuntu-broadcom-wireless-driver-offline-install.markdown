@@ -17,3 +17,5 @@ Next I need to utilize a different computer (or phone, or phablet) to [download 
 You can now either [set up a local aptget offline repository](https://help.ubuntu.com/community/AptGet/Offline/Repository) or even easier... just right-click on the file from within Ubuntu and select "Open with Ubuntu Software Center" to install.
 
 <a href="{{ site.post_source_root }}2015-11-11-ubuntu-broadcom-wireless-driver-offline-install.markdown">Contibute and Fork</a>
+
+{% include disqus.html %}
