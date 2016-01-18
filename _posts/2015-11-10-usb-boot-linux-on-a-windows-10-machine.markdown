@@ -3,6 +3,7 @@ layout: post
 title: "USB Boot Linux on a Windows 10 Machine"
 permalink: /usb-boot-linux-on-a-windows-10-machine/
 categories: linux
+meta: linux
 ---
 Things are different compared to five ~~ten~~ years ago in the hardware world.  Booting a "live" Linux USB on a machine primarily running Windows 10 is little more involved.  I am choosing [Ubuntu](http://www.ubuntu.com) - although [Mint](http://linuxmint.com) is another good choice (and pretty hot right now).
 
