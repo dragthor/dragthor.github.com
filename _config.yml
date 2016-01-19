@@ -2,7 +2,7 @@
 title: metroize
 email: kris.krause@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Technology software development blog - android, unit testing, windows, linux, .NET, javascript.  And anything that might help someone.
+  Technology software development blog - android, unit testing, windows, linux, .NET, javascript.  And anything that might be helpful to someone.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://metroize.com" # the base hostname & protocol for your site
 twitter_username: metroize
