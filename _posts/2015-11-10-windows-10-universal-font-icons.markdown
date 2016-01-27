@@ -2,7 +2,6 @@
 layout: post
 title: "Windows 10 Universal Font Icons"
 permalink: /windows-10-universal-font-icons/
-categories: windows-app
 meta: windows-app
 ---
 Finding Windows 10 Universal font icons and viewing them visually can be difficult to locate.  [This page](https://msdn.microsoft.com/en-us/library/windows/apps/jj841126.aspx) provides a list of fonts (and their symbols) and guidelines for using the Segoe MDL2 icons for Windows 10 Store Apps. 

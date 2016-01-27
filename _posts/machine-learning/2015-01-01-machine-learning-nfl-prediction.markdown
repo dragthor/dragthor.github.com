@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Machine Learning NFL Prediction"
+permalink: /machine-learning/2015-01-01-machine-learning-nfl-prediction/
 meta: machine-learning
 category: machine-learning
 ---
