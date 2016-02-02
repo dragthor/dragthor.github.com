@@ -12,6 +12,17 @@ The methods below all "inherit" the abilities of the one above it (the one at th
 
 	* No newly added properties
 
+    "use strict";
+
+    var order = { Total: 100, SubTotal: 105 };
+
+    order.OrderNumber = "0001";
+
+    Object.preventExtensions(order);
+
+    // TypeError: object is not extensible
+    order.AffiliateCode = "BAD_THIRD_PARTY_VENDOR";
+
 * [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
 
 	* Non-configurable
@@ -24,11 +35,39 @@ The methods below all "inherit" the abilities of the one above it (the one at th
 
 		* You can still have an object property and modify it
 
+    "use strict";
+
+    var order = { Total: 100, SubTotal: 105 };
+
+    order.OrderNumber = "0001";
+    order.Items = { Count: 0 };
+    order.AffiliateCode = "TRUSTED_THIRD_PARTY_VENDOR";
+
+    Object.seal(order);
+
+    order.Items.Count = 2;
+
+    // TypeError: Cannot delete property
+    delete order.AffiliateCode;
+
 * [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 	* Non-writable data properties
 
 	* Once frozen cannot become unfrozen
+
+    "use strict";
+
+    var order = { Total: 100, SubTotal: 105 };
+
+    order.OrderNumber = "0001";
+    order.AffiliateCode = "TRUSTED_THIRD_PARTY_VENDOR";
+
+    Object.freeze(order);      
+
+    // TypeError: Cannot assign to read only property
+    order.Total = 500;
+    order.AffiliateCode = "BAD_THIRD_PARTY_VENDOR";
 
 When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is invoked an exception is thrown when attempting to modify an object.  If strict mode (```use strict```) is not invoked then no exception is thrown and silently fails.
 
