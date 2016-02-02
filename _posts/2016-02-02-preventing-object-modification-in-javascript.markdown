@@ -12,7 +12,7 @@ The methods below all "inherit" the abilities of the one above it (the one at th
 
 	* No newly added properties
 
-Here is an example:
+Here is an [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions) example:
 
 	"use strict";
 
@@ -37,7 +37,7 @@ Here is an example:
 
 		* You can still have an object property and modify it
 
-Here is an example:
+Here is an [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) example:
 
 	"use strict";
 
@@ -60,7 +60,7 @@ Here is an example:
 
 	* Once frozen cannot become unfrozen
 
-Here is an example:
+Here is an [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) example:
 
 	"use strict";
 
