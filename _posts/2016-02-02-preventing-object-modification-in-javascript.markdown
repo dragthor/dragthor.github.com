@@ -12,7 +12,8 @@ The methods below all "inherit" the abilities of the one above it (the one at th
 
 	* No newly added properties
 
-    
+Here is an example:
+
 	"use strict";
 
 	var order = { Total: 100, SubTotal: 105 };
@@ -36,6 +37,7 @@ The methods below all "inherit" the abilities of the one above it (the one at th
 
 		* You can still have an object property and modify it
 
+Here is an example:
 
 	"use strict";
 
@@ -58,6 +60,7 @@ The methods below all "inherit" the abilities of the one above it (the one at th
 
 	* Once frozen cannot become unfrozen
 
+Here is an example:
 
 	"use strict";
 
