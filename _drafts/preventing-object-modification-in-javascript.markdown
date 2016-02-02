@@ -4,7 +4,9 @@ title: "Preventing Object Modification in Javascript"
 permalink: /preventing-object-modification-in-javascript/
 meta: javascript
 ---
-Currently (ECMAScript 5) there are three ways to prevent or lock down object modification in Javascript.  And they all "inherit" the abilities of the one above it (the one at the top is the least restrictive) –
+Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three ways to prevent or lock down object modification in Javascript.  This is important to help prevent possible third party Javascript partners from tampering with your objects.
+
+The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive) –
 
 * Object.preventExtensions()
 
@@ -28,11 +30,7 @@ Currently (ECMAScript 5) there are three ways to prevent or lock down object mod
 
 	* Once frozen cannot become unfrozen
 
-Immutable and immutability.
-
-[Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). What exactly is it? Should be on for all [qUnit](http://qunitjs.com/) tests.
-
-Strict mode throws exceptions when attempting to modify an object. Else it just silently fails.
+When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is invoked an exception is thrown when attempting to modify an object.  If ```strict mode``` is not invoked then no exception is thrown and silently fails.
 
 [ECMAScript compatibility table](http://kangax.github.io/compat-table/es5/)
  
