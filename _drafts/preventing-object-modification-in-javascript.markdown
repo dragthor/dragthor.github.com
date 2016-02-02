@@ -1,10 +1,10 @@
+---
 layout: post
 title: "Preventing Object Modification in Javascript"
 permalink: /preventing-object-modification-in-javascript/
-categories: javascript
 meta: javascript
 ---
-Currently (ECMAScript 5) there are three ways to prevent or lock down object modification in Javascript. They all "inherit" the abilities of the one above it (the one at the top is the least restrictive) –
+Currently (ECMAScript 5) there are three ways to prevent or lock down object modification in Javascript.  And they all "inherit" the abilities of the one above it (the one at the top is the least restrictive) –
 
 * Object.preventExtensions()
 
@@ -20,7 +20,7 @@ Currently (ECMAScript 5) there are three ways to prevent or lock down object mod
 
 		* Cannot change a property's type
 
-		* You can still have an object property an modify it
+		* You can still have an object property and modify it
 
 * Object.freeze()
 
