@@ -6,9 +6,9 @@ meta: javascript
 ---
 Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three ways to prevent or lock down object modification in Javascript.  This is important to help prevent possible third party Javascript partners from tampering with your objects.  Or if you want to write [immutable Javascript](https://github.com/facebook/immutable-js).
 
-The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive) –
+The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive).
 
-* [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions)
+1. [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions)
 
 	* No newly added properties
 
@@ -25,7 +25,7 @@ Here is an [```Object.preventExtensions()```](https://developer.mozilla.org/en-U
 	// TypeError: object is not extensible
 	order.AffiliateCode = "BAD_THIRD_PARTY_VENDOR";
 
-* [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
+2. [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
 
 	* Non-configurable
 
@@ -54,7 +54,7 @@ Here is an [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/Ja
 	// TypeError: Cannot delete property
 	delete order.AffiliateCode;
 
-* [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
+3. [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 	* Non-writable data properties
 
