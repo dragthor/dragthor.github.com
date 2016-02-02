@@ -8,11 +8,11 @@ Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three w
 
 The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive) –
 
-* [Object.preventExtensions()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions)
+* [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions)
 
 	* No newly added properties
 
-* [Object.seal()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
+* [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
 
 	* Non-configurable
 
@@ -30,7 +30,7 @@ The methods below all "inherit" the abilities of the one above it (the one at th
 
 	* Once frozen cannot become unfrozen
 
-When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is invoked an exception is thrown when attempting to modify an object.  If strict mode ```use strict``` is not invoked then no exception is thrown and silently fails.
+When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is invoked an exception is thrown when attempting to modify an object.  If strict mode (```use strict```) is not invoked then no exception is thrown and silently fails.
 
 See the [ECMAScript compatibility table](http://kangax.github.io/compat-table/es5/) for strict mode support.
  
