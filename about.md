@@ -16,4 +16,4 @@ Current job?  Software Developer at [Bare Necessities](http://www.barenecessitie
 
 
 
-Disclaimer: The opinions expressed here represent my own and not those of my employer.
+**Disclaimer:** The opinions expressed here represent my own and not those of my employer.

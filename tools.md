@@ -3,20 +3,20 @@ layout: page
 title: Tools
 permalink: /tools/
 ---
-<a href="https://www.jetbrains.com/resharper/">ReSharper</a>
+[ReSharper](https://www.jetbrains.com/resharper/){:target="_blank"}
 
-<a href="https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx">Visual Studio</a>
+[Visual Studio](https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx){:target="_blank"}
 
-<a href="http://developer.android.com/sdk/index.html">Android Studio</a>
+[Android Studio](http://developer.android.com/sdk/index.html){:target="_blank"}
 
-<a href="https://products.office.com/en-us/office-365-personal">Office 365</a>
+[Office 365](https://products.office.com/en-us/office-365-personal){:target="_blank"}
 
-<a href="https://www.android.com/">Android</a>
+[Android](https://www.android.com/){:target="_blank"}
 
-<a href="http://www.ubuntu.com/">Ubuntu</a>
+[Ubuntu](http://www.ubuntu.com/){:target="_blank"}
 
-<a href="https://github.com/">Github</a>
+[Github](https://github.com/){:target="_blank"}
 
-<a href="https://trello.com/">Trello</a>
+[Trello](https://trello.com/){:target="_blank"}
 
-<a href="https://www.google.com/inbox/">Inbox by Google</a>
+[Inbox by Google](https://www.google.com/inbox/){:target="_blank"}
