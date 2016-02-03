@@ -12,7 +12,7 @@ Historically extending [ApplicationTestCase](http://developer.android.com/refere
 
 The latest version of [Android Studio](https://developer.android.com/sdk/index.html){:target="_blank"} provides the developer with [Espresso](http://developer.android.com/reference/android/support/test/package-summary.html){:target="_blank"} included in the [Android Testing Support Library](http://developer.android.com/tools/testing-support-library/index.html){:target="_blank"}.  And yes no one is forcing you to stop using [Robolectric](http://robolectric.org){:target="_blank"} if desired.  However, I believe the fluid API of Espresso makes it (and feels) easier to find views, perform actions, and verify state.  
 
-{% highlight java %}
+{% highlight java linenos %}
 onView(withId(R.id.txtHello))
 	.check(matches(withText("")));
 
@@ -31,9 +31,11 @@ And yes, JUnit tests tend to be faster than Espresso tests since they can avoid 
 
 Important for your app's build.gradle -
 
+{% highlight json linenos %}
 	defaultConfig { 
 		testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
 	}
+{% endhighlight %}
 
 And then utilize your project's Build Variants to toggle between JUnit tests and Espresso tests.
 
