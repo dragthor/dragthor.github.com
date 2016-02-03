@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Book Shelf
-permalink: /book-shelf/
+title: Books
+permalink: /books/
 ---
 <a rel="nofollow" href="http://www.amazon.com/gp/product/B00JDMPOK2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JDMPOK2&linkCode=as2&tag=kriskrausecom&linkId=KAGPI2FDQXX7XIHC">Code: The Hidden Language of Computer Hardware and Software (Developer Best Practices)</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=kriskrausecom&l=as2&o=1&a=B00JDMPOK2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
