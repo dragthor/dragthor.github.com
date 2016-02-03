@@ -6,7 +6,7 @@ meta: android unit-testing espresso
 ---
 Tackling android unit testing has more than one approach.  A library file or class file(s) without android dependencies can utilize [JUnit](http://www.junit.org){:target="_blank"} or any other Java unit testing framework.  However, as soon as the code that you want to test is dependent on [Activity Context](http://developer.android.com/reference/android/app/Activity.html){:target="_blank"} you write instrumentation tests that execute on actual devices or virtual devices.
 
-Instrumentation tests save the developer time because the tests ~~should~~ run in seconds – and provide a safety net of regression testing.  You are actually testing your Android code.
+Instrumentation tests save the developer time because the tests should run in seconds – and provide a safety net of regression testing.  You are actually testing your Android code.
 
 Historically extending [ApplicationTestCase](http://developer.android.com/reference/android/test/ApplicationTestCase.html){:target="_blank"} can have UI timing (thread synchronization) issues – and getting around these issues involves the "guess  sprinkling" of ```sleep``` statements in your test code (reminiscent of the web browser automation tool [Selenium](http://docs.seleniumhq.org/){:target="_blank"}).
 
