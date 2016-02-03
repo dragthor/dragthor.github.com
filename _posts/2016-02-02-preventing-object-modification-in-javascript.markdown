@@ -8,7 +8,7 @@ Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three w
 
 The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive).
 
-1. [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions)
+At the top is [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions)
 
 	* No newly added properties
 
@@ -25,7 +25,7 @@ Here is an [```Object.preventExtensions()```](https://developer.mozilla.org/en-U
 	// TypeError: object is not extensible
 	order.AffiliateCode = "BAD_THIRD_PARTY_VENDOR";
 
-2. [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
+Next is [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
 
 	* Non-configurable
 
@@ -54,7 +54,7 @@ Here is an [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/Ja
 	// TypeError: Cannot delete property
 	delete order.AffiliateCode;
 
-3. [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
+At the bottom and most restrictive is [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
 	* Non-writable data properties
 
