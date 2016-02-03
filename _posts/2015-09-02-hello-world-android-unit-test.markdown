@@ -12,18 +12,20 @@ Historically extending [ApplicationTestCase](http://developer.android.com/refere
 
 The latest version of [Android Studio](https://developer.android.com/sdk/index.html){:target="_blank"} provides the developer with [Espresso](http://developer.android.com/reference/android/support/test/package-summary.html){:target="_blank"} included in the [Android Testing Support Library](http://developer.android.com/tools/testing-support-library/index.html){:target="_blank"}.  And yes no one is forcing you to stop using [Robolectric](http://robolectric.org){:target="_blank"} if desired.  However, I believe the fluid API of Espresso makes it (and feels) easier to find views, perform actions, and verify state.  
 
-    onView(withId(R.id.txtHello))
-		.check(matches(withText("")));
+{% highlight java %}
+onView(withId(R.id.txtHello))
+	.check(matches(withText("")));
 
-	onView(withId(R.id.btnHello))
-		.check(matches(withText(R.string.clickme)))
-		.perform(click());
+onView(withId(R.id.btnHello))
+	.check(matches(withText(R.string.clickme)))
+	.perform(click());
 
-	onView(withId(R.id.txtHello))
-		.check(matches(withText(R.string.helloworld)));
+onView(withId(R.id.txtHello))
+	.check(matches(withText(R.string.helloworld)));
 
-	onView(withId(R.id.btnHello))
-		.check(matches(not(isEnabled())));
+onView(withId(R.id.btnHello))
+	.check(matches(not(isEnabled())));
+{% endhighlight %}
 
 And yes, JUnit tests tend to be faster than Espresso tests since they can avoid context and the android framework.
 
