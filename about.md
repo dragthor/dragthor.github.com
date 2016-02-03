@@ -15,4 +15,6 @@ First professional job?  C++ and VB3.
 Current job?  Software Developer at <a href="http://www.barenecessities.com">Bare Necessities</a>
 
 
-The opinions expressed here represent my own and not those of my employer.
+
+
+Disclaimer: The opinions expressed here represent my own and not those of my employer.
