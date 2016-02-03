@@ -76,4 +76,7 @@ Here is an [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/
 When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is invoked an exception is thrown when attempting to modify an object.  If strict mode (```use strict```) is not invoked then no exception is thrown and silently fails.
 
 See the [ECMAScript compatibility table](http://kangax.github.io/compat-table/es5/) for strict mode support.
- 
+
+<a href="{{ site.post_source_root }}2016-02-02-preventing-object-modification-in-javascript.markdown">Contibute and Fork</a>
+
+{% include disqus.html %}
