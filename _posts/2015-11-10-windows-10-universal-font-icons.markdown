@@ -33,10 +33,8 @@ If you work mostly offline (like I do) you can always pull up [Windows Character
 
 ![character map](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/character-map.PNG)
 
-<br/>
 
 See that U+E001 value?  That translates to - ```FontIcon = "\ue001"```
-
 
 <a href="{{ site.post_source_root }}2015-11-10-windows-10-universal-font-icons.markdown" target="_blank">Contibute and Fork</a>
 
