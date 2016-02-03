@@ -10,7 +10,7 @@ The methods below all "inherit" the abilities of the one above it (the one at th
 
 At the top is [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions)
 
-	* No newly added properties
+* No newly added properties
 
 Here is an [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions) example:
 
@@ -27,15 +27,15 @@ Here is an [```Object.preventExtensions()```](https://developer.mozilla.org/en-U
 
 Next is [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal)
 
-	* Non-configurable
+* Non-configurable
 
-		* Cannot remove properties
+	* Cannot remove properties
 
-		* Can only read/write to its properties
+	* Can only read/write to its properties
 
-		* Cannot change a property's type
+	* Cannot change a property's type
 
-		* You can still have an object property and modify it
+	* You can still have an object property and modify it
 
 Here is an [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) example:
 
@@ -56,9 +56,9 @@ Here is an [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/Ja
 
 At the bottom and most restrictive is [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
 
-	* Non-writable data properties
+* Non-writable data properties
 
-	* Once frozen cannot become unfrozen
+* Once frozen cannot become unfrozen
 
 Here is an [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) example:
 
