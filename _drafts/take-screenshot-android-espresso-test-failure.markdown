@@ -4,7 +4,7 @@ title: "Take a Screenshot on Android Espresso Test Failure"
 permalink: /take-screenshot-android-espresso-test-failure/
 meta: android unit-testing espresso
 ---
-Utilize [FailureHandler[(https://developer.android.com/reference/android/support/test/espresso/FailureHandler.html).
+Utilize [FailureHandler[(https://developer.android.com/reference/android/support/test/espresso/FailureHandler.html){:target="_blank"}.
 
 Non rooted phones.
 
