@@ -12,3 +12,5 @@ post_source_root: https://github.com/dragthor/dragthor.github.com/blob/master/_p
 
 # Build settings
 markdown: kramdown
+
+highlighter: pygments
