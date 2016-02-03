@@ -4,7 +4,7 @@ title: "Preventing Object Modification in Javascript"
 permalink: /preventing-object-modification-in-javascript/
 meta: javascript
 ---
-Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three ways to prevent or lock down object modification in Javascript.  This is important to help prevent possible third party Javascript partners from tampering with your objects.  Or if you want to write [immutable Javascript](https://github.com/facebook/immutable-js).
+Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three ways to prevent or "lock down" object modification in Javascript.  This is important to help prevent possible misbehaving third party Javascript partners from tampering with your objects.  Or worse - your own Javascript in other parts of your code base that you did not think about or test.  Or maybe there are specific areas or parts of your code where you want to write [immutable Javascript](https://github.com/facebook/immutable-js) and reap the [benefits](http://programmers.stackexchange.com/questions/151733/if-immutable-objects-are-good-why-do-people-keep-creating-mutable-objects)?
 
 The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive).
 
@@ -73,7 +73,7 @@ Here is an [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/
 	order.Total = 500;
 	order.AffiliateCode = "BAD_THIRD_PARTY_VENDOR";
 
-When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is invoked an exception is thrown when attempting to modify an object.  If strict mode (```use strict```) is not invoked then no exception is thrown and silently fails.
+When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is invoked an exception is thrown when attempting to modify an object using the aformentioned methods.  If ```use strict``` is not invoked then no exception is thrown and the modification attempt silently fails.
 
 See the [ECMAScript compatibility table](http://kangax.github.io/compat-table/es5/) for strict mode support.
 
