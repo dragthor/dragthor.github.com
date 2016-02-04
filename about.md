@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hi.  My name is Kris.  I write software.  Language and platform?  Depends on the problem.
+Hi.  My name is Kris Krause.  I write software.  Language and platform?  Depends on the problem.
 
 First computer programmed?  [TRS-80](https://en.wikipedia.org/wiki/TRS-80){:target="_blank"}
 
