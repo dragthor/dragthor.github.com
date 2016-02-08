@@ -7,3 +7,9 @@ meta: android realm
 [Realm Android](https://realm.io/docs/java/latest/){:target="_blank"}
 
 Northwind databse http://chinookdatabase.codeplex.com/
+
+asynch (thread confinement)
+
+"reactive" updates (I am thinking observable)
+
+zero sqlite under the hood
