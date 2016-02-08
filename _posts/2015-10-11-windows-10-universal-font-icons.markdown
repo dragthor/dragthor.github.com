@@ -36,6 +36,6 @@ If you work mostly offline (like I do) you can always pull up [Windows Character
 
 See that U+E001 value?  That translates to - ```FontIcon = "\ue001"```
 
-<a href="{{ site.post_source_root }}2015-11-10-windows-10-universal-font-icons.markdown" target="_blank">Contibute and Fork</a>
+<a href="{{ site.post_source_root }}2015-10-11-windows-10-universal-font-icons.markdown" target="_blank">Contibute and Fork</a>
 
 {% include disqus.html %}
