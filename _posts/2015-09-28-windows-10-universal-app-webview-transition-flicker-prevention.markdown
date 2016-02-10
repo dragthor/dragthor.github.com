@@ -38,6 +38,6 @@ Another way to prevent the flicker is set your ```frame.ContentTransitions = nul
 </Frame>
 {% endhighlight %}
 
-<a href="{{ site.post_source_root }}2015-09-28-windows-10-universal-app-webview-transition-flicker-prevention.markdown" target="_blank">Contibute and Fork</a>
+<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2015-09-28-windows-10-universal-app-webview-transition-flicker-prevention.markdown" target="_blank">Contibute and Fork</a>
 
 {% include disqus.html %}

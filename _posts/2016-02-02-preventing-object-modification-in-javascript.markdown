@@ -83,6 +83,6 @@ When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 See the [ECMAScript compatibility table](http://kangax.github.io/compat-table/es5/){:target="_blank"} for strict mode support.
 
-<a href="{{ site.post_source_root }}2016-02-02-preventing-object-modification-in-javascript.markdown" target="_blank">Contibute and Fork</a>
+<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-02-preventing-object-modification-in-javascript.markdown" target="_blank">Contibute and Fork</a>
 
 {% include disqus.html %}
