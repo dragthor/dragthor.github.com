@@ -15,14 +15,13 @@
 		}
 	</style>
 	
-	<script type="text/javascript" src="jquery.min.js"></script> <!-- 1.10.2 -->
 	<script type="text/javascript" src="aes.js"></script>	 <!-- 3.1.2 -->
 </head>
 
 <body>
 	<div style="float: right">
-		<input type="button" id="btnEncrypt" value="Encrypt" />
-		<input type="button" id="btnDecrypt" value="Decrypt" />
+		<input type="button" id="btnEncrypt" value="Encrypt" onclick="encrypt()" />
+		<input type="button" id="btnDecrypt" value="Decrypt" onclick="decrypt()" />
 
 		<input type="password" id="txtPassphrase" maxlength="50" />
 	</div>
@@ -32,35 +31,29 @@
 	</div>
 	
 	<script type="text/javascript">
-		$(document).ready(function() {
-			$("#btnEncrypt").click(function(e) {
-				e.preventDefault;
-				
-				var phrase = $("#txtPassphrase");
-				var secret = $("#txtInput");
-				var phrasef = phrase.val().trim();
-				var secretf = secret.val().trim();
-				
-				if (phrasef.length > 0 && secretf.length > 0) {
-					secret.val(CryptoJS.AES.encrypt(secretf, phrasef));
-				}
-			});
+		function encrypt() {
+			var phrase = document.getElementById("txtPassphrase");
+			var secret = document.getElementById("txtInput");
+			var phrasef = phrase.value.trim();
+			var secretf = secret.value.trim();
 			
-			$("#btnDecrypt").click(function(e) {
-				e.preventDefault;
+			if (phrasef.length > 0 && secretf.length > 0) {
+				secret.value = CryptoJS.AES.encrypt(secretf, phrasef);
+			}		
+		}
+
+		function decrypt() {
+			var phrase = document.getElementById("txtPassphrase");
+			var secret = document.getElementById("txtInput");
+			var phrasef = phrase.value.trim();
+			var secretf = secret.value.trim();
+			
+			if (phrasef.length > 0 && secretf.length > 0) {
+				var result = CryptoJS.AES.decrypt(secretf, phrasef).toString(CryptoJS.enc.Utf8);
 				
-				var phrase = $("#txtPassphrase");
-				var secret = $("#txtInput");
-				var phrasef = phrase.val().trim();
-				var secretf = secret.val().trim();
-				
-				if (phrasef.length > 0 && secretf.length > 0) {
-					var result = CryptoJS.AES.decrypt(secretf, phrasef).toString(CryptoJS.enc.Utf8);
-					
-					secret.val(result);
-				}
-			});
-		});
+				secret.value = result;
+			}
+		}
 	</script>
 </body>
 </html>
