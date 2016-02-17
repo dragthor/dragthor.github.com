@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>cryto-js</title>
+	
+	<style>
+		body {
+			background-color: #B0C4DE; 
+			font-family:verdana,arial,helvetica,sans-serif;
+		}
+		input, textarea {
+			border-color: #000;
+			border-width: 1px;
+			border-style: solid;
+			padding: 10px;
+		}
+	</style>
+	
+	<script type="text/javascript" src="jquery.min.js"></script> <!-- 1.10.2 -->
+	<script type="text/javascript" src="aes.js"></script>	 <!-- 3.1.2 -->
+</head>
+
+<body>
+	<div style="float: right">
+		<input type="button" id="btnEncrypt" value="Encrypt" />
+		<input type="button" id="btnDecrypt" value="Decrypt" />
+
+		<input type="password" id="txtPassphrase" maxlength="50" />
+	</div>
+	
+	<div>
+		<textarea id="txtInput" style="width: 400px; height: 350px;"></textarea>
+	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#btnEncrypt").click(function(e) {
+				e.preventDefault;
+				
+				var phrase = $("#txtPassphrase");
+				var secret = $("#txtInput");
+				var phrasef = phrase.val().trim();
+				var secretf = secret.val().trim();
+				
+				if (phrasef.length > 0 && secretf.length > 0) {
+					secret.val(CryptoJS.AES.encrypt(secretf, phrasef));
+				}
+			});
+			
+			$("#btnDecrypt").click(function(e) {
+				e.preventDefault;
+				
+				var phrase = $("#txtPassphrase");
+				var secret = $("#txtInput");
+				var phrasef = phrase.val().trim();
+				var secretf = secret.val().trim();
+				
+				if (phrasef.length > 0 && secretf.length > 0) {
+					var result = CryptoJS.AES.decrypt(secretf, phrasef).toString(CryptoJS.enc.Utf8);
+					
+					secret.val(result);
+				}
+			});
+		});
+	</script>
+</body>
+</html>
