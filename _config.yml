@@ -14,3 +14,5 @@ post_source_root: https://github.com/dragthor/dragthor.github.com/blob/master/_p
 markdown: kramdown
 
 highlighter: rouge
+
+exclude: [_docs]
