@@ -11,8 +11,10 @@ Recently I purchase a $90 USD refurbished Chromebook on [Woot](http://www.woot.c
 
 > Hisense C11 11.6" Chromebook, Rockchip RK3288 Quad-Core, 16GB Internal Storage, 2GB Memory, 802.11ac, Bluetooth, Chrome OS
 
-Enter [Crouton](https://github.com/dnschneid/crouton){:target="_blank"}.  The installation instructions are straight forward so I won't repeat them.  However you should read through it entirely at first to learn about options.  You end up with the ability to run [Chrome OS](https://en.wikipedia.org/wiki/Chrome_OS){:target="_blank"} and linux (Ubuntu or Debian) simultaneously.  You literally can ```Alt-Tab``` between environments, however its more like ```Ctrl-Shift-Alt-Arrow```.
+Enter [Crouton](https://github.com/dnschneid/crouton){:target="_blank"}.  The installation instructions are straight forward so I won't repeat them.  However you should read through it entirely at first to learn about options (ie, how not to install the Unity desktop).  You end up with the ability to run [Chrome OS](https://en.wikipedia.org/wiki/Chrome_OS){:target="_blank"} and linux (Ubuntu or Debian) simultaneously.  You literally can ```Alt-Tab``` between environments, however its more like ```Ctrl-Shift-Alt-Arrow```.
 
 Personally I think 2GB of RAM is a little to slim to run Unity Ubuntu so I opted for the [lxde](http://lxde.org/){:target="_blank"} desktop on Ubuntu.  Forget about Android Studio - I tried.  It simply uses too much memory.  And it seems that a few of its tools want ARM.  You can still install the JDK to run and compile Java.  Git, Ruby, Python, PyCharm, and WebStorm work well (did not try IntelliJ).
 
 After installing Firefox (or Chromium) go ahead and remove [the default NetSurf browser](http://www.netsurf-browser.org/){:target="_blank"} - ```apt-get remove netsurf-gtk```.  Sure its small as a mouse, and fast as a cheetah but not familair to the majority.  I remember the Mosaic and Netscape days.
+
+One consequence of enabling Developer Mode on the Chromebook is that during boot  you have to ```Ctrl-D``` every time.  The good news is that you do not have to perform boots too often.  The battery last a long time and the Chrome OS optimizes (works correctly) when you close your lid.  Similarly the Mac laptops are also provide a good lid closing experience.  Is it me or has lid closing been an issue with Windows laptops?
