@@ -20,6 +20,8 @@ One consequence of enabling Developer Mode on the Chromebook is that during boot
 
 In the future I plan on purchasing two more Chromebooks for my kids (wink wink - dad will be taking them apart).  Probably with an Intel processor just to see if I can successfully build an existing Android project.
 
+Final thoughts - are you primarily a consumer or a producer?  And what is the ideal balance?  80% producer, 20% consumer?  And are you consuming too much?
+
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-26-ubuntu-linux-chromebook-crouton-hisense.markdown" target="_blank">Contibute and Fork</a>
 
 {% include disqus.html %}
