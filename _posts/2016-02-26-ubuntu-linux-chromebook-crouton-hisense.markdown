@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Turn a Hisense Chromebook into a Dual Ubuntu/Chrome OS Laptop"
+title: "Produce: Turn a Hisense Chromebook into a Dual Ubuntu/Chrome OS Laptop"
 permalink: /ubuntu-linux-chromebook-crouton-hisense/
 meta: linux ubuntu
 ---
