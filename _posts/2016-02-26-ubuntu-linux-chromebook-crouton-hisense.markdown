@@ -6,7 +6,7 @@ meta: linux ubuntu
 ---
 Chromebooks are small affordable laptops.  They are great for **consuming** information, audio, and video.  Elementary, middle, and high schools like their low maintence, long life, low price, and ease-of-use.  Users can utilize [Google Docs](http://docs.google.com/){:target="_blank"} to **produce** limited information and content, however its not enough for "power users" who need the ability to develop software, edit images and video, or to utilize the computer to **produce** something more than a simple spreadsheet, document, or presentation.  Is there an ultra portable and affordable laptop out there for the **producers** of the world?
 
-Recently I purchase a $90 USD refurbished Chromebook on [Woot](http://www.woot.com){:target="_blank"} ([Amazon](http://amzn.to/1QGV4qN){:target="_blank"} has them too) -
+Recently I purchase a $90 USD refurbished Chromebook on [Woot](http://www.woot.com){:target="_blank"} ([Amazon](http://amzn.to/21AnI8c){:target="_blank"} has them too) -
 
 > Hisense C11 11.6" Chromebook, Rockchip RK3288 Quad-Core, 16GB Internal Storage, 2GB Memory, 802.11ac, Bluetooth, Chrome OS
 
