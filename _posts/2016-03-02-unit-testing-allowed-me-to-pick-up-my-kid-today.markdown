@@ -14,7 +14,7 @@ Writing out test cases also formalizes the language between you (the developer) 
 
 Once solidified (again nothing is 100% because things can and will change) the test cases turn into failing unit tests.  They are literally almost verbatim.  And at this point I have a good grasp on the problem I am trying to code solve.  By days end my unit tests were all green (passing).  I even thought of a few more edge cases and scenarios to document with unit tests.
 
-Not only is the next guy (or future self) and code reviewer going to appreciate my coding effort, I was further ahead of schedule than expected.  Fortunately when the need to leave early arose to pick my kid up from an after school activity - I was able to walk out the door with confidence.  Confident of a decent days work.  And confident that I'll be able to handle the change up ahead in the next morning.
+Not only is the next guy (or future self) and code reviewer going to appreciate my coding effort, I was further ahead of schedule than expected.  Fortunately when the need to leave early arose to pick my kid up from an after school activity - I was able to walk out the door with confidence.  Confident of a decent days work.  And confident that I'll be able to handle the change up ahead the next morning.
 
 Does unit testing save you time often?  More at the beginning or the end of an iteration/sprint?  Or both?  Still haven't convinced yourself they are worth the effort?  Godspeed.
 
