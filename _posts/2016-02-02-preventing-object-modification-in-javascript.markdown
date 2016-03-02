@@ -79,12 +79,12 @@ order.Total = 500;
 order.AffiliateCode = "BAD_THIRD_PARTY_VENDOR";
 {% endhighlight %}
 
-When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){:target="_blank"} is invoked an exception is thrown when attempting to modify an object using the aformentioned methods.  If ```use strict``` is not invoked then no exception is thrown and the modification attempt silently fails.
+When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode){:target="_blank"} is invoked an exception is thrown when attempting to modify an object using the aforementioned methods.  If ```use strict``` is not invoked then no exception is thrown and the modification attempt silently fails.
 
 See the [ECMAScript compatibility table](http://kangax.github.io/compat-table/es5/){:target="_blank"} for strict mode support.
 
 Lead generation, eCommerce pixel partners, referral & affiliates, and commission tracking are some use cases that come to mind.  What are some other scenarios to guard your Javascript objects against?  And yes, unfortunately sometimes our own code can be our enemy too.
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-02-preventing-object-modification-in-javascript.markdown" target="_blank">Contibute and Fork</a>
+<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-02-preventing-object-modification-in-javascript.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}

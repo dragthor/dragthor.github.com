@@ -6,7 +6,7 @@ meta: windows-app zurb
 ---
 Currently I am developing a Windows 10 Universal App that utilizes a [WebView](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.webview){:target="_blank"}, [Knockout Js](http://knockoutjs.com){:target="_blank"}, and [Zurb Foundation](http://foundation.zurb.com){:target="_blank"}.  Yeah, I know nothing earth shattering.
 
-[Xaml](https://msdn.microsoft.com/en-us/library/cc295302%28v=expression.40%29.aspx){:target="_blank"} is fine and probably preferred for a larger app (and this is a small app with less than six screens) using [Blend](https://en.wikipedia.org/wiki/Microsoft_Blend){:target="_blank"}.  I am not a designer.  As a weekend warrior after hours programming hobbyist I have no problem off loading as much design as possible to the [Zurb](http://foundation.zurb.com/){:target="_blank"} framework.  And I want to personally prove that it can be done (and get another app in the store) while leveraging my existing knowledge of C#, Javascript, and [Zurb](http://foundation.zurb.com/){:target="_blank"}.
+[Xaml](https://msdn.microsoft.com/en-us/library/cc295302%28v=expression.40%29.aspx){:target="_blank"} is fine and probably preferred for a larger app (and this is a small app with less than six screens) using [Blend](https://en.wikipedia.org/wiki/Microsoft_Blend){:target="_blank"}.  I am not a designer.  As a weekend warrior after hours programming hobbyist I have no problem offloading as much design as possible to the [Zurb](http://foundation.zurb.com/){:target="_blank"} framework.  And I want to personally prove that it can be done (and get another app in the store) while leveraging my existing knowledge of C#, Javascript, and [Zurb](http://foundation.zurb.com/){:target="_blank"}.
 
 I really like the idea of a [Zurb](http://foundation.zurb.com){:target="_blank"} frontend communicating with a C# backend utilizing -
 
@@ -38,6 +38,6 @@ Another way to prevent the flicker is set your ```frame.ContentTransitions = nul
 </Frame>
 {% endhighlight %}
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2015-09-28-windows-10-universal-app-webview-transition-flicker-prevention.markdown" target="_blank">Contibute and Fork</a>
+<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2015-09-28-windows-10-universal-app-webview-transition-flicker-prevention.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}
