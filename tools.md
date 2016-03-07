@@ -31,7 +31,7 @@ permalink: /tools/
 
 [Android](https://www.android.com/){:target="_blank"}
 
-[ChromeOS(https://en.wikipedia.org/wiki/Chrome_OS){:target="_blank"}
+[ChromeOS](https://en.wikipedia.org/wiki/Chrome_OS){:target="_blank"}
 
 **Fun**
 
