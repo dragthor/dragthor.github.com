@@ -33,6 +33,6 @@ permalink: /tools/
 
 [ChromeOS](https://en.wikipedia.org/wiki/Chrome_OS){:target="_blank"}
 
-**Fun**
+**Hobby Fun Projects**
 
 [Arduino](https://www.arduino.cc/){:target="_blank"}
