@@ -5,6 +5,10 @@ permalink: /arduino-linux-debugging/
 meta: javascript
 published: false
 ---
+
+
+https://octopart.com/
+
 avrdude: ser_open(): can't open device "/dev/ttyACM0": No such file or directory
 ioctl("TIOCMGET"): Inappropriate ioctl for device
 
