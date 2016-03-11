@@ -7,7 +7,7 @@ permalink: /archive/
 
 	<ul>
 	  {% for post in site.posts %}
-	  <li>
+	  <li class="archive">
 		<a href="{{ post.url }}" title="{{ post.title }}">
 		  <span class="date">
 			<span class="day">{{ post.date | date: '%d' }}</span>
