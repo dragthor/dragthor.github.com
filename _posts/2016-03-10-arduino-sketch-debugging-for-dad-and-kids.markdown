@@ -8,7 +8,7 @@ I did it.  I took the plunge.  I finally purchased an [Arduino](http://amzn.to/1
 
 What exactly am I trying to accomplish?  Admittedly it's another new toy for dad.  I enjoy this kind of stuff.  However I am hopeful I can use the Arduino with my two young daughters.  Get them **involved**.  Get them interested.  Get them **excited**.  Show them a computer program that instructs a microcontroller to send and receive little tiny electrical impulses.  Demonstrate the humble beginnings of what is inside their smart phones and computers.  Plus who doesn't like colorful LED lights?  I ordered about 500 of them.
 
-Working with an Arduino is not my first attempt at combining circuit building and computer programming.  Here is an old image from the 90s of a [Palm Pilot](https://en.wikipedia.org/wiki/PalmPilot) robot I built using a [kit](http://www.cs.cmu.edu/~pprk/) designed by the [Carnegie Mellon Robotics Insitute ](http://www.ri.cmu.edu/):
+Working with an Arduino is not my first attempt at combining circuit building and computer programming.  Here is an old image from the 90s of a [Palm Pilot](https://en.wikipedia.org/wiki/PalmPilot) robot I built using a [kit](http://www.cs.cmu.edu/~pprk/) designed by the [Carnegie Mellon Robotics Insitute](http://www.ri.cmu.edu/):
 
 ![Palm Pilot Robot](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/palmpilot-robot.jpg)
 
