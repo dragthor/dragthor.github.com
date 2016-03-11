@@ -13,7 +13,7 @@ permalink: /archive/
 			<span class="day">{{ post.date | date: '%d' }}</span>
 			<span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
 			<span class="year">{{ post.date | date: '%Y' }}</span>
-		  </span>
+		  </span> - 
 		  <span class="title">{{ post.title }}</span>
 		</a>
 	  </li>
