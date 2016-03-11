@@ -5,7 +5,9 @@ permalink: /arduino-sketch-debugging/
 meta: javascript
 published: false
 ---
-I did it.  I took the plunge.  I finally purchased an [Arduino](http://amzn.to/1pAaAil){:target="_blank"}.  What took me so long to rekindle my childhood curiosity and tinker (um, break things)?  I don't know.  Although recently I have been reading Charles Petzold's "[Code](http://amzn.to/1pA0HkH){:target="_blank"}" book and it definitely helps provide a jump start.  Many a time throughout the book I would pause and think - "Oh yeah.  I remember working with assembly."  The Intel 8080 and 8088.  The Motorola 6800. Little-endian and big-endian.  The good old days. 
+I did it.  I took the plunge.  I finally purchased an [Arduino](http://amzn.to/1pAaAil){:target="_blank"}.  What took me so long to rekindle my childhood curiosity and tinker (um, break things)?  I don't know.  Although recently I have been reading Charles Petzold's "[Code](http://amzn.to/1pA0HkH){:target="_blank"}" book and it definitely helps provide a jump start.  Many a time throughout the book I would pause and remember things - working with assembly, the Intel 8080 and 808, the Motorola 6800, and little-endian vs. big-endian.  The good old days.  Closer to the metal.
+
+What exactly am I trying to accomplish?  Hopefully I can use the Arduino with my two young daugthers.  Get them interested.  Show them a computer program that controls a microcontroller to sends little tiny electrical impulses.
 
 Working with an Arduino is not my first attempt at combining circuit building and computer programming.  Here is an old image from the 90s of a [Palm Pilot](https://en.wikipedia.org/wiki/PalmPilot){:target="_blank"} robot I built using a kit:
 
