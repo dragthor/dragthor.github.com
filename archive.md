@@ -16,7 +16,7 @@ permalink: /archive/
 		  </span> - 
 		  <span class="title">{{ post.title }}</span>
 		</a>
-		<br/>{{ post.meta }}
+		<div class="post-meta">{{ post.meta }}</div>
 	  </li>
 	  {% endfor %}
 	</ul>
