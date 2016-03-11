@@ -25,7 +25,7 @@ permalink: /archive/
 
 	<ul class="post-list">
     {% for post in site.posts %}
-		{% if page.meta == "javascript" %}
+		{% if post.meta == "javascript" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
