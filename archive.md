@@ -21,11 +21,10 @@ permalink: /archive/
 	</ul>
 
 	<hr/>
-	
-	{% assign posts = (site.posts | where "meta", "javascript") %}
+	test
 	
 	<ul class="post-list">
-    {% for post in posts %}
+    {% for post in {{ site.posts | where:"meta","javascript" }} %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
