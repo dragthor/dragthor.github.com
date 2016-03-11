@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arduino Sketch Debugging for Dad (and the Kids)"
+title: "Engage: Arduino Sketch Debugging for Dad (and the Kids)"
 permalink: /arduino-sketch-debugging-for-dad-and-kids/
 meta: arduino linux ubuntu
 ---
