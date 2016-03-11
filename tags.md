@@ -7,8 +7,9 @@ permalink: /tags/
 
   <h1 class="page-heading">Recent Posts w/Tags</h1>
 
+
   <ul class="post-list">
-    {% for post in site.posts | where:"meta","linux" %}
+    {% for post in {{ site.posts | where:"meta","linux"}} %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
