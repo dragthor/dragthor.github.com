@@ -4,7 +4,7 @@ title: "Windows 10 Universal Font Icons"
 permalink: /windows-10-universal-font-icons/
 meta: windows-app
 ---
-Finding Windows 10 Universal font icons and viewing them visually can be difficult to locate.  [This page](https://msdn.microsoft.com/en-us/library/windows/apps/jj841126.aspx){:target="_blank"} provides a list of fonts (and their symbols) and guidelines for using the Segoe MDL2 icons for Windows 10 Store Apps. 
+Finding Windows 10 Universal font icons and viewing them visually can be difficult to locate.  [This page](https://msdn.microsoft.com/en-us/library/windows/apps/jj841126.aspx) provides a list of fonts (and their symbols) and guidelines for using the Segoe MDL2 icons for Windows 10 Store Apps. 
 
 A ```Styles/FontSizes.xaml``` entry might look something like -
 
@@ -12,7 +12,7 @@ A ```Styles/FontSizes.xaml``` entry might look something like -
     <x:String x:Key="DefaultFontFamily">Segoe WP</x:String>
 {% endhighlight %}
 
-C# example code I am using with a [Navigation Pane](https://msdn.microsoft.com/en-us/library/windows/apps/dn997766.aspx){:target="_blank"} -
+C# example code I am using with a [Navigation Pane](https://msdn.microsoft.com/en-us/library/windows/apps/dn997766.aspx) -
 
 {% highlight c# %}
 Nodes = new ObservableCollection<NavigationNode>();
@@ -29,7 +29,7 @@ Title = @"My Cool App",
 });
 {% endhighlight %}
 
-If you work mostly offline (like I do) you can always pull up [Windows Character map](http://windows.microsoft.com/en-us/windows/using-special-characters-character-map-faq){:target="_blank"} and select Segoe MDL2 Assets -
+If you work mostly offline (like I do) you can always pull up [Windows Character map](http://windows.microsoft.com/en-us/windows/using-special-characters-character-map-faq) and select Segoe MDL2 Assets -
 
 ![character map](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/character-map.PNG)
 
