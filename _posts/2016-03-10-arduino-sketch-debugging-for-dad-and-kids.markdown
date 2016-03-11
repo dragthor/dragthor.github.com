@@ -20,9 +20,9 @@ void setup() { Serial.begin(9600); }
 void loop() { Serial.println(someSensorValue); };
 {% endhighlight %}
 
-An [Arduino Unit Test framework](https://github.com/mmurdoch/arduinounit) exists which can also help debug software logic.  Debugging hardware usually involves reading datasheets, voltage meters, triple checking the wiring, and at times contacting the component manufacturer.
+An [Arduino Unit Test framework](https://github.com/mmurdoch/arduinounit) exists which can also help debug and design software logic.  Debugging hardware usually involves reading datasheets, voltage meters, triple checking the wiring, and at times contacting the component manufacturer.
 
-Additionally I picked up temperature, light, and carbon monoxide sensors as well as a tiny LCD screen and a bluetooth shield.  I plan to send commands to Arduino via bluetooth from my Android device.  Shields are boards (or components) that literally plug into your Arduino to extend functionality.  To prevent against fraudulent (and illegal) parts (and personal frustration and disappointment) utilize [Octopart](https://octopart.com/) to locate an Authorized Distributor.  Expect fake and high defect rate Arduino components from [AliExpress](http://www.aliexpress.com/).  If the price is too good to be true, it probably is.  And do not let the five star seller reviews fool you either!
+Additionally I picked up temperature, light, and carbon monoxide sensors as well as a tiny LCD screen and a bluetooth shield.  I plan to send commands to Arduino via bluetooth from my Android device.  Shields are boards (or components) that literally plug into your Arduino to extend functionality.  To prevent against fraudulent (and illegal) parts (and personal frustration and disappointment) utilize [Octopart](https://octopart.com/) to locate an Authorized Distributor.  Expect fake and high defect rate Arduino components from [AliExpress](http://www.aliexpress.com/).  If the price is too good to be true, it probably is.  And do not let the five star seller ratings and reviews fool you either!
 
 Finally, I am running Ubuntu (you can also use Mac and Windows) and came across this error while attempting to push sketch code to my [Arduino](http://amzn.to/1pAaAil):
 
