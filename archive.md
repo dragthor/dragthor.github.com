@@ -15,8 +15,8 @@ permalink: /archive/
 			<span class="year">{{ post.date | date: '%Y' }}</span>
 		  </span> - 
 		  <span class="title">{{ post.title }}</span>
-		  <br/>{{ post.meta }}
 		</a>
+		<br/>{{ post.meta }}
 	  </li>
 	  {% endfor %}
 	</ul>
