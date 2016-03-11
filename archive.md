@@ -21,10 +21,11 @@ permalink: /archive/
 	</ul>
 
 	<hr/>
-	test
-	
+
+
 	<ul class="post-list">
-    {% for post in {{ site.posts | where:"meta","javascript" }} %}
+    {% for post in site.posts %}
+		{% if page.meta == "javascript" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -34,6 +35,7 @@ permalink: /archive/
 
         {{ post.excerpt }}
       </li>
+	  {% endif %}
     {% endfor %}
   </ul>
   
