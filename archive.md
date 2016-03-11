@@ -22,8 +22,10 @@ permalink: /archive/
 
 	<hr/>
 	
+	{% assign posts = (site.posts | where "meta", "javascript") %}
+	
 	<ul class="post-list">
-    {% for post in {{ site.posts | where: "meta","javascript" }} %}
+    {% for post in posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
