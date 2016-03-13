@@ -19,7 +19,7 @@ Use tools (from [JetBrains](http://www.jetbrains.com/), Microsoft, Google, etc.)
 
 Do not over do it, at the end of the day you need to **ship it**.
 
-Regression test by capture timing from qUnit tests - compare results.
+Regression test by capture timing from qUnit tests with headless PhantomJs - compare results.
 
 Some examples
 
