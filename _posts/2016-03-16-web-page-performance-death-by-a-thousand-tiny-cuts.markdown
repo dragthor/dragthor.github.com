@@ -7,9 +7,7 @@ published: false
 ---
 Web page performance is literally a death by a thousand tiny little cuts.  Sure there are some big obvious low hanging fruit "code smells" that you should keep an eye out for (like duplicate or unused code).  And yes, it's hard to justify spending eight hours to shave 50 milliseconds.
 
-I've done some micro optimizations for Zurb that have been worth it.  Not only for own projects but others too.
-
-Sure you might think I'm a little crazy and over the top - I don't care.  I want fast web pages.
+I've done some micro optimizations for [Zurb](http://foundation.zurb.com/) that have been worth it.  Not only for own projects but others too.  Sure you might think I'm a little crazy and over the top - I don't care.  I want fast web pages.
 
 Invite other to look at my code and tel me it sucks.  Help me learn.
 
@@ -17,7 +15,7 @@ Over doing it by spending/burning hours to shave a few milliseconds.  May not be
 
 Test on old crappy devices.  For example, I use an old 1st generation iPad with iOS 5 to test heavy pages.
 
-Use tools (from JetBrains) like Resharper to help spot mistakes.  Code reviews and unit testing also help - big time.
+Use tools (from [JetBrains](http://www.jetbrains.com/), Microsoft, Google, etc.) to help spot mistakes.  Code reviews and unit testing also help - big time.
 
 Do not over do it, at the end of the day you need to **ship it**.
 
@@ -29,7 +27,7 @@ Some examples
   -  anomynous and inline fuctions
     - debugging difficult.  Named function helps with debugging errors.
   -  unnecessary each or looping
-  -  coercsion === (jsperf link)
+  -  coercion === [jsPerf](https://jsperf.com/)
   -  not var caching
   -  GC working too hard
   -  layout calculation and rendering
@@ -46,7 +44,6 @@ if (Foundation.utils.is_small_only() && $(".top-strip").outerHeight(true) == 2)
 New -
 
 Self-Invoking Anonymous Function - which might be overkill here.
-type coercion 
 
 {% highlight javascript %}
 (function () {
