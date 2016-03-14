@@ -9,6 +9,8 @@ Want to improve your writing skills?  How about some professional soft skill dev
 
 Sure you might think that you know how to blog.  But are you actually blogging?  Are you producing something of value?  Nothing is more disappointing than visting a person's blog that has not been updated in over three, six, twelve months.  John provides insight and ways for you to think, organize topic ideas, and avoid procrastinating.
 
+Are you going to make a million dollars over night?  Of course not.  Are you going to be successful?  Maybe.  Maybe not.  However there are some things that you can learn from other successful people like John.  The final nail in the coffin to sign up for his email course?  John is a software developer.  He's been in the trenches.
+
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-14-john-sonmez-simple-programmer-blog-email-course.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}
