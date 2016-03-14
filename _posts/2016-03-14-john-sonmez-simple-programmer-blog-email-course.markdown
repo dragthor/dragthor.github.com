@@ -2,7 +2,7 @@
 layout: post
 title: "John Sonmez Simple Programmer Blog Email Course"
 permalink: /john-sonmez-simple-programmer-blog-email-course/
-meta: softskills
+meta: soft-skills
 published: true
 ---
 Want to improve your writing skills?  How about some professional [soft skills](https://en.wikipedia.org/wiki/Soft_skills) development?  One place to start is the [Simple Programmer](http://simpleprogrammer.com) by creator John Sonmez.  At first glance his [You Tube](https://www.youtube.com/user/jsonmez) thumbnails might look a little cheesy.  But let me assure you that he and his content are not.  He's a character for sure.  And he delivers content with personality.
