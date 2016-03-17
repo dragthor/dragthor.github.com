@@ -24,7 +24,7 @@ Regression test by capture timing from qUnit tests with headless PhantomJs - com
 Some examples
 
   -  string evals
-  -  anonymous and inline fuctions
+  -  anonymous and inline functions
     - debugging difficult.  Named function helps with debugging errors.
   -  unnecessary each or looping
   -  coercion === [jsPerf](https://jsperf.com/)
@@ -44,6 +44,8 @@ if (Foundation.utils.is_small_only() && $(".top-strip").outerHeight(true) == 2)
 New -
 
 Self-Invoking Anonymous Function - which might be overkill here.
+
+http://jsperf.com/anonymous-vs-named-functions
 
 {% highlight javascript %}
 (function () {
