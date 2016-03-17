@@ -5,7 +5,22 @@ permalink: /web-page-performance-death-by-a-thousand-tiny-cuts/
 meta: javascript
 published: false
 ---
-Web page performance is literally a death by a thousand tiny little cuts.  Usually the biggest issue is the number of requests made.  And the mobile world we live in makes fewer requests is even more important.
+Web page performance is literally a death by a thousand tiny little cuts.  Yes there are more, but some "cuts" include: 
+
+* Not using image sprites.
+* Not using a cookieless domain for images and other static content.  
+* Not using a CDN.  
+* Blocking javascript.
+
+... Worse if it's in the head.
+  
+* Not minifying your javascript and css.  
+* Not optimizing caching policies.  
+* Not gzipping your content
+
+... Most if not all popular web servers support some type of compression option. 
+
+However, usually the biggest issue is the number of requests a page makes.  The mobile world we currently live in makes fewer requests that much more important.
 
 Sure there is the obvious low hanging fruit "code smells" that you should keep an eye out for like duplicate or unused javascript.  And yes, it's hard to justify spending eight hours to shave 50 milliseconds.
 
