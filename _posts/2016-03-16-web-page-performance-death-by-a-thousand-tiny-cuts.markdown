@@ -24,7 +24,7 @@ Regression test by capture timing from qUnit tests with headless PhantomJs - com
 Some examples
 
   -  string evals http://jsperf.com/eval-string-vs-straight-up
-  -  anonymous and inline functions
+  -  anonymous and inline functions http://jsperf.com/anonymous-vs-named-functions
     - debugging difficult.  Named function helps with debugging errors.
   -  unnecessary each or looping
   -  coercion 
