@@ -17,19 +17,18 @@ Web page performance is literally a death by a thousand tiny little cuts.  Yes t
 
 Usually the biggest issue for most is the number of requests a page makes.  Keep the requests down and your web page performance increases.  And how many third party javascript partners are doing things on your page too?  Are they also performant?  What exactly are they downloading (and adding to your DOM)?  Hopefully they are working asynch.  But I digress (you can sense my [disliking of third party javascript vendors](http://metroize.com/preventing-object-modification-in-javascript/). The mobile world we currently live in makes fewer requests that much more important.  It's true that mobile and tablet devices are getting more powerful each day.  However they are still no match for the desktop.  And desktops are connected to broadband.  Mobile devices are utilizing 3G and 4G.
 
-Javascript is an important performance factor too.  Sure there is the obvious low hanging fruit "code smells" that you should keep an eye out for like duplicate or unused code.
+Javascript is an important performance factor too.  Sure there is the obvious low hanging fruit "code smells" that you should keep an eye out for like duplicate or unused code.  Using tools (from [JetBrains](http://www.jetbrains.com/), Microsoft, Google, etc.) definitely help spot mistakes, suggest improvements, and help enforce coding standards.  Code reviews and unit testing lend a **big time** helping hand.  Unit tests help to isolate code which is convenient for performance testing and evaluation.  Code reviews help yout learn because they invite others to look at your code and tell you it sucks (or not).  And sometimes as a developer you need to hear how others would tackle a similar problem.  Take a breath.  Prepare yourself.  You cannot know everything.  
 
-Using tools (from [JetBrains](http://www.jetbrains.com/), Microsoft, Google, etc.) definitely help spot mistakes.  Code reviews and unit testing lend a helping hand - **big time**.  Unit tests help to isolate code which is convenient for performance testing and evaluation.  Code reviews help me learn because they invite others to look at my code and tell me it sucks (or not).  And sometimes as a developer you need to hear how others would tackle a similar problem.  
+Putting on my manager's hat for a minute.  It's hard to justify spending eight developer hours to shave 50 milliseconds.  As focused developers we sometimes get too sucked in.  Over doing it by spending and burning hours to shave a few milliseconds may not be worth it unless its a focus or important area or feature on your site.  Utilize the business can help drive your focus and see the forest from the trees.  And then do what I do - work on it on your own time.  Personally I sometimes dream about a problem, bug, or performance issue that I was unable to resolve.  Sometimes I lay awake at 3AM thinking about it.  I just cannot put it down.  It eats away at me.
 
-And yes, it's hard to justify spending eight hours to shave 50 milliseconds.  I've done some javascript micro optimizations for [Zurb](http://foundation.zurb.com/) that have been worth it.  Worth it not only for my own projects but also for others too.  Open source does have its benefits.  
+Bottom line.  Do not over do it.  At the end of the day you need to **ship it**.
+
+
+I've done some javascript micro optimizations for [Zurb](http://foundation.zurb.com/) that have been worth it.  Worth it not only for my own projects but also for others too.  Open source does have its benefits.  
 
 Sure you might think I'm a little crazy and over the top - I don't care.  I want fast web pages.
 
-Over doing it by spending/burning hours to shave a few milliseconds.  May not be worth it unless its a focus or important area or feature on your site.  The business can help drive your focus.
-
 Test on old crappy devices.  For example, I use an old 1st generation iPad with iOS 5 to test heavy pages.
-
-Do not over do it, at the end of the day you need to **ship it**.
 
 Regression test by capture timing from qUnit tests with headless PhantomJs - compare results.
 
