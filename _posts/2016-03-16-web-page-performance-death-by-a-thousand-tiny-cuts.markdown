@@ -15,9 +15,13 @@ Web page performance is literally a death by a thousand tiny little cuts.  Yes t
 * Not optimizing caching policies.  
 * Not gzipping your content.  Most if not all popular web servers support some type of compression option. 
 
-However, usually the biggest issue is the number of requests a page makes.  The mobile world we currently live in makes fewer requests that much more important.
+Usually the biggest issue for most is the number of requests a page makes.  Keep the requests down and your web page performance increases.  And how many third party javascript partners are doing things on your page too?  Are they also performant?  What exactly are they downloading (and adding to your DOM)?  Hopefully they are working asynch.  But I digress (you can sense my [disliking of third party javascript vendors](/preventing-object-modification-in-javascript/). The mobile world we currently live in makes fewer requests that much more important.  It's true that mobile and tablet devices are getting more powerful each day.  However they are still no match for the desktop.
 
-Sure there is the obvious low hanging fruit "code smells" that you should keep an eye out for like duplicate or unused javascript.  And yes, it's hard to justify spending eight hours to shave 50 milliseconds.
+Javascript plays an important role too.  Sure there is the obvious low hanging fruit "code smells" that you should keep an eye out for like duplicate or unused code.  
+
+
+
+And yes, it's hard to justify spending eight hours to shave 50 milliseconds.
 
 I've done some micro optimizations for [Zurb](http://foundation.zurb.com/) that have been worth it.  Not only for own projects but others too.  Open source.  Sure you might think I'm a little crazy and over the top - I don't care.  I want fast web pages.
 
