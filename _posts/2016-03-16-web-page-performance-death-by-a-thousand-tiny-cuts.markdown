@@ -39,7 +39,7 @@ Most browsers have optimizations in place to deal with coercion.  It's not reall
 
 Test using older crappy devices.  I use an old 1st generation iPad with iOS 5 to test heavy pages with lots of javascript.  If your page is halfway decent on an older device it should be fine on the shiny newer ones.  And try to regression test by capturing test completion timing results from [QUnit](http://qunitjs.com/) and [Mocha](http://mochajs.org/) tests with headless [PhantomJs](http://phantomjs.org/).  Track, record, compare and then measure results.  Establish key performance indicators (KPI). 
  
-Here is some code from a last minute code review that you might let normally go out.  It's not really hurting anything.  Maybe thats a good enough reason to leave it alone?  Personally my javascript is far from perfect at times.  Remember when looking at another developer's code you usually do not know the context when it was written.  Was there a hard deadline?  Was there an emergency bug fix or issue?  Was it a show stopper?  Was it a junior developer?
+Here is some code from a last minute code review that you might let normally go out.  It's not really hurting anything.  Maybe thats a good enough reason to leave it alone?  Personally my javascript is far from perfect at times.  Remember when looking at another developer's code you usually do not know the context when it was written.  Was there a hard deadline?  Was there an emergency bug fix or issue?  Was it a show stopper?  Was it a junior developer or new hire?
 
 {% highlight javascript %}
 // Using Zurb foundation.
@@ -62,7 +62,7 @@ Changed to:
 })();
 {% endhighlight %}
 
-The self-invoking anonymous function might be overkill.  Although ideally it should be organized within a namespace.  The `var` caching helps and the code is also more readable.  But that could just be personal style.  What do you think?  Are the tiny javascript cuts I mentioned nit-picking?  I am positive there are a lot more out there.
+The self-invoking anonymous function might be overkill.  Although ideally it should be organized within a namespace.  The `var` caching helps and the code is also more readable.  But that could just be personal style and not necessarily wrong.  What do you think?  Are the tiny javascript cuts I mentioned nit-picking?  I am positive there are a lot more out there.
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-16-web-page-performance-death-by-a-thousand-tiny-cuts.markdown" target="_blank">Contribute and Fork</a>
 
