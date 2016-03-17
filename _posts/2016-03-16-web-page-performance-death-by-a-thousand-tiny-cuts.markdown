@@ -10,12 +10,10 @@ Web page performance is literally a death by a thousand tiny little cuts.  Yes t
 * Not using image sprites.
 * Not using a cookieless domain for images and other static content.  
 * Not using a CDN.  
-* Blocking javascript.
-..* Worse if it's in the head.
+* Blocking javascript.  Worse if it's in the head.
 * Not minifying your javascript and css.  
 * Not optimizing caching policies.  
-* Not gzipping your content
-..* Most if not all popular web servers support some type of compression option. 
+* Not gzipping your content.  Most if not all popular web servers support some type of compression option. 
 
 However, usually the biggest issue is the number of requests a page makes.  The mobile world we currently live in makes fewer requests that much more important.
 
