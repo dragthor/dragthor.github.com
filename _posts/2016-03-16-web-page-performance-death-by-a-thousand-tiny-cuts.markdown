@@ -25,7 +25,7 @@ Bottom line.  Try not to over do it (on company time).  At the end of the day yo
 
 I've done some javascript micro optimizations for [Zurb](http://foundation.zurb.com/) that I believe have been worth it.  Worth it not only for my own projects but also for others too.  Open source benefits the community of users.  
 
-Sure you might think I'm a little crazy and over the top for micro optimizing javascript. I don't care.  I want fast, interactive, and responsive user experience.  Here are some examples in no particular order that can impact the UI:
+Sure you might think I'm a little crazy and over the top for micro optimizing javascript. I don't care.  I want fast, interactive, and responsive user experience.  Here are some examples (with [JsPerf](https://jsperf.com/) links) in no particular order that can impact the UI:
 
 * [string `eval` vs. straight-up `eval`](http://jsperf.com/eval-string-vs-straight-up)
 * [anonymous, inline, or unnamed functions vs. named functions](http://jsperf.com/anonymous-vs-named-functions) (see more below)
@@ -35,31 +35,23 @@ Sure you might think I'm a little crazy and over the top for micro optimizing ja
 * making the garbage collector work hard or collect more often
 * causing excessive layout calculation, rendering, or invalidation
 
-Most browsers have optimizations in place to deal with coercion.  Its not really a performance benefit to use `===` vs. `==`.  Its more to help with readability and undestanding for the next guy.  Function expressions are sometimes called (incorrectly?) anonymous, inline, or unnamed functions.  They can make debugging difficult because you might see an error (weeks later in a log) that doesn't explicitlly include its name (does not have one) or missing in the call stack.
+Most browsers have optimizations in place to deal with coercion.  Its not really a performance benefit to use `===` vs. `==`.  Its more to help with readability and undestanding for the next guy.  Function expressions are sometimes called (incorrectly?) anonymous, inline, or unnamed functions.  They can make debugging difficult because you might see an error (weeks later in a log) that doesn't explicitlly include its name (does not have one) or missing in the call stack (most F12 Dev Tools display <anonymous function>).
 
-	
-Test on old crappy devices.  For example, I use an old 1st generation iPad with iOS 5 to test heavy pages.
-
-Regression test by capture timing from qUnit tests with headless PhantomJs - compare results.
+Test using older crappy devices.  I use an old 1st generation iPad with iOS 5 to test heavy pages with lots of javascript.  If your page is halfway decent on an older device it should be fine on the shiny newer ones.  And try to regression test by capturing test completion timing results from [QUnit](http://qunitjs.com/) and [Mocha](http://mochajs.org/) tests with headless [PhantomJs](http://phantomjs.org/).  Track, record, and then compare results.
  
-A last minute code review would let the following go out.  Its not really hurting anything.  Personally my Javascript is not perfect and when you look at another's code you usually do not now the context when it was written.  Was there a hard deadline?  Was there an emergency bug fix or issue?  Show stopper?
+Here is some code from a last minute code review that you might let normally go out.  Its not really hurting anything.  And personally my javascript is far from perfect at times.  Remember that when you look at another developer's code you usually do not know the context when it was written.  Was there a hard deadline?  Was there an emergency bug fix or issue?  Was it a show stopper?
 
-Old -
 {% highlight javascript %}
-// Zurb foundation
+// Using Zurb foundation.
 if (Foundation.utils.is_small_only() && $(".top-strip").outerHeight(true) == 2) 
    $(".top-strip").css("padding-top",0)
 {% endhighlight %}
 
-New -
-
-Self-Invoking Anonymous Function - which might be overkill here.
-
-http://jsperf.com/anonymous-vs-named-functions
+Changed to:
 
 {% highlight javascript %}
 (function () {
-   // Zurb foundation
+   // Using Zurb foundation.
    if (Foundation.utils.is_small_only()) {
       var topStrip = $(".top-strip");
 
@@ -70,7 +62,7 @@ http://jsperf.com/anonymous-vs-named-functions
 })();
 {% endhighlight %}
 
-Could make another post specifically about Css and other Js things.
+The self-invoking anonymous function might be overkill.  Although ideally it should be organized within a namespace.  The `var` caching helps and the code is also more readable.  But that could just be personal style.  What do you think?  Are the tiny javascript cuts I mentioned nit-picking?  I am positive there are a lot more out there.
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-16-web-page-performance-death-by-a-thousand-tiny-cuts.markdown" target="_blank">Contribute and Fork</a>
 
