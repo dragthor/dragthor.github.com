@@ -2,7 +2,7 @@
 layout: post
 title: "Web Page Performance Death by a Thousand Tiny Cuts"
 permalink: /web-page-performance-death-by-a-thousand-tiny-cuts/
-meta: javascript
+meta: javascript unit-testing
 published: false
 ---
 Web page performance is literally a death by a thousand tiny little cuts.  Yes there are more, but some "cuts" include (in no particular order): 
@@ -35,11 +35,11 @@ Sure you might think I'm a little crazy and over the top for micro optimizing ja
 * making the garbage collector work hard or collect more often
 * causing excessive layout calculation, rendering, or invalidation
 
-Most browsers have optimizations in place to deal with coercion.  It's not really a performance benefit to use `===` vs. `==`.  Its more to help with readability and understanding for the next guy.  Function expressions are sometimes called (incorrectly?) anonymous, inline, or unnamed functions.  They can make debugging difficult because you might see an error (weeks later in a log) that doesn't explicitly include its name (does not have one) or missing in the call stack (most F12 Dev Tools display <anonymous function>).
+Most browsers have optimizations in place to deal with coercion.  It's not really a performance benefit to use `===` vs. `==`.  Its more to help with readability and understanding for the next guy.  Function expressions are sometimes called (incorrectly?) anonymous, inline, or unnamed functions.  They can make debugging difficult because you might see an error (weeks later in a log) that doesn't explicitly include its name (it does not have one) or missing in the call stack (most F12 Dev Tools just display "anonymous function").
 
-Test using older crappy devices.  I use an old 1st generation iPad with iOS 5 to test heavy pages with lots of javascript.  If your page is halfway decent on an older device it should be fine on the shiny newer ones.  And try to regression test by capturing test completion timing results from [QUnit](http://qunitjs.com/) and [Mocha](http://mochajs.org/) tests with headless [PhantomJs](http://phantomjs.org/).  Track, record, and then compare results.
+Test using older crappy devices.  I use an old 1st generation iPad with iOS 5 to test heavy pages with lots of javascript.  If your page is halfway decent on an older device it should be fine on the shiny newer ones.  And try to regression test by capturing test completion timing results from [QUnit](http://qunitjs.com/) and [Mocha](http://mochajs.org/) tests with headless [PhantomJs](http://phantomjs.org/).  Track, record, compare and then measure results.  Establish key performance indicators (KPI). 
  
-Here is some code from a last minute code review that you might let normally go out.  It's not really hurting anything.  And personally my javascript is far from perfect at times.  Remember that when you look at another developer's code you usually do not know the context when it was written.  Was there a hard deadline?  Was there an emergency bug fix or issue?  Was it a show stopper?
+Here is some code from a last minute code review that you might let normally go out.  It's not really hurting anything.  Maybe thats a good enough reason to leave it alone?  Personally my javascript is far from perfect at times.  Remember when looking at another developer's code you usually do not know the context when it was written.  Was there a hard deadline?  Was there an emergency bug fix or issue?  Was it a show stopper?  Was it a junior developer?
 
 {% highlight javascript %}
 // Using Zurb foundation.
