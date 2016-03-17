@@ -23,12 +23,12 @@ Regression test by capture timing from qUnit tests with headless PhantomJs - com
 
 Some examples
 
-  -  string evals
+  -  string evals http://jsperf.com/eval-string-vs-straight-up
   -  anonymous and inline functions
     - debugging difficult.  Named function helps with debugging errors.
   -  unnecessary each or looping
-  -  coercion === [jsPerf](https://jsperf.com/)
-  -  not var caching
+  -  coercion 
+  -  not var caching http://jsperf.com/variable-caching-jquery
   -  GC working too hard
   -  layout calculation and rendering
     - invalidation
