@@ -7,7 +7,7 @@ published: true
 ---
 Web page performance is literally a death by a thousand tiny little cuts.  Usually the biggest issue for most is the number of requests a page makes.  Keep the requests down and your web page performance increases.  No magic just common sense.  The mobile world we currently live in makes issuing fewer requests that much more important.  While it's true that mobile and tablet devices are getting more powerful each day, they are still no match for the desktop.  Moreover desktops are connected to broadband.  Mobile devices are mostly utilizing 3G and 4G.
 
-##Page Performance
+## Page Performance
 
 Yes there are more, but some page "cuts" include (in no particular order): 
 
@@ -21,7 +21,7 @@ Yes there are more, but some page "cuts" include (in no particular order):
 
 And how many third party javascript partners are doing things on your page too?  Are they performant and considerate?  What exactly are they downloading (and adding to your DOM)?  Hopefully they are working asynchronously.  But I digress (you can sense my [disliking of third party javascript vendors](http://metroize.com/preventing-object-modification-in-javascript/)).
 
-##Javascript Performance
+## Javascript Performance
 
 Javascript is an important performance factor too.  Sure there is the obvious low hanging fruit "code smells" that you should keep an eye out for like duplicate or unused code.  Using tools (from [JetBrains](http://www.jetbrains.com/), Microsoft, Google, etc.) definitely help spot mistakes, suggest improvements, and avoid common gotchas while helping to enforce team coding standards.  Code reviews and unit testing each lend a **big time** helping hand.  Unit tests help to isolate code which is convenient and critical for performance testing and evaluation.  Code reviews help you learn because they invite others to look at your code and tell you it sucks (or not).  And sometimes as a developer you need to hear how others would tackle a similar problem.  Take a breath.  Prepare yourself.  You do not know everything.  Your code isn't perfect all the time.
 
@@ -47,7 +47,7 @@ Sure you might think I'm a little crazy and over the top for micro optimizing ja
 
 Most browsers have optimizations in place to deal with coercion.  It's not really a performance benefit to use `===` over `==`.  Its more to help with readability and understanding for the next guy.  Function expressions are sometimes called anonymous, inline, or unnamed functions.  They can make debugging a little more difficult because you might see an error (weeks later in a log) that doesn't explicitly include a name (it does not have one) or appear missing in the call stack (most browser F12 Dev Tools just display "anonymous function").
 
-##Performance Testing & Code Review
+## Performance Testing & Code Review
 
 Test using older crappy devices.  Throttle your network connection.  I use an old 1st generation iPad with iOS 5 to test heavy pages with lots of javascript.  If your page is halfway decent on an older device it should be fine on the shiny newer ones.  And try to regression test by capturing test completion timing results from [QUnit](http://qunitjs.com/) and [Mocha](http://mochajs.org/) working with headless [PhantomJs](http://phantomjs.org/).  Track, record, compare and then measure results.  Establish key performance indicators (KPI).  Yes, small shops can do these too.
 
