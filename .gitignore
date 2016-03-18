@@ -14,3 +14,6 @@ Thumbs.db
 *.lock
 
 .*~
+
+.idea/
+.idea/workspace.xml
