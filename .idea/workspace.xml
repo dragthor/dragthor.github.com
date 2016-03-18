@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f3aa73b-2b1a-41a6-bacb-7b20e8502b8c" name="Default" comment="rename for date">
+    <list default="true" id="2f3aa73b-2b1a-41a6-bacb-7b20e8502b8c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dragthor.github.com.iws" />
@@ -322,7 +322,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458298198179</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rename for date">
+      <created>1458298331907</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1458298331907</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -385,11 +391,11 @@
     <MESSAGE value="arduino plunge post" />
     <MESSAGE value="quick clean ups" />
     <MESSAGE value="engage" />
-    <MESSAGE value="rename for date" />
     <MESSAGE value="save draft; ignore idea" />
     <MESSAGE value="publish page death" />
     <MESSAGE value="git pages headings" />
-    <option name="LAST_COMMIT_MESSAGE" value="git pages headings" />
+    <MESSAGE value="rename for date" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename for date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
