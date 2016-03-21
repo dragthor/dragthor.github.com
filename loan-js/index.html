@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Repayment Calculator</title>
+	<style type="text/css">
+		body {
+			background-color: #B0C4DE; 
+			font-family:verdana,arial,helvetica,sans-serif;
+		}
+		input, textarea {
+			border-color: #000;
+			border-width: 1px;
+			border-style: solid;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<p>Current Balance: <input id="b" type="text" value="225000" /></p>
+	<p>Principal & Interest: <input id="p" type="text" value="1134.09" /></p>
+	<p>Extra: <input id="extraP" type="text" value="800" /></p>	
+	<p>Years: <input id="years" type="text" value="0" disabled="disabled" /></p>
+	<p>Months: <input id="months" type="text" value="0" disabled="disabled" /></p>
+	
+	<p><input type="button" value="Calculate" onclick="calc()"/></p>
+	
+	<script type="text/javascript">
+
+	function calc() {
+		var b = parseFloat(document.getElementById("b").value);
+		var p = parseFloat(document.getElementById("p").value);
+		var extraP = parseFloat(document.getElementById("extraP").value);
+		var pp = p + extraP;
+		var i = 4.125 / 100 / 12;
+
+		var pmtI = pp / i;
+
+		var topLog = Math.log(pmtI / (pmtI - b));
+		var bottomLog = Math.log(1 + i);
+
+		var n = topLog / bottomLog;
+
+		var years = n / 12;
+		var months = (years % 1) * 12;
+		
+		document.getElementById("years").value = years;
+		document.getElementById("months").value = months;
+		// http://www.calculatorsoup.com/calculators/financial/loan-repayment-calculator.php
+	}
+	</script>
+</body>
+</html>
