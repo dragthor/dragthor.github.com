@@ -53,10 +53,12 @@ Android Support Library 23.1.1
  "@type": "BlogPosting",
  "headline": "{{ page.title }}",
  "keywords": "{{ page.meta }}", 
- "url": "http://metroize.com/hello-world-android-unit-test/",
+ "url": "http://metroize.com{{ page.permalink }}",
  "datePublished": "2015-09-02",
  "dateModified": "2015-09-02",
  "image" : "",
+ "publisher" : "Kristofer Krause",
+ "mainEntityOfPage" : "http://metroize.com{{ page.permalink }}",
  "author": {
     "@type": "Person",
     "name": "Kristofer Krause"
