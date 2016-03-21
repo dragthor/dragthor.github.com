@@ -57,7 +57,7 @@ Android Support Library 23.1.1
  "datePublished": "2015-09-02",
  "dateModified": "2015-09-02",
  "image" : "https://s.gravatar.com/avatar/c1f5b2a79a5cf952693754e2cbc9fa85?s=200",
- "publisher" : { name: "Kristofer Krause", logo : "https://s.gravatar.com/avatar/c1f5b2a79a5cf952693754e2cbc9fa85?s=200" },
+ "publisher" : { "name" : "Kristofer Krause", "logo" : "https://s.gravatar.com/avatar/c1f5b2a79a5cf952693754e2cbc9fa85?s=200" },
  "mainEntityOfPage" : "http://metroize.com{{ page.permalink }}",
  "author": {
     "@type": "Person",
