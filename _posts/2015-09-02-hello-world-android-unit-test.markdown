@@ -48,4 +48,14 @@ Android Support Library 23.1.1
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2015-09-02-hello-world-android-unit-test.markdown" target="_blank">Contribute and Fork</a>
 
+<script type="application/ld+json">
+{ "@context": "http://schema.org", 
+ "@type": "BlogPosting",
+ "headline": "{{ page.title }}",
+ "keywords": "{{ page.meta }}", 
+ "url": "http://metroize.com/hello-world-android-unit-test/",
+ "datePublished": "2015-09-02"
+ }
+</script>
+
 {% include disqus.html %}
