@@ -48,5 +48,39 @@ Android Support Library 23.1.1
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2015-09-02-hello-world-android-unit-test.markdown" target="_blank">Contribute and Fork</a>
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"http://metroize.com{{ page.permalink }}"
+  },
+  "headline": "{{ page.title }}",
+  "keywords": "{{ page.meta }}", 
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://s.gravatar.com/avatar/c1f5b2a79a5cf952693754e2cbc9fa85?s=200",
+    "height": 200,
+    "width": 200
+  },
+  "datePublished": "2015-09-02",
+  "dateModified": "2015-09-02",
+  "author": {
+    "@type": "Person",
+    "name": "Kristofer Krause"
+  },
+   "publisher": {
+    "@type": "Person",
+    "name": "Kristofer Krause",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://s.gravatar.com/avatar/c1f5b2a79a5cf952693754e2cbc9fa85?s=200",
+      "width": 200,
+      "height": 200
+    }
+  }
+}
+</script>
 
 {% include disqus.html %}
