@@ -71,7 +71,7 @@ Android Support Library 23.1.1
     "name": "Kristofer Krause"
   },
    "publisher": {
-    "@type": "Person",
+    "@type": "Organization",
     "name": "Kristofer Krause",
     "logo": {
       "@type": "ImageObject",
