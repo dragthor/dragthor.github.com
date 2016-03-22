@@ -18,8 +18,6 @@
           {% if page.title %}
 			{% if page.title != 'metroize.com - Software development tech blog by Kris Krause' %}
 				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-			{% else %}
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">Home</a>
 			{% endif %}
           {% endif %}
         {% endfor %}
