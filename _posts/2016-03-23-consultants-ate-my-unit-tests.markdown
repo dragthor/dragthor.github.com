@@ -23,7 +23,7 @@ I received an "urgent" email from the owner of the company stating they had a pr
 
 > And when I finally looked.  The horror.  Oh,  the horror. 
 
-Okay.  Maybe I am exaggerating a bit.  But all of the unit tests were gone!  And I am not simply talking about deleted and I could always restore from source control.  I am talking gone, gone.  Scorched.  Trashed.  Ghost town. Sure they could be restored from source control but so much has changed they are utterly useless and don't even compile (yes, using C#).  Requirements changed (not all because I remember having unit test cases).  People have changed over.   
+Okay.  Maybe I am exaggerating a bit.  But all of the unit tests were gone!  And I am not simply talking about deleted and I could always restore from source control.  I am talking gone, gone.  Scorched.  Trashed.  Ghost town. Sure they could be resurrected but so much has changed they are utterly useless and don't even compile (yes, using C#).  Requirements changed (not all because I remember having unit test cases).  People have changed over.   
 
 Several less expensive programmers disregarded and ignored the unit tests since the day after I left.  And it wasn't a hand off thing where I neglected to show them green passing unit tests.  It wasn't a matter of unit test maintenance and upkeep.  But more appreciating the value the unit tests brought to the project.  Unit tests are not the definitive panacea or the golden magic happy unicorn to solve all woes such as poor project management, bad design, and disorganized and thoughtless coding.  Buy maybe the more disorganized the code, the more "less expensive" consultant work there is to do (charge)? 
 
