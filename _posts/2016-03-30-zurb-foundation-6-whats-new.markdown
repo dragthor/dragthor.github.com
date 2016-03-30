@@ -84,6 +84,6 @@ Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) is good an
 
 Disclaimer – I am a Foundation fan, user, and minor open source contributor.
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-30-zurb-foundation-6-whats-new" target="_blank">Contribute and Fork</a>
+<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-30-zurb-foundation-6-whats-new.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}
