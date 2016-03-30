@@ -5,7 +5,9 @@ permalink: /zurb-foundation-6-whats-new/
 meta: zurb
 published: false
 ---
-Initially released in November 2015, Zurb's [Foundation for Sites 6](http://foundation.zurb.com/sites/docs/) brings some new features, functionality, and concepts.  Although Foundation’s core principles and ideas remain, when comparing the latest code to the previous version you can see an almost complete overhaul.  Immediately you'll notice some [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/) syntax usage.  The arrows `=>` jumped out at me as the code now gets transpiled to ES5 with [Babel](https://babeljs.io/) during the [gulp](http://gulpjs.com/) build process.  [Grunt](http://gruntjs.com/) is no longer used.  Foundation 5 utilized the Javascript testing framework [Jasmine](http://jasmine.github.io/).  And it too has been replaced with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).  Unfortunately a lot of the unit tests did not make it over to Foundation 6.  [Pull request](https://github.com/zurb/foundation-sites/tree/V5) idea – time to help write some new tests.
+Initially released in November 2015, Zurb's [Foundation for Sites 6](http://foundation.zurb.com/sites/docs/) brings some new features, functionality, and concepts.  This post assumes you have some prior Foundation experience.  If a newbie, hopefully it will at least shine some light on the framework (and tools).  And provide a general overview of what to expect.
+
+Although Foundation’s core principles and ideas remain, when comparing the latest code to the previous version you can see an almost complete overhaul.  Immediately you'll notice some [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/) syntax usage.  The arrows `=>` jumped out at me as the code now gets transpiled to ES5 with [Babel](https://babeljs.io/) during the [gulp](http://gulpjs.com/) build process.  [Grunt](http://gruntjs.com/) is no longer used.  Foundation 5 utilized the Javascript testing framework [Jasmine](http://jasmine.github.io/).  And it too has been replaced with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).  Unfortunately a lot of the unit tests did not make it over to Foundation 6.  [Pull request](https://github.com/zurb/foundation-sites/tree/V5) idea – time to help write some new tests.
 
 ##Zurb Foundation 6 Browser Compatibility
 
@@ -78,7 +80,7 @@ Components such as Tooltips sometimes like to leave behind footprints (i.e., the
 
 ##Final Thoughts
 
-Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) is good and carefully considered for both designers and frontend developers.  Download it.  Try it.  Contribute to it.  Help make it better.  Heck, share some knowledge with a backend developer too!  While not as mature as Foundation 5 and with less tests, Foundation 6 should be your mobile first responsive strategy going forward.
+Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) is good and carefully considered for both designers and frontend developers.  Download it.  Try it.  Contribute to it.  Help make it better.  Heck, share some knowledge with a backend developer too!  While not as mature as Foundation 5 and with less tests, Foundation 6 should be your mobile first responsive strategy going forward.  Please stay tuned for future posts that take a deeper dive into specific components, tools, and features.
 
 Disclaimer – I am a Foundation fan, user, and minor open source contributor.
 
