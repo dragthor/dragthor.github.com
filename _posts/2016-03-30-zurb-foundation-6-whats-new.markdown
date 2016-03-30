@@ -3,7 +3,7 @@ layout: post
 title: "What's new in Zurb Foundation 6?"
 permalink: /zurb-foundation-6-whats-new/
 meta: zurb
-published: false
+published: true
 ---
 Initially released in November 2015, Zurb's [Foundation for Sites 6](http://foundation.zurb.com/sites/docs/) brings some new features, functionality, and concepts.  This post assumes you have some prior Foundation experience.  If a newbie, hopefully it will at least shine some light on the framework (and tools).  And provide a general overview of what to expect.
 
@@ -76,11 +76,11 @@ A new [Motion UI](http://foundation.zurb.com/sites/docs/motion-ui.html) Sass lib
 
 The amount of Javascript is less because it’s easier to choose only the components, features, and plugins that you need.  However, one of the biggest change is the onboarding of [Babel](https://babeljs.io/) to transpile [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/) within the [gulp](http://gulpjs.com/) build pipeline.  Before digging into the guts of [Foundation 6 code](https://github.com/zurb/foundation-sites) it might be wise to read up on arrow syntax `(e) => {}`, custom iteration `forEach(id => {})`, and classes `class`.  You know, yummy delicious syntax sugar.  Homer Simpson voice, “Mmm... Zurb”.
 
-Components such as Tooltips sometimes like to leave behind footprints (i.e., the tooltip template).  Fortunately a new `destroy` pattern is consistently implemented – when finished, clean yourself up.  This would also be a great pattern to implement in Foundation 5.  [Pull request](https://github.com/zurb/foundation-sites/tree/V5) anyone?  `destroy` literally destroys instance, state, unbinds events, or removes elements completely.  Performance matters.  And I hate seeing unused Tooltip templates lingering in my DOM.  Sometimes third party Javascript vendors like to haphazardly bind to these elements and never let go.
+Components such as Tooltips sometimes like to leave behind footprints (i.e., the tooltip template).  Fortunately a new `destroy` pattern is consistently implemented – when finished, clean yourself up.  Think finalizer in object-oriented programming.  This would also be a great pattern to implement in Foundation 5.  [Pull request](https://github.com/zurb/foundation-sites/tree/V5) anyone?  `destroy` literally destroys instance, state, unbinds events, or removes elements completely.  Performance matters.  And I hate seeing unused Tooltip templates lingering in my DOM.  Sometimes third party Javascript vendors like to haphazardly bind to these elements and never let go.
 
 ##Final Thoughts
 
-Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) is good and carefully considered for both designers and frontend developers.  Download it.  Try it.  Contribute to it.  Help make it better.  Heck, share some knowledge with a backend developer too!  While not as mature as Foundation 5 and with less tests, Foundation 6 should be your mobile first responsive strategy going forward.  Please stay tuned for future posts that take a deeper dive into specific components, tools, and features.
+Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) is good and carefully considered for both designers and frontend developers.  Download it.  Try it.  Contribute to it.  Help make it better.  Heck, share some knowledge with a backend developer too.  While not as mature as Foundation 5 and with less tests, Foundation 6 should be your mobile first responsive strategy going forward.  Please stay tuned for future posts that take a deeper dive into specific components, tools, and features.
 
 Disclaimer – I am a Foundation fan, user, and minor open source contributor.
 
