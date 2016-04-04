@@ -1,4 +1,5 @@
 ---
+redirect_from: "/tag/zurb/"
 layout: page
 title: Zurb Foundation
 permalink: /zurb/
