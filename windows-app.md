@@ -1,4 +1,5 @@
 ---
+redirect_from: "/tag/windows-app/"
 layout: page
 title: Windows Universal Apps
 permalink: /windows-app/

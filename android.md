@@ -1,4 +1,5 @@
 ---
+redirect_from: "/tag/android/"
 layout: page
 title: Android
 permalink: /android/
