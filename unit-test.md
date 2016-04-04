@@ -1,7 +1,7 @@
 ﻿---
 layout: page
 title: Unit Testing
-permalink: /unit-testing/
+permalink: /unit-test/
 ---
 [Consultants Ate My Unit Tests](http://metroize.com/consultants-ate-my-unit-tests/)
 
