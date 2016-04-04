@@ -3,9 +3,9 @@ layout: page
 title: About
 permalink: /about/
 redirect_from:
-	- /author/kriskrause/page/2/
-	- /author/kriskrause/page/3/
-	- /member3911.htm
+  - /author/kriskrause/page/2/
+  - /author/kriskrause/page/3/
+  - /member3911.htm
 ---
 Hi.  My name is Kris Krause.  I write software.  Language and platform?  Depends on the problem.
 
