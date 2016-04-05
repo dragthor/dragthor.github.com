@@ -14,6 +14,17 @@ A ```Styles/FontSizes.xaml``` entry might look something like -
 
 C# example code I am using with a [Navigation Pane](https://msdn.microsoft.com/en-us/library/windows/apps/dn997766.aspx) -
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AutoResponsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6659123635600028"
+     data-ad-slot="4624845196"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 {% highlight c# %}
 Nodes = new ObservableCollection<NavigationNode>();
 

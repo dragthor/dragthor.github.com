@@ -14,6 +14,17 @@ Mine is a ```BCM43142 14e4:4365 rev 01```.  And I am running [Trusty](https://wi
 
 Next I need to utilize a different computer (or phone, or phablet) to [download the appropriate package](https://launchpad.net/ubuntu/+source/bcmwl). Save the .deb file to a separate USB (or whatever) and copy to your local system.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AutoResponsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6659123635600028"
+     data-ad-slot="4624845196"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 You can now either [set up a local aptget offline repository](https://help.ubuntu.com/community/AptGet/Offline/Repository) or even easier - just right-click on the file from within Ubuntu and select "Open with Ubuntu Software Center" to install.
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2015-11-11-ubuntu-broadcom-wireless-driver-offline-install.markdown" target="_blank">Contribute and Fork</a>
