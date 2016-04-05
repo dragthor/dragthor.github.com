@@ -14,17 +14,6 @@ A ```Styles/FontSizes.xaml``` entry might look something like -
 
 C# example code I am using with a [Navigation Pane](https://msdn.microsoft.com/en-us/library/windows/apps/dn997766.aspx) -
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- AutoResponsive -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6659123635600028"
-     data-ad-slot="4624845196"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 {% highlight c# %}
 Nodes = new ObservableCollection<NavigationNode>();
 
@@ -39,6 +28,17 @@ Title = @"My Cool App",
 	NavigationInfo = NavigationInfo.FromPage("HomePage")
 });
 {% endhighlight %}
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AutoResponsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6659123635600028"
+     data-ad-slot="4624845196"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 If you work mostly offline (like I do) you can always pull up [Windows Character map](http://windows.microsoft.com/en-us/windows/using-special-characters-character-map-faq) and select Segoe MDL2 Assets -
 
