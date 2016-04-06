@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Developer Life
+title: Developer War Stories and Lifestyle
 permalink: /dev-life/
 ---
 [The Smartest Guy in the Room is Not the Best Developer](/smartest-guy-in-the-room-not-the-best-developer/)
