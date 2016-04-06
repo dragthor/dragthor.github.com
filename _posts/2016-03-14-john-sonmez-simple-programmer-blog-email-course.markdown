@@ -9,16 +9,7 @@ Want to improve your writing skills?  How about some professional [soft skills](
 
 His free [email course](http://devcareerboost.com/blog-course/) helps to get you moving, motivated, and **doing** by jump starting your professional software developer career with a blog.  He takes you step by step and provides seemingly simple action items (register a domain name, think of a topic, write something, etc).  John even asks you to send him a progress email (or two) along the way - and he actually replies.  I am pretty sure it's not a robot.
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- AutoResponsive -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6659123635600028"
-     data-ad-slot="4624845196"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{% include adsense.html %}
 
 Sure you might think that you know how to blog.  I am sure you do.  There are lots of tools and options out there.  But are you actually blogging?  **Are you producing something of value?**  Nothing is more disappointing than visiting a person's blog that has not been updated in over three, six, or twelve months.  I've been guilty too.  But John provides insight and methods for you to think, organize topic ideas, and avoid procrastinating.  Ultimately it's up to you and things that you can control.
 

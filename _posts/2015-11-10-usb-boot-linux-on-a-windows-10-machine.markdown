@@ -14,16 +14,7 @@ Control Panel > Power Options > Choose what the power button does >  Change sett
 
 Reboot and go into your BIOS.  My system (a [Toshiba laptop](http://www.toshiba.com/)) involves holding down F2.  Visit your manufacturer's website to learn how to boot to your BIOS.
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- AutoResponsive -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6659123635600028"
-     data-ad-slot="4624845196"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+{% include adsense.html %}
 
 Double check your Boot options and ordering to boot from USB.  This should be no different than five to ten years ago.
 

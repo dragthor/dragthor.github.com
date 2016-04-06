@@ -3,24 +3,24 @@ layout: page
 title: Tags
 permalink: /tags/
 ---
-[android](http://metroize.com/android)
+[android](/android)
 
-[arduino](http://metroize.com/arduino)
+[arduino](/arduino)
 
-[dev-life](http://metroize.com/dev-life)
+[dev-life](/dev-life)
 
-[espresso](http://metroize.com/espresso)
+[espresso](/espresso)
 
-[javascript](http://metroize.com/javascript)
+[javascript](/javascript)
 
-[linux](http://metroize.com/linux)
+[linux](/linux)
 
-[soft-skills](http://metroize.com/soft-skills)
+[soft-skills](/soft-skills)
 
-[ubuntu](http://metroize.com/ubuntu)
+[ubuntu](/ubuntu)
 
-[unit-testing](http://metroize.com/unit-testing)
+[unit-testing](/unit-testing)
 
-[zurb](http://metroize.com/zurb)
+[zurb](/zurb)
 
-[windows-app](http://metroize.com/windows-app)
+[windows-app](/windows-app)

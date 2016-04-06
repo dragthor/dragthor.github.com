@@ -8,3 +8,10 @@ Markdown cheatsheet -
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+Ruby DevKit
+
+http://jekyll-windows.juthilo.com/1-ruby-and-devkit/
+
+Ruby Command Prompt
+
+bundle exec jekyll serve
