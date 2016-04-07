@@ -11,7 +11,7 @@ permalink: /windows-app/
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
-		{% if post.meta == 'windows-app' %}
+		{% if post.meta contains 'windows-app' %}
 		  <li>
 			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
