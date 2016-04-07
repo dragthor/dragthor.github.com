@@ -19,3 +19,8 @@ First professional job?  [C++](https://en.wikipedia.org/wiki/C%2B%2B) and [VB3](
 
 
 **Disclaimer:** The opinions expressed here represent my own and not those of my employer.
+
+
+<p class="rss-subscribe">
+	<span class="fi-rss size-21"></span> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+</p>
