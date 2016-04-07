@@ -27,4 +27,5 @@ permalink: /archive/
 	<span class="fi-rss size-21"></span> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
   </p>
 
+  {% include adsense.html %}
 </div>

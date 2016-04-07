@@ -24,3 +24,5 @@ permalink: /tags/
 [zurb](/zurb)
 
 [windows-app](/windows-app)
+
+{% include adsense.html %}
