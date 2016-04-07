@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Arduino
+title: Arduino IoT Hobby
 permalink: /arduino/
 ---
 <div class="home">

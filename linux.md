@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Linux
+title: Linux Related
 permalink: /linux/
 ---
 <div class="home">

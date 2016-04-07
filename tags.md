@@ -3,26 +3,28 @@ layout: page
 title: Tags
 permalink: /tags/
 ---
-[android](/android)
+<ul>
+<li>[android](/android) - Android Development and Testing</li>
 
-[arduino](/arduino)
+<li>[arduino](/arduino) - Arduino IoT Hobby</li>
 
-[dev-life](/dev-life)
+<li>[dev-life](/dev-life) - Developer War Stories and Lifestyle</li>
 
-[espresso](/espresso)
+<li>[espresso](/espresso) - Android Espresso Framework</li>
 
-[javascript](/javascript)
+<li>[javascript](/javascript) - Javascript Development and Testing</li>
 
-[linux](/linux)
+<li>[linux](/linux) - Linux Related</li>
 
-[soft-skills](/soft-skills)
+<li>[soft-skills](/soft-skills) - Professional Developer Soft Skills</li>
 
-[ubuntu](/ubuntu)
+<li>[ubuntu](/ubuntu) - Ubuntu Related</li>
 
-[unit-testing](/unit-testing)
+<li>[unit-testing](/unit-testing) - Unit Testing</li>
 
-[zurb](/zurb)
+<li>[zurb](/zurb) - Zurb Foundation Development and Testing</li>
 
-[windows-app](/windows-app)
+<li>[windows-app](/windows-app) - Windows Universal App Development and Testing</li>
+</ul>
 
 {% include adsense.html %}

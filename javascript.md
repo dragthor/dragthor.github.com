@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Javascript
+title: Javascript Development and Testing
 permalink: /javascript/
 ---
 <div class="home">

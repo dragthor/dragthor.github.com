@@ -1,7 +1,7 @@
 ---
 redirect_from: "/tag/zurb/"
 layout: page
-title: Zurb Foundation
+title: Zurb Foundation Development and Testing
 permalink: /zurb/
 ---
 <div class="home">

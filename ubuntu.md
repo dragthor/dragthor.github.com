@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ubuntu
+title: Ubuntu Related
 permalink: /ubuntu/
 ---
 <div class="home">

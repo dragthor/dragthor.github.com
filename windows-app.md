@@ -1,7 +1,7 @@
 ---
 redirect_from: "/tag/windows-app/"
 layout: page
-title: Windows Universal Apps
+title: Windows Universal App Development and Testing
 permalink: /windows-app/
 ---
 <div class="home">

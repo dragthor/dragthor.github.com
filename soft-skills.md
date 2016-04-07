@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Soft Skills
+title: Professional Developer Soft Skills
 permalink: /soft-skills/
 ---
 <div class="home">
