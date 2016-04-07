@@ -3,10 +3,22 @@ layout: page
 title: Unit Testing
 permalink: /unit-testing/
 ---
-[Consultants Ate My Unit Tests](/consultants-ate-my-unit-tests/)
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+		{% if post.meta contains 'unit-testing' %}
+		  <li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-[Web Page Performance Death by a Thousand Tiny Cuts](/web-page-performance-death-by-a-thousand-tiny-cuts/)
+			<h2>
+			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
 
-[Unit Testing Allowed Me to Pick Up My Kid Today](/unit-testing-allowed-me-to-pick-up-my-kid-today/)
-
-[Hello World! Android Unit Testing with Espresso](/hello-world-android-unit-test/)
+			{{ post.excerpt }}
+		  </li>
+		{% endif %}
+    {% endfor %}
+  </ul>
+  
+  {% include adsense.html %}
+</div>

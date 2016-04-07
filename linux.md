@@ -3,10 +3,22 @@ layout: page
 title: Linux
 permalink: /linux/
 ---
-[Engage: Arduino Sketch Debugging for Dad (and the Kids)](/arduino-sketch-debugging-for-dad-and-kids/)
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+		{% if post.meta contains 'linux' %}
+		  <li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-[Produce: Turn a Hisense Chromebook into a Dual Ubuntu/Chrome OS Laptop](/ubuntu-linux-chromebook-crouton-hisense/)
+			<h2>
+			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
 
-[Ubuntu Broadcom Wireless Driver Offline Install](/ubuntu-broadcom-wireless-driver-offline-install/)
-
-[USB Boot Linux on a Windows 10 Machine](/usb-boot-linux-on-a-windows-10-machine/)
+			{{ post.excerpt }}
+		  </li>
+		{% endif %}
+    {% endfor %}
+  </ul>
+  
+  {% include adsense.html %}
+</div>

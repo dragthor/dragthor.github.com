@@ -4,6 +4,22 @@ layout: page
 title: Zurb Foundation
 permalink: /zurb/
 ---
-[What's new in Zurb Foundation 6?](/zurb-foundation-6-whats-new/)
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+		{% if post.meta contains 'zurb' %}
+		  <li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-[Windows 10 Universal App WebView Transition Flicker Prevention](/windows-10-universal-app-webview-transition-flicker-prevention/)
+			<h2>
+			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
+
+			{{ post.excerpt }}
+		  </li>
+		{% endif %}
+    {% endfor %}
+  </ul>
+  
+  {% include adsense.html %}
+</div>

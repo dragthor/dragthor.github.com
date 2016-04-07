@@ -3,8 +3,22 @@ layout: page
 title: Ubuntu
 permalink: /ubuntu/
 ---
-[Engage: Arduino Sketch Debugging for Dad (and the Kids)](/arduino-sketch-debugging-for-dad-and-kids/)
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+		{% if post.meta contains 'ubuntu' %}
+		  <li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-[Produce: Turn a Hisense Chromebook into a Dual Ubuntu/Chrome OS Laptop](/ubuntu-linux-chromebook-crouton-hisense/)
+			<h2>
+			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
 
-[Ubuntu Broadcom Wireless Driver Offline Install](/ubuntu-broadcom-wireless-driver-offline-install/)
+			{{ post.excerpt }}
+		  </li>
+		{% endif %}
+    {% endfor %}
+  </ul>
+  
+  {% include adsense.html %}
+</div>

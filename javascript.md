@@ -3,6 +3,22 @@ layout: page
 title: Javascript
 permalink: /javascript/
 ---
-[Web Page Performance Death by a Thousand Tiny Cuts](/web-page-performance-death-by-a-thousand-tiny-cuts/)
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+		{% if post.meta contains 'javascript' %}
+		  <li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-[Preventing Object Modification in Javascript](/preventing-object-modification-in-javascript/)
+			<h2>
+			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
+
+			{{ post.excerpt }}
+		  </li>
+		{% endif %}
+    {% endfor %}
+  </ul>
+  
+  {% include adsense.html %}
+</div>

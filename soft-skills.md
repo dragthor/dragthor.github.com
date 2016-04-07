@@ -3,6 +3,22 @@ layout: page
 title: Soft Skills
 permalink: /soft-skills/
 ---
-[The Smartest Guy in the Room is Not the Best Developer](/smartest-guy-in-the-room-not-the-best-developer/)
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+		{% if post.meta contains 'soft-skills' %}
+		  <li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-[John Sonmez Simple Programmer Blog Email Course](/john-sonmez-simple-programmer-blog-email-course/)
+			<h2>
+			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
+
+			{{ post.excerpt }}
+		  </li>
+		{% endif %}
+    {% endfor %}
+  </ul>
+  
+  {% include adsense.html %}
+</div>
