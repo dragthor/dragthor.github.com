@@ -25,4 +25,8 @@ permalink: /tags/
 
 * [windows-app](/windows-app) - Windows Universal App Development and Testing
 
+<p class="rss-subscribe">
+	<span class="fi-rss size-21"></span> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+</p>
+  
 {% include adsense.html %}
