@@ -46,7 +46,7 @@ Directly from Foundation’s documentation:
 
 ## Zurb Foundation 6 Plugins
 
-Plugins are a new addition to the framework too.  They help facilitate consistent integration and enable extensibility.  Although limited to only one element at a time, plugins can be nested and attached to elements using data attributes (`data-accordion` or `data-tooltip`).  A similar method found in Foundation 5, plugins should utilize `data-options` for settings and default behavior.  Per documentation (and good practice) callbacks as settings are discouraged (and removed) and should be implemented as event listeners.  Moreover, a global `reInit` function is defined and causes one or more active plugins to re-initialize, reset/remove event listeners,  to recalculate position, etc.  `reInit` is your consistent replacement for `reflow`.
+Plugins are a new addition to the framework too.  They help facilitate consistent integration and enable extensibility.  Although limited to only one element at a time, plugins can be nested and attached to elements using data attributes (`data-accordion` or `data-tooltip`).  A similar method found in Foundation 5, plugins should utilize `data-options` for settings and default behavior.  Per documentation (and good practice) callbacks as settings are discouraged (and removed) and should be implemented as event listeners.  Moreover, a global `reInit` function is defined and causes one or more active plugins to re-initialize, reset/remove event listeners, to recalculate position, etc.  `reInit` is your consistent replacement for `reflow`.
 
 [Foundation 5](http://foundation.zurb.com/sites/docs/v/5.5.3/) components and features that are now plugins:
 
