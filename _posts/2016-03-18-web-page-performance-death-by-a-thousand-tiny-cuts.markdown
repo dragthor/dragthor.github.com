@@ -4,10 +4,11 @@ title: "Web Page Performance Death by a Thousand Tiny Cuts"
 permalink: /web-page-performance-death-by-a-thousand-tiny-cuts/
 meta: javascript unit-testing
 published: true
+image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/performance-thousand-cuts.jpg
 ---
 Web page performance is literally a death by a thousand tiny little cuts.  Usually the biggest issue for most is the number of requests a page makes.  Keep the requests down and your web page performance increases.  No magic just common sense.  The mobile world we currently live in makes issuing fewer requests that much more important.  While it's true that mobile and tablet devices are getting more powerful each day, they are still no match for the desktop.  Moreover desktops are connected to broadband.  Mobile devices are mostly utilizing 3G and 4G.
 
-![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/performance-thousand-cuts.jpg "Page Performance Cuts")
+![alt text]({{ page.image }} "Page Performance Cuts")
 
 ## Page Performance
 

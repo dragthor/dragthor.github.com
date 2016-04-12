@@ -3,10 +3,11 @@ layout: post
 title: "USB Boot Linux on a Windows 10 Machine"
 permalink: /usb-boot-linux-on-a-windows-10-machine/
 meta: linux
+image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/ubuntu.jpg
 ---
 Things are different compared to five years ago in the hardware world.  Booting a "live" Linux USB on a machine primarily running Windows 10 is little more involved.  I am choosing [Ubuntu](http://www.ubuntu.com) - although [Mint](http://linuxmint.com) is another good choice (and pretty hot right now).
 
-![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/ubuntu.jpg "Ubuntu")
+![alt text]({{ page.image }} "Ubuntu")
 
 The process?  Check it out -
 

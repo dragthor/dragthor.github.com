@@ -3,10 +3,11 @@ layout: post
 title: "Produce: Turn a Hisense Chromebook into a Dual Ubuntu/Chrome OS Laptop"
 permalink: /ubuntu-linux-chromebook-crouton-hisense/
 meta: linux ubuntu
+image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/chromebook.jpg
 ---
 Chromebooks are small affordable laptops.  They are great for **consuming** information, audio, and video.  Elementary, middle, and high schools like their low maintenance, long life, low price, and ease-of-use.  Users can utilize [Google Docs](http://docs.google.com/) to **produce** limited information and content, however it's not enough for "power users" who need the ability to develop software, edit images and video, or to utilize the computer to **produce** something more than a simple spreadsheet, document, or presentation.  Is there an ultra-portable and affordable laptop out there for the **producers** of the world?
 
-![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/chromebook.jpg "Chromebook")
+![alt text]({{ page.image }} "Chromebook")
 
 Recently I purchase a $90 USD refurbished Chromebook on [Woot](http://www.woot.com) ([Amazon](http://amzn.to/21AnI8c) has them too) -
 

@@ -4,10 +4,11 @@ title: "John Sonmez Simple Programmer Blog Email Course"
 permalink: /john-sonmez-simple-programmer-blog-email-course/
 meta: soft-skills
 published: true
+image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/email-course.jpg
 ---
 Want to improve your writing skills?  How about some professional [soft skills](https://en.wikipedia.org/wiki/Soft_skills) development?  One place to start is the [Simple Programmer](http://simpleprogrammer.com) by creator John Sonmez.  At first glance his [YouTube](https://www.youtube.com/user/jsonmez) thumbnails might look a little cheesy.  But let me assure you that he and his content are not.  He's a character for sure.  And he delivers good content with personality.
 
-![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/email-course.jpg "Email Blog Course")
+![alt text]({{ page.image }} "Email Blog Course")
 
 His free [email course](http://devcareerboost.com/blog-course/) helps to get you moving, motivated, and **doing** by jump starting your professional software developer career with a blog.  He takes you step by step and provides seemingly simple action items (register a domain name, think of a topic, write something, etc).  John even asks you to send him a progress email (or two) along the way - and he actually replies.  I am pretty sure it's not a robot.
 

@@ -4,10 +4,11 @@ title: "Top 5 Signs You Are Working with a Cowboy Software Consultant"
 permalink: /cowboy-software-consultant/
 meta: dev-life
 published: false
+image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/cowboy-consultant.jpg
 ---
 Cowboy (or rogue) software consultants are not difficult to spot once you start working with them.  This applies to both small and large companies.  Gradually along the development life cycle you learn that cowboy code slingers require a lot of supervision, hand holding, and lassoing.  They come into a project riding on their horse full steam ahead in order to appear that they will get things done.  They get things done of course, usually the wrong things.  Unquestionably they will end up costing you money.  So how do we wrangle ourselves out of this position?  Yes, fire them.  Terminate the contract.  But how did we get here in the first place?
 
-![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/cowboy-consultant.jpg "Cowboy Consultant")
+![alt text]({{ page.image }} "Cowboy Consultant")
 
 The trick is to look for red flags before hiring them.  Yes, there are short-term consulting projects out there that last about a month (or two).  Look for patterns; try to decipher their client turnover rate or question them directly.  Contacting the potential consultant's previous clients can help.  But not everyone has time to follow up or care to respond honestly.  This is especially true when the guy sucked. Also look out for the "sorry, they are no longer in business" story.  (I've had a manger give me this story when I asked about his previous experience, but that is another post).  Almost everyone has had a consulting gig turn bad.  There are always two sides of a software consulting story.  Ask them about their side.  See if they are honest.  See what they learned from it (if anything).  If not, they may be a really [smart developer](/smartest-guy-in-the-room-not-the-best-developer/).
 
