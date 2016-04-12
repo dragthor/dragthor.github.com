@@ -7,6 +7,8 @@ published: true
 ---
 Web page performance is literally a death by a thousand tiny little cuts.  Usually the biggest issue for most is the number of requests a page makes.  Keep the requests down and your web page performance increases.  No magic just common sense.  The mobile world we currently live in makes issuing fewer requests that much more important.  While it's true that mobile and tablet devices are getting more powerful each day, they are still no match for the desktop.  Moreover desktops are connected to broadband.  Mobile devices are mostly utilizing 3G and 4G.
 
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/performance-thousand-cuts.jpg "Page Performance Cuts")
+
 ## Page Performance
 
 Yes there are more, but some page "cuts" include (in no particular order): 
