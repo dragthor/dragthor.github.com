@@ -10,6 +10,16 @@
 	<meta name="keywords" content="{{ page.meta }}">
 	{% endif %}
 	
+	{% if page.image %}
+	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:type" content="article" />
+	<meta name="author" content="Kris Krause">
+	<meta property="og:site_name" content="metroize.com" />
+	<meta property="og:url" content="{{ page.url }}">
+	<meta name="twitter:url" content="{{ page.url }}">
+	<meta name="rating" content="General">
+	{% endif %}
+	
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
