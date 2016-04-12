@@ -6,6 +6,8 @@ meta: linux ubuntu
 ---
 You installed Ubuntu and the only access to the interweb is via Wifi (no ethernet cat 5 connection in sight for miles).  However, your system is not recognizing your Broadcom wireless card.  Your are in trouble.
 
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/wireless-coffee.jpg "Wireless Coffee")
+
 First you need to determine which card you have:
 
 [http://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers](http://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers)

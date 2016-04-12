@@ -6,6 +6,8 @@ meta: linux
 ---
 Things are different compared to five years ago in the hardware world.  Booting a "live" Linux USB on a machine primarily running Windows 10 is little more involved.  I am choosing [Ubuntu](http://www.ubuntu.com) - although [Mint](http://linuxmint.com) is another good choice (and pretty hot right now).
 
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/ubuntu.jpg "Ubuntu")
+
 The process?  Check it out -
 
 Control Panel > Power Options > Choose what the power button does >  Change settings that are unavailable > disable turn on fast startup (see below)
