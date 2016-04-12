@@ -12,6 +12,13 @@
 	
 	{% if page.image %}
 	<meta property="og:title" content="{{ page.title }}">
+	
+	<meta property="og:image" content="{{ page.image }}" />
+	<meta itemprop="image" content="{{ page.image }}">
+	<meta itemprop="thumbnailURl" content="{{ page.image }}" />
+	<link rel="image_src" href="{{ page.image }}" />
+	<meta name="twitter:image" content="{{ page.image }}" />
+
 	<meta property="og:type" content="article" />
 	<meta name="author" content="Kris Krause">
 	<meta property="og:site_name" content="metroize.com" />
