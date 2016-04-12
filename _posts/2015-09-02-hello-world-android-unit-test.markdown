@@ -3,10 +3,11 @@ layout: post
 title: "Hello World! Android Unit Testing with Espresso"
 permalink: /hello-world-android-unit-test/
 meta: android unit-testing espresso
+image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/espresso.jpg
 ---
 Tackling android unit testing has more than one approach.  A library file or class file(s) without android dependencies can utilize [JUnit](http://www.junit.org) or any other Java unit testing framework.  However, as soon as the code that you want to test is dependent on [Activity Context](http://developer.android.com/reference/android/app/Activity.html) you write instrumentation tests that execute on actual devices or virtual devices.
 
-![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/espresso.jpg "Android Espresso")
+![alt text]({{ page.image }} "Android Espresso")
 
 Instrumentation tests save the developer time because the tests should run in seconds – and provide a safety net of regression testing.  You are actually testing your Android code.
 
