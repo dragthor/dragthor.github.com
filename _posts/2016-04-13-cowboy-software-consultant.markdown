@@ -11,34 +11,40 @@ The trick is to look for red flags before hiring them.  Yes, there are short-ter
 
 {% include adsense.html %}
 
-Yes, the software cowboy disorder can apply to traditional employees too.  But traditional employees have more skin in the game.  They want their employer to do well as their success is tied to it.  More importantly they plan to be intimate with the code long-term.  Cowboy consultants seem to come in, shoot it up, and leave.  Afterwards it's the traditional employee who has to revisit the cowboy's code for bugs, performance, security flaws, and feature enhancements.  Code reviewers – please help.  Hiring managers – please help.
+Yes, the software cowboy disorder can apply to traditional employees too.  But traditional employees have more skin in the game.  They want their employer to do well as their success is tied to it.  More importantly they plan to be intimate with the code long-term.  Cowboy consultants seem to come in, shoot it up, and leave.  Afterwards it's the traditional employee who has to revisit the cowboy's code for bugs, performance, security flaws, and feature enhancements.  Code reviewers - please help.  Hiring managers - please help.
+
+> Cowboy consultants seem to come in, shoot it up, and leave. 
 
 Protect yourself.  Protect your project.  Protect your architecture.  Protect your code.  Protect your business users or customers.  Have cowboy developers sign a list of your standard procedures, tie it to payment, and avoid the following (and never give an untrusted consultant access to your production environment):
 
-1.	Cowboy Shoot'em Up
-..* Write code first, then ask questions later.
-..* Understands language syntax but not the problem.
-..* Never admits mistakes.
-2.	Cowboy Unit Testing
-..* Deletes, skips, disregards, and [eats unit test](/consultants-ate-my-unit-tests/).
-..* Tests in production.
-..* Tests trivial things to make it seem like they are testing and have code coverage.  You know, testing for testing's sake.
-3.	Cowboy Source Control
-..* Does not use client's source control (or use it correctly).  What's a branch?
-..* Works in a silo, then delivers a mess of disorganized non-synched code.
-..* Brings in own library or DLL without the source code.  Is it even legal?
-..* Edits or pushes code directly to production outside normal process, then never updates source control.
-4.	Cowboy Rodeo
-..* Creates a mess, then tries to charge to clean it up.
-..* Never finishes, never dev complete, and never delivers.
-..* Creates duplicate code for common or generic functions (i.e., string utilities) because they are not asking the right questions. 
-..* Code formatting not in sync with the team (3 vs. 4 tab indentation, `{ }` placement).  Thus when you view the diff pretty much everything has changed.
-5.	Cowboy Refactor
-..* Always comes into a project stating "this code sucks".
-..* Over architects the solution.  And worse, wants to rip out your proven data access layer for something that they prefer.  And even worse, replace your knockout.js & backbone.js solution with their angular.js preference.
-..* Does not follow existing software patterns.
-..* Rearranges code for the sake of rearranging code.  This is not refactoring.
-..* Poor time management.  Poor communication skills.  Poor [soft skills](/soft-skills/).
+## 1. Cowboy Shoot'em Up
+ * Write code first, then ask questions later.
+ * Understands language syntax but not the problem.
+ * Never admits mistakes.
+
+## 2. Cowboy Unit Testing
+ * Deletes, skips, disregards, and [eats unit test](/consultants-ate-my-unit-tests/).
+ * Tests in production.
+ * Tests trivial things to make it seem like they are testing and have code coverage.  You know, testing for testing's sake.
+
+## 3. Cowboy Source Control
+ * Does not use client's source control (or use it correctly).  What's a branch?
+ * Works in a silo, then delivers a mess of disorganized non-synched code.
+ * Brings in own library or DLL without the source code.  Is it even legal?
+ * Edits or pushes code directly to production outside normal process, then never updates source control.
+
+## 3. Cowboy Rodeo
+ * Creates a mess, then tries to charge to clean it up.
+ * Never finishes, never dev complete, and never delivers.
+ * Creates duplicate code for common or generic functions (i.e., string utilities) because they are not asking the right questions. 
+ * Code formatting not in sync with the team (3 vs. 4 tab indentation, `{ }` placement).  Thus when you view the diff pretty much everything has changed.
+
+## 4. Cowboy Refactor
+ * Always comes into a project stating "this code sucks".
+ * Over architects the solution.  And worse, wants to rip out your proven data access layer for something that they prefer.  And even worse, replace your knockout.js & backbone.js solution with their angular.js preference.
+ * Does not follow existing software patterns.
+ * Rearranges code for the sake of rearranging code.  This is not refactoring.
+ * Poor time management.  Poor communication skills.  Poor [soft skills](/soft-skills/).
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-04-13-cowboy-software-consultant.markdown" target="_blank">Contribute and Fork</a>
 
