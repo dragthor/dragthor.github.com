@@ -6,9 +6,11 @@ meta: javascript
 ---
 Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three ways to prevent or "lock down" object modification in Javascript.  This is important to help prevent possible misbehaving third party Javascript partners from tampering with your objects.  Or worse - your own Javascript in other parts of your code base that you did not consider or test.  Or maybe there are specific areas or parts of your code where you want to write [immutable Javascript](https://github.com/facebook/immutable-js) and reap the [benefits](http://programmers.stackexchange.com/questions/151733/if-immutable-objects-are-good-why-do-people-keep-creating-mutable-objects)?
 
-{% include adsense.html %}
+![alt text](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/javascript.jpg "Javascript")
 
 The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive).
+
+{% include adsense.html %}
 
 At the top is [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions) -
 
