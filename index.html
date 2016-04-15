@@ -16,7 +16,7 @@ title: metroize.com - Software development tech blog by Kris Krause
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
 
-        {{ post.excerpt }}
+        {{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
       </li>
     {% endfor %}
   </ul>
