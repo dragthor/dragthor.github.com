@@ -5,6 +5,7 @@ permalink: /zurb-foundation-6-whats-new/
 meta: zurb
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-6.png
+description: "Initially released in November 2015, Zurb's Foundation for Sites 6 brings some new features, functionality, and concepts - accessibility, components, flexbox, plugins, less CSS and Javascript."
 ---
 Initially released in November 2015, Zurb's [Foundation for Sites 6](http://foundation.zurb.com/sites/docs/) brings some new features, functionality, and concepts.  This post assumes you have some prior Foundation experience.  If a newbie, hopefully it will at least shine some light on the framework (and tools).  And provide a general overview of what to expect.
 

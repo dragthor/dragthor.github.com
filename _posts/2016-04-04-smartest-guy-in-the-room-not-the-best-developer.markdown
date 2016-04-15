@@ -5,6 +5,7 @@ permalink: /smartest-guy-in-the-room-not-the-best-developer/
 meta: dev-life soft-skills
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/smartest-developer.jpg
+description: "He was definitely a smart developer.  A lot smarter than me.  And I do not want to diminish his academic accomplishment (a PhD).  To be blunt, he was an arrogant jerk.  Everyone avoided him."
 ---
 I started my programming career 20 years old ago.  Sometimes I still cannot believe that it’s been that long.  Come August 2016 it will be exactly 20 years since I accepted a Software Test Engineer job after finishing my undergraduate degree.  I completed my degree in August rather than June because I needed to finish a difficult Discrete Math course at [Rutgers University](http://www.rutgers.edu/) while delivering [NAPA auto parts](http://www.napaonline.com/) part-time.  I drove those little trucks with the baseball hat on top while secretly peeking over the shoulders of the store counter employees using a terminal based inventory management system.  I couldn’t help being drawn to a computer screen.  Any screen.  Even ugly green and black ones.
 

@@ -5,6 +5,7 @@ permalink: /consultants-ate-my-unit-tests/
 meta: unit-testing dev-life
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/consultant-unit-testing.jpg
+description: "It's been over five years since I last looked at the source code.  And when I finally looked.  The horror.  No more unit tests."
 ---
 About six years ago I was working as a solo software developer consultant for a web-based product at a small company.  The backend piece involved some ETL from ancient 16-bit FoxPro into SQL Server which helped to provide an easier data schema and robust reporting.  This project was not seeking to replace FoxPro since it's been running the back office business for 10+ years without issue.  Rather we opted to perform a nightly data dump into SQL server, since the data would be a lot easier to work with using ASP.NET, a requirement determined by the business, a traditional .NET shop.  With this architecture the webserver was not directly dependent on FoxPro.  In the end each could be maintained individually.  Each could fail and not impact the other.  Hopefully neither fail but things happen.  On second thought things are going to happen, plan and be prepared. 
 
