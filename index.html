@@ -1,7 +1,6 @@
 ---
 layout: default
 title: metroize.com - Software development tech blog by Kris Krause
-excerpt_separator: <!--more-->
 ---
 
 <div class="home">
@@ -17,7 +16,9 @@ excerpt_separator: <!--more-->
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
 
-        {{ post.excerpt }}<a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+		<p>
+			{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+		</p>
       </li>
     {% endfor %}
   </ul>
