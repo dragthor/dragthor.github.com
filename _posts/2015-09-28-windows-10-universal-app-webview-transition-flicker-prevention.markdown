@@ -4,6 +4,7 @@ title: "Windows 10 Universal App WebView Transition Flicker Prevention"
 permalink: /windows-10-universal-app-webview-transition-flicker-prevention/
 meta: windows-app zurb
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/webview-flicker.jpg
+description: "Windows 10 Universal App WebView transition flicker prevention with Zurb and knockoutjs."
 ---
 Currently I am developing a Windows 10 Universal App that utilizes a [WebView](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.webview), [Knockout Js](http://knockoutjs.com), and [Zurb Foundation](http://foundation.zurb.com).  Yeah, I know nothing earth shattering.
 

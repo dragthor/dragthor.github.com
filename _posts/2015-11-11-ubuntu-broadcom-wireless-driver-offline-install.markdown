@@ -4,6 +4,7 @@ title: "Ubuntu Broadcom Wireless Driver Offline Install"
 permalink: /ubuntu-broadcom-wireless-driver-offline-install/
 meta: linux ubuntu
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/wireless-coffee.jpg
+description: "Have your offline Ubuntu installation recognize your Broadcom wireless networking card."
 ---
 You installed Ubuntu and the only access to the interweb is via Wifi (no ethernet cat 5 connection in sight for miles).  However, your system is not recognizing your Broadcom wireless card.  Your are in trouble.
 

@@ -4,6 +4,7 @@ title: "Engage: Arduino Sketch Debugging for Dad (and the Kids)"
 permalink: /arduino-sketch-debugging-for-dad-and-kids/
 meta: arduino linux ubuntu
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/arduino.jpg
+description: "I did it.  I took the plunge.  I finally purchased an Arduino.  What took me so long to rekindle my childhood curiosity and tinker (um, break things)?  I don't know."
 ---
 I did it.  I took the plunge.  I finally purchased an [Arduino](http://amzn.to/1pAaAil).  What took me so long to rekindle my childhood curiosity and tinker (um, break things)?  I don't know.  Although recently I have been reading Charles Petzold's [Code](http://amzn.to/1pA0HkH) book and it definitely helps provide a jump start.  Many a time throughout the book I would pause and remember things - working with assembly, the Intel 8080 and 8088, the Motorola 6800, and little-endian vs. big-endian.  The good old days.  I was there.  Closer to the metal.
 
