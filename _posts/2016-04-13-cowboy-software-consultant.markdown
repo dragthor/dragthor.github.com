@@ -5,6 +5,7 @@ permalink: /cowboy-software-consultant/
 meta: dev-life
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/cowboy-consultant.jpg
+description: "Cowboy software consultants are not difficult to spot once you start working with them.  Gradually along the development life cycle you learn that cowboy code slingers require a lot of supervision, hand holding, and lassoing."
 ---
 Cowboy (or rogue) software consultants are not difficult to spot once you start working with them.  This applies to both small and large companies.  Gradually along the development life cycle you learn that cowboy code slingers require a lot of supervision, hand holding, and lassoing.  They come into a project riding on their horse full steam ahead with guns blazing in order to appear that they will get things done.  They get things done of course, usually the wrong things.  Unquestionably they will end up costing you money.  So how do we wrangle ourselves out of this position?  Yes, fire them.  Terminate the contract.  But how did we get here in the first place?
 
