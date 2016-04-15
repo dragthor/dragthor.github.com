@@ -16,6 +16,8 @@ description: "Categorized blog posts using tags.  Posts are gouped by tag."
 
 * [linux](/linux) - Linux Related
 
+* [performance](/performance) - Web, Javascript, CSS, and App Performance
+
 * [soft-skills](/soft-skills) - Professional Developer Soft Skills
 
 * [ubuntu](/ubuntu) - Ubuntu Related
