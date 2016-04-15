@@ -7,6 +7,8 @@ permalink: /devices/
 
 [Samsung Galaxy Note 3](http://amzn.to/1TA1jDo)
 
+[Kindle](http://amzn.to/265Sqpy)
+
 [Kindle Fire](http://amzn.to/1YG3jtd)
 
 [Chromecast](https://www.google.com/intl/en_us/chromecast/tv/)
