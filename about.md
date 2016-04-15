@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: "Hi.  My name is Kris Krause.  I write software.  Language and platform?  Depends on the problem."
 permalink: /about/
 redirect_from:
   - /author/kriskrause/page/2/
