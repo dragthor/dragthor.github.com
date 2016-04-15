@@ -1,42 +1,47 @@
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
 
 	{% if page.meta %}
-	<meta name="keywords" content="{{ page.meta }}">
+	<meta name="keywords" content="{{ page.meta }}" />
 	{% endif %}
 
-	<meta name="robots" content="noodp">
-	<meta property="og:locale" content="en_US"/>
+	<meta name="robots" content="noodp" />
+	<meta property="og:locale" content="en_US" />
 	
 	{% if page.image %}
-	<meta property="og:title" content="{{ page.title }}">
-	
+	<meta property="og:title" content="{{ page.title }}" />
 	<meta property="og:image" content="{{ page.image }}" />
-	<meta itemprop="image" content="{{ page.image }}">
-	<meta itemprop="thumbnailURl" content="{{ page.image }}" />
-	<link rel="image_src" href="{{ page.image }}" />
-	<meta name="twitter:image" content="{{ page.image }}" />
-
 	<meta property="og:type" content="article" />
-	<meta name="author" content="Kris Krause">
 	<meta property="og:site_name" content="metroize.com" />
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<meta name="rating" content="General">
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+	
+	<meta itemprop="image" content="{{ page.image }}" />
+	<meta itemprop="thumbnailURl" content="{{ page.image }}" />
+	
+	<link rel="image_src" href="{{ page.image }}" />
+
+	<meta name="author" content="Kris Krause" />
+	
+	<meta name="twitter:title" content="{{ page.title }}" />
+	<meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:image" content="{{ page.image }}" />
+	
+	<meta name="rating" content="General" />
+	
 	{% endif %}
 	
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
 	<link rel="stylesheet" href="/foundation-icons/foundation-icons.css" />
 	
-	<style>
+	<style type="text/css">
 	  .size-12 { font-size: 12px; }
       .size-14 { font-size: 14px; } 
       .size-16 { font-size: 16px; }
