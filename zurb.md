@@ -15,7 +15,9 @@ permalink: /zurb/
 			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</h2>
 
-			{{ post.excerpt }}
+			<p>
+				{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+			</p>
 		  </li>
 		{% endif %}
     {% endfor %}
