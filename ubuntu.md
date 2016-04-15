@@ -2,6 +2,7 @@
 layout: page
 title: Ubuntu Related
 permalink: /ubuntu/
+description: "Using the Ubuntu operating system to develop software."
 ---
 <div class="home">
   <ul class="post-list">

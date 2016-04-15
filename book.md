@@ -2,6 +2,7 @@
 layout: page
 title: Books
 permalink: /books/
+description: "Excellent sofware development books that I recommend."
 ---
 [Clean Code: A Handbook of Agile Software Craftsmanship](http://amzn.to/1QMtFrP)
 

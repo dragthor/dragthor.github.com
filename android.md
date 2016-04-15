@@ -3,6 +3,7 @@ redirect_from: "/tag/android/"
 layout: page
 title: Android Development and Testing
 permalink: /android/
+description: "Android development, testing, unit testing, espresso, and automated UI testing."
 ---
 <div class="home">
   <ul class="post-list">

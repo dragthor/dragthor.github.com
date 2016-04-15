@@ -2,6 +2,7 @@
 layout: page
 title: Devices
 permalink: /devices/
+description: "Current list of devices that I use to develop and test software.  And for personal and professional enrichment."
 ---
 [Toshiba Satellite](http://amzn.to/1QJJ7DG)
 

@@ -2,6 +2,7 @@
 layout: page
 title: Archive
 permalink: /archive/
+description: "Archive of most recent blog posts about unit testing, zurb, android, and javascript."
 ---
 <div class="home">
 

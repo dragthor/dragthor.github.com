@@ -2,6 +2,7 @@
 layout: page
 title: Tags
 permalink: /tags/
+description: "Categorized blog posts using tags.  Posts are gouped by tag."
 ---
 * [android](/android) - Android Development and Testing
 

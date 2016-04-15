@@ -2,6 +2,7 @@
 layout: page
 title: Javascript Development and Testing
 permalink: /javascript/
+description: "Adventures in Javascript and Javascript unit testing."
 ---
 <div class="home">
   <ul class="post-list">

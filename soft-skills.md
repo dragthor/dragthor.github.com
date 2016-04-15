@@ -2,6 +2,7 @@
 layout: page
 title: Professional Developer Soft Skills
 permalink: /soft-skills/
+description: "Professional developer soft skills for sometimes socially ackward nerds and geeks."
 ---
 <div class="home">
   <ul class="post-list">

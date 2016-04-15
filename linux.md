@@ -2,6 +2,7 @@
 layout: page
 title: Linux Related
 permalink: /linux/
+description: "Working with the Linux operating system to develop software."
 ---
 <div class="home">
   <ul class="post-list">

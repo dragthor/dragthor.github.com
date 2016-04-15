@@ -2,6 +2,7 @@
 layout: page
 title: Tools
 permalink: /tools/
+description: "List of programmer tools to help develop better software.  And to help organize oneself.  Code easier."
 ---
 **Developer Tools**
 

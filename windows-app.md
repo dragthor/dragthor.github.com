@@ -3,6 +3,7 @@ redirect_from: "/tag/windows-app/"
 layout: page
 title: Windows Universal App Development and Testing
 permalink: /windows-app/
+description: "Windows 10 Universal application development and testing."
 ---
 <div class="home">
   <ul class="post-list">

@@ -2,6 +2,7 @@
 layout: page
 title: Unit Testing
 permalink: /unit-testing/
+description: "Unit testing produces better code.  Better design.  Android and javascript unit testing."
 ---
 <div class="home">
   <ul class="post-list">
