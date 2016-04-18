@@ -37,7 +37,7 @@ At the end of this story, Brian left several “great” ideas unfinished.  And 
 
 The smart, hardworking, consistent, day in and day out developers that deliver?  I intentionally positioned myself with them.  I worked with them.  I grew professionally with them.  I asked questions (sometimes stupid) and received non-condescending answers.  They demonstrated patience with me (most of the time).  I absorbed everything (hard and soft skills) like sponge.  I learned.  I listened.  I was mentored.
 
-Disclaimer – I am not anti-PhD.  I am anti-jerk.
+Disclaimer: I am not anti-PhD.  I am anti-jerk.
 
 Stay tuned for some more [developer war stories](/dev-life/) as I remember them.  [Consultants Ate My Unit Tests](/consultants-ate-my-unit-tests/) was popular.
 

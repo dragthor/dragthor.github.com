@@ -37,7 +37,7 @@ Several less expensive programmers disregarded and ignored the unit tests since 
 
 And now not one single new unit test (the old ones rendered meaningless). The code base is in an inconsistent state.  Everyone is afraid to make a code change.  I guess that's why I was called?  And yes, I helped to resolve the bug but kindly and gracefully declined to regularly get directly involved again. I wonder how less expensive they are now?  Surely the company is paying now. 
 
-Disclaimer -  I am not anti-consultant.  And I am not anti-overseas consultant.
+Disclaimer:  I am not anti-consultant.  And I am not anti-overseas consultant.
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-23-consultants-ate-my-unit-tests.markdown" target="_blank">Contribute and Fork</a>
 
