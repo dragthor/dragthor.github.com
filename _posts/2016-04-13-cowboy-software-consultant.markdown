@@ -11,7 +11,7 @@ Cowboy (or rogue) software consultants are not difficult to spot once you start 
 
 ![alt text]({{ page.image }} "Cowboy Consultant")
 
-The trick is to look for red flags before hiring them.  Yes, there are short-term consulting projects that last about a month (or two).  Look for patterns; try to decipher their client turnover rate or question them directly.  Contacting the potential consultant's previous clients can help.  But not everyone has time to follow up or care to respond honestly.  Lack of directness, not "corporate policy" to not disclose anything, may indicate the guy was a disaster.
+The trick is to look for red flags before hiring them.  Yes, there are short-term consulting projects that last about a month (or two).  Look for patterns; try to decipher their client turnover rate or question them directly.  Contacting the potential consultant's previous clients can help.  But not everyone has time to follow up or care to respond honestly.  A lack of directness or "corporate policy" to not disclose anything may indicate the guy was a disaster.
 
 > Lack of directness, not "corporate policy" to not disclose anything, may indicate the guy was a disaster.
 
