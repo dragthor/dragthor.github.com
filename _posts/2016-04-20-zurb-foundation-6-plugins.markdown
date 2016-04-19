@@ -19,29 +19,27 @@ Similar to household devices, Zurb plugins need to follow some predetermined rul
 
 ## Boilerplate Skeleton Code
 
-What do all plugins have in common?  And what are they made of?  At the end of day, creating Zurb plugins are nothing more than custom CSS, HTML, and Javascript.  You can even wrap or extend existing components.  For example, a custom Zurb datepicker could be composed of an input field to receive focus, then display a `reveal` with three dropdowns (one for day, month, and year) as shown here:
+What do all plugins have in common?  And what are they made of?  At the end of day, creating Zurb plugins require nothing more than providing custom CSS, HTML, and Javascript.  You can even wrap or extend existing components.  For example, a custom Zurb datepicker could be composed of an input field to receive focus, then display a `reveal` with three dropdowns (one for day, month, and year) as shown here:
 
 <script src="https://gist.github.com/dragthor/0cea3539e5eca54dc0f9fca0b82f5f48.js"></script>
 
-The fictional datepicker above aggregates one or more existing components.  The `reveal` can exist, have purpose, and have meaning idependently from the datepicker.  In the traditional object-oriented programming world this is aggregation.  A custom Zurb plugin that owns or wraps another component that has no meaning or purpose without it, would be an example of composition. 
+The fictional datepicker above aggregates one or more existing components.  The `reveal` can exist, have purpose, and have meaning idependently from the datepicker.  In the traditional object-oriented programming world this is called aggregation.  A custom Zurb plugin that owns (or wraps) another component that has no meaning or purpose outside the context of the plugin, is an example of composition.  Arrows within a filmstrip slider, a guage within a chart, and a sortable grid column.  Each would not make sense independent from their container component.
 
-Maybe a custom responsive Zurb grid or chart component would each be independent plugins?  Can a traditional reporting grid be responsive?  Does it even fit in the responsive world?  A Zurb graphical chart sounds like a future idea. [Pull request](https://github.com/zurb/foundation-sites/pulls), anyone? 
+This has me thinking.  Maybe a custom responsive Zurb grid or chart component would each be independent plugins?  Can a traditional reporting grid be responsive?  Do data grids (not layout grids) even fit in the responsive world?  A Zurb graphical chart sounds like a future idea. [Pull request](https://github.com/zurb/foundation-sites/pulls), anyone? 
 
-Javascript is not as strict as C# or Java with interfaces, so technically you could not implement these. No compilers, just transpilers and conventions.  One standard convention:  
+Javascript is not as strict as C# or Java regarding interface adherence, so technically you could get away with not implementing these. No compilers, just transpilers and conventions.  One standard convention stated direction in the Zurb documentation:  
 
-Plugin methods prefixed with an underscore are considered part of the internal API, which means they could change, break, or disappear without warning. 
+> Plugin methods prefixed with an underscore are considered part of the internal API, which means they could change, break, or disappear without warning. 
 
-Unsure why you wouldn't want your plugin to play nicely with Zurb and other components?  Whether you choose composition or aggregation at minimum your plugin should contain these methods:  
+I am unsure why you wouldn't want your plugin to play nicely with Zurb and other components?  Whether you choose composition or aggregation at minimum your plugin should contain these methods:  
 
-` constructor(element, options)` is your plugin constructor.  It initializes and sets up your plugin.  
-
-`Foundation.Keyboard.register()` handlers.  And registers your plugin. 
+`constructor(element, options)` is your plugin constructor.  It initializes and sets up your plugin.  Registers `Foundation.Keyboard` handlers. And registers your plugin. 
 
 `destroy()` - is your plugin destructor.  And unregisters your plugin. 
 
-`_init()` -  init - re-initialize, reset/remove event listeners, to recalculate position, etc.   
+`_init()` -  init - re-initialize, reset/remove event listeners, recalculate position, etc.   
 
-`_events()` - event listeners. onDateSelected, onCancelled, isValid (error msg for 2/31) 
+`_events()` - define event listeners.  For the datepicker you might trigger `dateSelected`, `cancelled`, and `isValid`.
 
 ## Plugin Management 
 
