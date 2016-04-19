@@ -19,11 +19,15 @@ Similar to household devices, Zurb plugins need to follow some predetermined rul
 
 ## Boilerplate Skeleton Code
 
-What do all plugins have in common?  And what are they made of?  At the end of day, Zurb plugins are nothing more than creating custom CSS, HTML, and Javascript.  You can even wrap or extend existing components.  For example, a custom Zurb datepicker could be composed of a an input field to receive focus, then display a reveal with three dropdowns (one for day, month, and year). 
+What do all plugins have in common?  And what are they made of?  At the end of day, creating Zurb plugins are nothing more than custom CSS, HTML, and Javascript.  You can even wrap or extend existing components.  For example, a custom Zurb datepicker could be composed of an input field to receive focus, then display a `reveal` with three dropdowns (one for day, month, and year) as shown here:
 
-Composition or aggregation of one or more other existing components.  In the traditional object-oriented world A owns B (composition) when B has no meaning or purpose without A.  A uses B (aggregation) when B exists independently from A.  The fictional datepicker previously mentioned above uses composition.  But maybe a custom responsive Zurb grid or chart component would each be independent plugins.  Can a traditional reporting grid be responsive?   Does it even fit in the responsive world?  A Zurb graphical chart sounds like a future idea. Pull request, anyone? 
+<script src="https://gist.github.com/dragthor/0cea3539e5eca54dc0f9fca0b82f5f48.js"></script>
 
-Javascript is not as strict as C# or Java with interfaces so technically you could not implement these. No compilers, just transpilers and conventions.  One standard convention:  
+The fictional datepicker above aggregates one or more existing components.  The `reveal` can exist, have purpose, and have meaning idependently from the datepicker.  In the traditional object-oriented programming world this is aggregation.  A custom Zurb plugin that owns or wraps another component that has no meaning or purpose without it, would be an example of composition. 
+
+Maybe a custom responsive Zurb grid or chart component would each be independent plugins?  Can a traditional reporting grid be responsive?  Does it even fit in the responsive world?  A Zurb graphical chart sounds like a future idea. [Pull request](https://github.com/zurb/foundation-sites/pulls), anyone? 
+
+Javascript is not as strict as C# or Java with interfaces, so technically you could not implement these. No compilers, just transpilers and conventions.  One standard convention:  
 
 Plugin methods prefixed with an underscore are considered part of the internal API, which means they could change, break, or disappear without warning. 
 
