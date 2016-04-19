@@ -25,13 +25,13 @@ What do all plugins have in common and what are they made of?  At the end of day
 
 The above fictional datepicker aggregates one or more existing components.  The `reveal` can exist, have purpose, and have meaning idependently of the datepicker.  In the traditional object-oriented programming world this is called aggregation.  Conversely, a custom Zurb plugin that owns (or wraps) another component that has no meaning or purpose outside the context of the plugin, is an example of composition.  Arrows within a filmstrip slider, a legend within a chart component, and a sortable grid column are just some examples.  Each does not make sense outside their container component.  And each would probably look terrible and confuse users.
 
-This has me thinking.  Maybe a custom responsive Zurb grid or chart component would each be independent plugins?  Can a traditional reporting grid be responsive?  Do data grids (not layout grids) even fit in the responsive world?  A Zurb graphical chart sounds like a future idea. [Pull request](https://github.com/zurb/foundation-sites/pulls), anyone? 
+This has me thinking.  Can a traditional reporting data grids be responsive?  Anything can be made responsive, but will it provide meaningful value to users?  Do tabular data grids even fit in the responsive world?  I do not have the answers to these questions.  Mobile-first data grid does not roll off the tongue well.  I need to do some research, find use cases, and see what Zurb's [stacked table](http://foundation.zurb.com/sites/docs/table.html) offers.  A Zurb pie, bar, scatter plot, or line chart sounds like a useful open-source project. [Pull request](https://github.com/zurb/foundation-sites/pulls), anyone? 
 
-Javascript is not as strict as C# or Java regarding interface adherence, so technically you could get away with not implementing these. No compilers, just transpilers and conventions.  One standard convention stated direction in the Zurb documentation:  
+Javascript is not as strict as C# or Java regarding interface adherence, so technically you could get away with not implementing the standard methods listed below.  No compilers, just a transpiler and conventions.  One standard convention stated directly in the Zurb documentation:  
 
 > Plugin methods prefixed with an underscore are considered part of the internal API, which means they could change, break, or disappear without warning. 
 
-I am unsure why you wouldn't want your plugin to play nicely with Zurb and other components?  Whether you choose composition or aggregation at minimum your plugin should contain these methods:  
+I am unsure why you wouldn't want your plugin to play nicely with Zurb and other components.  Whether you choose composition or aggregation, at minimum your plugin should contain these methods:  
 
 `constructor(element, options)` is your plugin constructor.  It initializes and sets up your plugin.  Registers `Foundation.Keyboard` handlers. And registers your plugin. 
 
@@ -60,7 +60,7 @@ Also fires the destroyed event for the plugin, consolidating repetitive code.
 
 ## Final Thoughts
 
-Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) plugins are a great way to roll your own responsive components and provide any missing pieces for your project under a consistent framework.
+Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) plugins are a great way to roll your own responsive components and provide missing pieces for your project under a consistent framework.
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
