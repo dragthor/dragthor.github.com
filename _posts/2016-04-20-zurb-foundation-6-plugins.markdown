@@ -45,23 +45,23 @@ I am unsure why you wouldn't want your plugin to play nicely with Zurb and other
 
 How are plugins managed by the framework?  Inside the constructor and destroy methods are calls to `Foundation.registerPlugin` and `Foundation.unregisterPlugin(this)`.  Each are found in `foundation.core.js` and described below:
 
-`registerPlugin`
+### registerPlugin
 
-This is how your plugin announces to the Zurb framework "Hey, I am here!"  Foundation stores a unique id pointer (think C# or Java reference) for each plugin instance in an internal `Array` and then triggers the plugin's initialization event.  Additionally, it adds the `zfPlugin` data-attribute to allow your plugin to be used like this:
+Calling `registerPlugin` is how your plugin announces to the Zurb framework, "Hey, I am here!"  Foundation stores a unique id pointer (think C# or Java reference) for each plugin instance in an internal `Array` and then triggers the plugin's initialization event.  Additionally, it adds the `zfPlugin` data-attribute to allow your plugin to be used like this:
 
 * `$('#myZurbPlugin').foundation('destroy');` - I am done with you.  Now go away and make sure you clean yourself up.
-* `$('#myZurbPlugin').foundation('formatTime');` - Call the publically available `formatTime` function on fictitious datepicker.
+* `$('#myZurbPlugin').foundation('formatTime');` - Call the publicly available `formatTime` function on the fictitious datepicker.
 * `$('#myZurbPlugin').foundation('buyKrisCoffee');` - Buy Kris a cup of coffee.
 
-`unregisterPlugin`
+### unregisterPlugin
 
-This is how your plugin announces to the Zurb framework "Hey, I am done!"  Foundation removes the unique id pointer from the internal `Array`, removes the added `zfPlugin` data-attribute, and remove any `zfPlugin` stored data.  Finally, it triggers the plugin's destroy event.
+Calling `unregisterPlugin` is how your plugin announces to the Zurb framework, "Hey, I am done!"  Foundation removes the unique id pointer from the internal `Array`, removes the added `zfPlugin` data-attribute, and remove any `zfPlugin` stored data.  Finally, it triggers the plugin's destroy event.
 
 <script src="https://gist.github.com/dragthor/8ca90a0cd019c1fcb3f45eec7f893904.js"></script> 
 
 ## Final Thoughts
 
-Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) plugins are a great way to roll your own responsive components and provide missing pieces for your project under a consistent framework.  I decided to not discuss namespacing and publishing your custom Zurb plugin package to [NPM](https://www.npmjs.com/) at this time.  Please stay tuned for a future post. 
+Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) plugins are a great way to roll your own responsive components and provide missing pieces for your project under a consistent framework.  I hope to have a non-fictitious Zurb datepicker plugin ready soon if there is interest.  I decided to not discuss namespacing and publishing your custom Zurb plugin package to [NPM](https://www.npmjs.com/) at this time.  Please stay tuned for a future post. 
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
