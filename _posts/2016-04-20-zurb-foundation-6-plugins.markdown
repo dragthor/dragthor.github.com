@@ -43,14 +43,14 @@ I am unsure why you wouldn't want your plugin to play nicely with Zurb and other
 
 ## Plugin Management 
 
-How are they managed by the framework? 
+How are plugins managed by the framework?  Inside the constructor and destroy methods are where you make the call to `Foundation.registerPlugin` and `Foundation.unregisterPlugin(this)`.  Each are found in `foundation.core.js` and described below:
 
-`registerPlugin` – in core.js 
+`registerPlugin`
 
 Populates the _uuids array with pointers to each individual plugin instance. 
 Adds the `zfPlugin` data-attribute to programmatically created plugins to allow use of $(selector).foundation(method) calls.  Also fires the initialization event for each plugin, consolidating repetitive code. 
 
-`unregisterPlugin` – in core.js 
+`unregisterPlugin`
 
 Removes the plugins uuid from the _uuids array. 
 Removes the `zfPlugin` data attribute, as well as the data-plugin-name attribute. 
