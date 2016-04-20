@@ -39,28 +39,29 @@ I am unsure why you wouldn't want your plugin to play nicely with Zurb and other
 
 * `_init()` -  `reflow` `reInit` to reinitialize, reset/remove event listeners, recalculate position, etc.   
 
-* `_events()` - define and setup events.  The fictional datepicker described in the post might trigger `dateSelected`, `cancelled`, and `isValid`.  It might also bind and handle dropdown events.
+* `_events()` - define and setup events.  The fictional datepicker previously described might trigger `dateSelected`, `cancelled`, and `isValid` events.  It might also decide to bind and handle dropdown events, encapsulating them.
 
 ## Plugin Management 
 
-How are plugins managed by the framework?  Inside the constructor and destroy methods are where you make the call to `Foundation.registerPlugin` and `Foundation.unregisterPlugin(this)`.  Each are found in `foundation.core.js` and described below:
+How are plugins managed by the framework?  Inside the constructor and destroy methods are calls to `Foundation.registerPlugin` and `Foundation.unregisterPlugin(this)`.  Each are found in `foundation.core.js` and described below:
 
 `registerPlugin`
 
-Populates the _uuids array with pointers to each individual plugin instance. 
-Adds the `zfPlugin` data-attribute to programmatically created plugins to allow use of $(selector).foundation(method) calls.  Also fires the initialization event for each plugin, consolidating repetitive code. 
+This is how your plugin announces to the Zurb framework "Hey, I am here!"  Foundation stores a unique id pointer (think C# or Java reference) for each plugin instance in an internal `Array` and then triggers the plugin's initialization event.  Additionally, it adds the `zfPlugin` data-attribute to allow your plugin to be used like this:
+
+* `$('#myZurbPlugin').foundation('destroy');` - I am done with you.  Now go away and make sure you clean yourself up.
+* `$('#myZurbPlugin').foundation('formatTime');` - Call the publically available `formatTime` function on fictitious datepicker.
+* `$('#myZurbPlugin').foundation('buyKrisCoffee');` - Buy Kris a cup of coffee.
 
 `unregisterPlugin`
 
-Removes the plugins uuid from the _uuids array. 
-Removes the `zfPlugin` data attribute, as well as the data-plugin-name attribute. 
-Also fires the destroyed event for the plugin, consolidating repetitive code. 
+This is how your plugin announces to the Zurb framework "Hey, I am done!"  Foundation removes the unique id pointer from the internal `Array`, removes the added `zfPlugin` data-attribute, and remove any `zfPlugin` stored data.  Finally, it triggers the plugin's destroy event.
 
 <script src="https://gist.github.com/dragthor/8ca90a0cd019c1fcb3f45eec7f893904.js"></script> 
 
 ## Final Thoughts
 
-Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) plugins are a great way to roll your own responsive components and provide missing pieces for your project under a consistent framework.
+Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) plugins are a great way to roll your own responsive components and provide missing pieces for your project under a consistent framework.  I decided to not discuss namespacing and publishing your custom Zurb plugin package to [NPM](https://www.npmjs.com/) at this time.  Please stay tuned for a future post. 
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
