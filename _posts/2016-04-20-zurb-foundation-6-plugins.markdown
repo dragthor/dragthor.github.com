@@ -27,6 +27,7 @@ In the traditional object-oriented programming world, the aforementioned datepic
 
 > The idea is to not fight against the framework.  Work with it.
 
+These examples have me thinking.  Specifically, the sortable grid column has me thinking about, grids.  Can traditional reporting data grids be responsive?  Anything can be made responsive, but will it provide meaningful value to users?  Do tabular data grids even fit in the responsive world?  I do not know or have answers to these questions as "mobile-first data grid" does not roll off the tongue well.  I need to do some research, find use cases, and see what Zurb's [stacked table](http://foundation.zurb.com/sites/docs/table.html) offers.  If you have thoughts or ideas, please leave a comment or email me directly.  Also a Zurb pie, bar, scatter plot, or line chart plugin sounds like a potential useful open-source project.  Does anyone want to create a new [Github repository](https://github.com/open-source)?  Again, I digress.  Back to plugins.
 
 Javascript is not as strict as C# or Java regarding interface adherence, so technically you could get away with not implementing the standard template methods described below.  I am unsure why you wouldn't want your plugin to play nicely with Zurb and other components.  To help guard and protect ourselves living in a Javascript world without compilers, we utilize transpilers, linters, and conventions.  One plugin related standard convention that you should be made aware of is stated directly in the Zurb documentation:  
 
