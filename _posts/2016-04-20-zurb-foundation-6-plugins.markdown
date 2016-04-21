@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing Zurb Foundation 6 Plugins "
+title: "Introducing Zurb Foundation 6 Plugins"
 permalink: /zurb-foundation-6-plugins/
 meta: zurb
 published: true
