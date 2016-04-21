@@ -8,7 +8,7 @@ description: "Current list of devices that I use to develop and test software.  
 
 [Samsung Galaxy Note 3](http://amzn.to/1TA1jDo)
 
-[Kindle](http://amzn.to/265Sqpy)
+[Kindle](http://amzn.to/1rmlQQB)
 
 [Kindle Fire](http://amzn.to/1YG3jtd)
 
