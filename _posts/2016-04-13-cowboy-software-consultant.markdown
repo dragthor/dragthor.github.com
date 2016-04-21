@@ -13,7 +13,7 @@ Cowboy (or rogue) software consultants are not difficult to spot once you start 
 
 The trick is to look for red flags before hiring them.  Yes, there are short-term consulting projects that last about a month (or two).  Look for patterns; try to decipher their client turnover rate or question them directly.  Contacting the potential consultant's previous clients can help.  But not everyone has time to follow up or care to respond honestly.  A lack of directness or "corporate policy" to not disclose anything may indicate the guy was a disaster.
 
-> Lack of directness, not "corporate policy" to not disclose anything, may indicate the guy was a disaster.
+> A lack of directness or "corporate policy" to not disclose anything, may indicate the guy was a disaster.
 
 Beware of the "sorry, they are no longer in business" story.  (I've had a manager give me this story when I casually asked about his mysterious previous experience, but that is another post).  Almost everyone has had a consulting gig turn bad for one reason or another.  And there are always two sides to a negative software consulting relationship.  Ask them about their side.  See if they are honest.  See what they learned from it (if anything).  If not, they may be a really [smart developer](/smartest-guy-in-the-room-not-the-best-developer/).
 
