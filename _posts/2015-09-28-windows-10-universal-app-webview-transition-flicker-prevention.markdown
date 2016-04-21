@@ -6,11 +6,11 @@ meta: windows-app zurb
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/webview-flicker.jpg
 description: "Windows 10 Universal App WebView transition flicker prevention with Zurb and knockoutjs."
 ---
-Currently I am developing a Windows 10 Universal App that utilizes a [WebView](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.webview), [Knockout Js](http://knockoutjs.com), and [Zurb Foundation](http://foundation.zurb.com).  Yeah, I know nothing earth shattering.
+Currently, I am developing a Windows 10 Universal App that utilizes a [WebView](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.webview), [Knockout Js](http://knockoutjs.com), and [Zurb Foundation](http://foundation.zurb.com).  Yeah, I know nothing earth shattering.
 
 ![alt text]({{ page.image }} "Webview Flicker")
 
-[Xaml](https://msdn.microsoft.com/en-us/library/cc295302%28v=expression.40%29.aspx) is fine and probably preferred for a larger app (and this is a small app with less than six screens) using [Blend](https://en.wikipedia.org/wiki/Microsoft_Blend).  I am not a designer.  As a weekend warrior after hours programming hobbyist I have no problem offloading as much design as possible to the [Zurb](http://foundation.zurb.com/) framework.  And I want to personally prove that it can be done (and get another app in the store) while leveraging my existing knowledge of C#, Javascript, and [Zurb](http://foundation.zurb.com/).
+[Xaml](https://msdn.microsoft.com/en-us/library/cc295302%28v=expression.40%29.aspx) is fine and probably preferred for a larger app (and this is a small app with less than six screens) using [Blend](https://en.wikipedia.org/wiki/Microsoft_Blend).  I am not a designer.  As a weekend warrior after hours programming hobbyist, I have no problem offloading as much design as possible to the [Zurb](http://foundation.zurb.com/) framework.  And I want to personally prove that it can be done (and get another app in the store) while leveraging my existing knowledge of C#, Javascript, and [Zurb](http://foundation.zurb.com/).
 
 {% include adsense.html %}
 

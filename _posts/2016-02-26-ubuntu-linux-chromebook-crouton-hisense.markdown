@@ -18,15 +18,15 @@ Enter [Crouton](https://github.com/dnschneid/crouton).  The installation instruc
 
 {% include adsense.html %}
 
-Personally I think 2GB of RAM is a little too slim to run Unity Ubuntu so I opted for the [lxde](http://lxde.org/) desktop with Ubuntu.  Forget about Android Studio - I tried.  It simply uses too much memory.  And it seems that a few of its tools favor Intel x86.  You can still install the JDK to run and compile Java.  Gimp, Git, Ruby, Python, PyCharm, and WebStorm work well.  I did not try to install IntelliJ or a [LAMP stack](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29).
+Personally, I think 2GB of RAM is a little too slim to run Unity Ubuntu so I opted for the [lxde](http://lxde.org/) desktop with Ubuntu.  Forget about Android Studio - I tried.  It simply uses too much memory.  And it seems that a few of its tools favor Intel x86.  You can still install the JDK to run and compile Java.  Gimp, Git, Ruby, Python, PyCharm, and WebStorm work well.  I did not try to install IntelliJ or a [LAMP stack](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29).
 
-After installing Firefox (or Chromium) go ahead and remove the default [NetSurf browser](http://www.netsurf-browser.org/) - ```apt-get remove netsurf-gtk```.  Sure its small as a mouse, and fast as a cheetah but not familiar to the majority of users.  I am old enough to remember the Mosaic and early Netscape days - I'm trying to move past them.
+After installing Firefox (or Chromium) go ahead and remove the default [NetSurf browser](http://www.netsurf-browser.org/) - ```apt-get remove netsurf-gtk```.  Sure it's small as a mouse, and fast as a cheetah but not familiar to the majority of users.  I am old enough to remember the Mosaic and early Netscape days - I'm trying to move past them.
 
 One consequence of enabling Developer Mode on the Chromebook is that during boot you have to ```Ctrl-D``` every time to confirm.  The good news is that you do not have to perform reboots often.  The battery can last a long time and the Chrome OS optimizes (works correctly) when you close the lid.  Expect a similar experience to the Mac laptops which also provide good, clean, lid closing.  Is it me or has lid closing been an unresolved issue with Windows laptops?
 
-In the future I plan on purchasing two more Chromebooks for my kids (wink wink - dad will be taking them apart).  Probably with an Intel processor just to see if I can successfully build an existing Android project.
+In the future, I plan on purchasing two more Chromebooks for my kids (wink wink - dad will be taking them apart).  Probably with an Intel processor just to see if I can successfully build an existing Android project.
 
-Final thoughts - are you primarily a consumer or a producer?  And what is the ideal balance?  80% producer, 20% consumer?  And are you consuming too much?  Personally I need to be producing more consuming less.
+Final thoughts - are you primarily a consumer or a producer?  And what is the ideal balance?  80% producer, 20% consumer?  And are you consuming too much?  Personally, I need to be producing more consuming less.
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-26-ubuntu-linux-chromebook-crouton-hisense.markdown" target="_blank">Contribute and Fork</a>
 

@@ -10,7 +10,7 @@ I did it.  I took the plunge.  I finally purchased an [Arduino](http://amzn.to/1
 
 ![alt text]({{ page.image }} "Arduino")
 
-What exactly am I trying to accomplish?  Admittedly it's another new toy for dad.  I enjoy this kind of stuff.  However I am hopeful I can use the Arduino with my two young daughters.  Get them **involved**.  Get them interested.  Get them **excited**.  Show them a computer program that instructs a microcontroller to send and receive little tiny electrical impulses.  Demonstrate the humble beginnings of what is inside their smart phones and computers.  Plus who doesn't like colorful LED lights?  I ordered about 500 of them.
+What exactly am I trying to accomplish?  Admittedly it's another new toy for dad.  I enjoy this kind of stuff.  However, I am hopeful I can use the Arduino with my two young daughters.  Get them **involved**.  Get them interested.  Get them **excited**.  Show them a computer program that instructs a microcontroller to send and receive little tiny electrical impulses.  Demonstrate the humble beginnings of what is inside their smart phones and computers.  Plus who doesn't like colorful LED lights?  I ordered about 500 of them.
 
 {% include adsense.html %}
 
@@ -28,7 +28,7 @@ void loop() { Serial.println(someSensorValue); };
 
 An [Arduino Unit Test framework](https://github.com/mmurdoch/arduinounit) exists which can also help debug and design software logic.  Debugging hardware usually involves reading datasheets, voltage meters, triple checking the wiring, and at times contacting the component manufacturer.
 
-Additionally I picked up temperature, light, and carbon monoxide sensors as well as a tiny LCD screen and a bluetooth shield.  I plan to send commands to Arduino via bluetooth from my Android device.  Shields are boards (or components) that literally plug into your Arduino to extend functionality.  To prevent against fraudulent (and illegal) parts (and personal frustration and disappointment) utilize [Octopart](https://octopart.com/) to locate an Authorized Distributor.  Expect fake and high defect rate Arduino components from [AliExpress](http://www.aliexpress.com/).  If the price is too good to be true, it probably is.  And do not let the five star seller ratings and reviews fool you either!
+Additionally, I picked up temperature, light, and carbon monoxide sensors as well as a tiny LCD screen and a bluetooth shield.  I plan to send commands to Arduino via bluetooth from my Android device.  Shields are boards (or components) that literally plug into your Arduino to extend functionality.  To prevent against fraudulent (and illegal) parts (and personal frustration and disappointment) utilize [Octopart](https://octopart.com/) to locate an Authorized Distributor.  Expect fake and high defect rate Arduino components from [AliExpress](http://www.aliexpress.com/).  If the price is too good to be true, it probably is.  And do not let the five-star seller ratings and reviews fool you either!
 
 Finally, I am running Ubuntu (you can also use Mac and Windows) and came across this error while attempting to push sketch code to my [Arduino](http://amzn.to/1pAaAil):
 

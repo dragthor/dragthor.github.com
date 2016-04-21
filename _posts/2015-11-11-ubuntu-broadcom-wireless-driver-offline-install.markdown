@@ -10,13 +10,13 @@ You installed Ubuntu and the only access to the interweb is via Wifi (no etherne
 
 ![alt text]({{ page.image }} "Wireless Coffee")
 
-First you need to determine which card you have:
+First, you need to determine which card you have:
 
 [http://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers](http://askubuntu.com/questions/55868/installing-broadcom-wireless-drivers)
 
 Mine is a ```BCM43142 14e4:4365 rev 01```.  And I am running [Trusty](https://wiki.ubuntu.com/DevelopmentCodeNames) 14.04 TLS so I need to use ```bcmwl-kernel-source```. 
 
-Next I need to utilize a different computer (or phone, or phablet) to [download the appropriate package](https://launchpad.net/ubuntu/+source/bcmwl). Save the .deb file to a separate USB (or whatever) and copy to your local system.
+Next, you need to utilize a different computer (or phone, or phablet) to [download the appropriate package](https://launchpad.net/ubuntu/+source/bcmwl). Save the .deb file to a separate USB (or whatever) and copy to your local system.
 
 {% include adsense.html %}
 

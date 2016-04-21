@@ -7,7 +7,7 @@ published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/email-course.jpg
 description: "Want to improve your writing skills?  How about some professional soft skills?  One place to start is the Simple Programmer by creator John Sonmez."
 ---
-Want to improve your writing skills?  How about some professional [soft skills](https://en.wikipedia.org/wiki/Soft_skills) development?  One place to start is the [Simple Programmer](http://simpleprogrammer.com) by creator John Sonmez.  At first glance his [YouTube](https://www.youtube.com/user/jsonmez) thumbnails might look a little cheesy.  But let me assure you that he and his content are not.  He's a character for sure.  And he delivers good content with personality.
+Want to improve your writing skills?  How about some professional [soft skills](https://en.wikipedia.org/wiki/Soft_skills) development?  One place to start is the [Simple Programmer](http://simpleprogrammer.com) by creator John Sonmez.  At first glance, his [YouTube](https://www.youtube.com/user/jsonmez) thumbnails might look a little cheesy.  But let me assure you that he and his content are not.  He's a character for sure.  And he delivers good content with personality.
 
 ![alt text]({{ page.image }} "Email Blog Course")
 
@@ -19,7 +19,7 @@ Sure you might think that you know how to blog.  I am sure you do.  There are lo
 
 I even purchased his book [Soft Skills: The software developer's life manual](http://amzn.to/1pH565i) and cannot wait to read the productivity, financial, personal fitness chapters.
 
-Are you going to make a million dollars over night or even at all?  Of course not.  And John is not promising it.  Are you going to be successful?  Maybe.  Maybe not.  However there are some things that you can learn from other successful people like John.  What's the final nail in the coffin to sign up for his [email course](http://devcareerboost.com/blog-course/)?  John is a software developer.  He's been in the trenches.  Just like you and me.
+Are you going to make a million dollars over night or even at all?  Of course not.  And John is not promising it.  Are you going to be successful?  Maybe.  Maybe not.  However, there are some things that you can learn from other successful people like John.  What's the final nail in the coffin to sign up for his [email course](http://devcareerboost.com/blog-course/)?  John is a software developer.  He's been in the trenches.  Just like you and me.
 
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-14-john-sonmez-simple-programmer-blog-email-course.markdown" target="_blank">Contribute and Fork</a>
 
