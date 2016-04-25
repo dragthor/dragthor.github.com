@@ -21,6 +21,4 @@ I even purchased his book [Soft Skills: The software developer's life manual](ht
 
 Are you going to make a million dollars over night or even at all?  Of course not.  And John is not promising it.  Are you going to be successful?  Maybe.  Maybe not.  However, there are some things that you can learn from other successful people like John.  What's the final nail in the coffin to sign up for his [email course](http://devcareerboost.com/blog-course/)?  John is a software developer.  He's been in the trenches.  Just like you and me.
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-14-john-sonmez-simple-programmer-blog-email-course.markdown" target="_blank">Contribute and Fork</a>
-
 {% include disqus.html %}

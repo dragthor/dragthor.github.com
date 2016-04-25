@@ -90,6 +90,4 @@ Ignore the `outerHeight` call (we can discuss another time).  The self-invoking 
 
 {% include adsense.html %}
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-18-web-page-performance-death-by-a-thousand-tiny-cuts.markdown" target="_blank">Contribute and Fork</a>
-
 {% include disqus.html %}

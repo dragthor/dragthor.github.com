@@ -41,6 +41,4 @@ Disclaimer:  I am not anti-consultant.  And I am not anti-overseas consultant.
 
 {% include adsense.html %}
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-23-consultants-ate-my-unit-tests.markdown" target="_blank">Contribute and Fork</a>
-
 {% include disqus.html %}

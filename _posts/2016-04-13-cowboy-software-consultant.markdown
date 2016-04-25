@@ -56,7 +56,5 @@ Protect yourself.  Protect your project.  Protect your architecture.  Protect yo
  * Poor time management.  Poor communication skills.  Poor [soft skills](/soft-skills/).
 
 {% include adsense.html %}
- 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-04-13-cowboy-software-consultant.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}
