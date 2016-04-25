@@ -63,6 +63,8 @@ Calling `unregisterPlugin` is the way your plugin announces to the Zurb framewor
 
 <script src="https://gist.github.com/dragthor/8ca90a0cd019c1fcb3f45eec7f893904.js"></script> 
 
+{% include adsense.html %}
+
 ## Final Thoughts
 
 Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) plugins are a great way to roll your own responsive components and provide missing pieces for your project under a consistent framework.  If you follow some guidelines and work with (not against) the framework, plugins are a breeze.  This allows you to focus on your project's specific needs.  Zurb plugins are a good way to isolate, manage, and reuse your custom code.

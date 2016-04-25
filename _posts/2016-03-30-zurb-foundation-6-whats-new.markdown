@@ -84,6 +84,8 @@ The amount of Javascript is less monolithic because it’s easier to choose only
 
 Components such as Tooltips sometimes like to leave behind footprints (i.e., the tooltip template).  Fortunately, a new `destroy` pattern is consistently implemented – when finished or when removed from the DOM, clean yourself up.  Think finalizer in object-oriented programming.  This would also be a great pattern to implement in Foundation 5.  [Pull request](https://github.com/zurb/foundation-sites/tree/V5), anyone?  `destroy` literally destroys instance and state, unbinds events, or removes elements completely.  Performance matters.  And I hate seeing unused Tooltip templates lingering in my DOM.  Sometimes, third party Javascript vendors like to haphazardly bind to these elements and never let go.
 
+{% include adsense.html %}
+
 ## Final Thoughts
 
 Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) is good and was carefully considered for both designers and frontend developers.  Download it.  Try it.  Contribute to it.  Help make it better.  Heck, share some knowledge with a backend developer too.  While it's not as mature as Foundation 5 and though it has less tests, Foundation 6 should be your mobile-first responsive strategy going forward.  Please stay tuned for future posts that dive deeper into specific components, tools, and features.
