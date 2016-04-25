@@ -17,6 +17,8 @@ At the end of an electrical cord in your house, there can be numerous types of i
 
 ![alt text]({{ page.image }} "Zurb Foundation 6 plugin")
 
+{% include adsense.html %}
+
 ## Boilerplate Skeleton Code
 
 What do all plugins have in common and what are they made of?  At the end of the day, creating a Zurb plugin requires nothing more than providing custom CSS, HTML, and Javascript.  The idea is to not fight against the framework.  Work with it.  Extend that which has already been implemented by people smarter than you and I.  You can even wrap existing components to "plug in" into existing Zurb ideas.  For example, a custom Zurb datepicker could be composed of an input field to receive focus, then display a `reveal` with three dropdowns (one for day, month, and year).  Example markup for a Zurb datetime plugin is shown here:
