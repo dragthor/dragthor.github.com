@@ -5,8 +5,6 @@ permalink: /archive/
 description: "Archive of most recent blog posts about unit testing, zurb, android, and javascript."
 ---
 <div class="home">
-	{% include adsense.html %}
-	
 	<ul>
 	  {% for post in site.posts %}
 	  <li class="archive">
@@ -23,11 +21,10 @@ description: "Archive of most recent blog posts about unit testing, zurb, androi
 	  {% endfor %}
 	</ul>
 
-
-  
   <p class="rss-subscribe">
 	<span class="fi-rss size-21"></span> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
   </p>
-
-  {% include adsense.html %}
+ 
 </div>
+
+{% include adsense.html %}

@@ -23,6 +23,7 @@ description: "Zurb Foundation development, learning, and testing.  Zurb for Site
 		{% endif %}
     {% endfor %}
   </ul>
-  
-  {% include adsense.html %}
+   
 </div>
+
+{% include adsense.html %}

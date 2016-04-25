@@ -4,8 +4,6 @@ title: Tags
 permalink: /tags/
 description: "Categorized blog posts using tags.  Posts are gouped by tag."
 ---
-{% include adsense.html %}
-
 * [android](/android) - Android Development and Testing
 
 * [arduino](/arduino) - Arduino IoT Hobby
