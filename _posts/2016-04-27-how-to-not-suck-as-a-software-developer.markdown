@@ -4,9 +4,12 @@ title: "How to Not Suck as a Software Developer"
 permalink: /how-to-not-suck-as-a-software-developer/
 meta: zurb
 published: false
-description: "How to not suck as a software developer, computer programmer, or web developer)."
-image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-plugin.jpg
+description: "How to not suck as a software developer, computer programmer, or front-end web developer)."
+image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/vampire-cat-not-suck.jpg
 ---
 
+![alt text]({{ page.image }} "How to Not Suck")
+
+{% include adsense.html %}
 
 {% include disqus.html %}
