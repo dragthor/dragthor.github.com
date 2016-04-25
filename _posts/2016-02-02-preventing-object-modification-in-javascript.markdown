@@ -93,6 +93,4 @@ Lead generation, eCommerce pixel partners, referral & affiliates, and commission
 
 {% include adsense.html %}
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-02-preventing-object-modification-in-javascript.markdown" target="_blank">Contribute and Fork</a>
-
 {% include disqus.html %}

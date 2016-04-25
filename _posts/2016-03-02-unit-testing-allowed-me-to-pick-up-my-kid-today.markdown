@@ -26,6 +26,4 @@ Does unit testing save you time often?  More at the beginning or the end of an i
 
 {% include adsense.html %}
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-02-unit-testing-allowed-me-to-pick-up-my-kid-today.markdown" target="_blank">Contribute and Fork</a>
-
 {% include disqus.html %}

@@ -52,6 +52,4 @@ Are you ready to take the Arduino plunge?  It's a great way to share your excite
 
 {% include adsense.html %}
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-10-arduino-sketch-debugging-for-dad-and-kids.markdown" target="_blank">Contribute and Fork</a>
-
 {% include disqus.html %}

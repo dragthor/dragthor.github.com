@@ -30,6 +30,4 @@ Final thoughts - are you primarily a consumer or a producer?  And what is the id
 
 {% include adsense.html %}
 
-<span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-26-ubuntu-linux-chromebook-crouton-hisense.markdown" target="_blank">Contribute and Fork</a>
-
 {% include disqus.html %}
