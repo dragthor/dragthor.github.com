@@ -88,6 +88,8 @@ Code suggested change:
 
 Ignore the `outerHeight` call (we can discuss another time).  The self-invoking anonymous function might be overkill.  Although ideally it should be a named function organized within a namespace.  The `var` caching helps and the code is also more readable.  But this could just be personal style and not necessarily wrong.  What do you think?  Are the tiny javascript cuts I mentioned nit-picking?  I am positive there are a lot more out there.
 
+{% include adsense.html %}
+
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-18-web-page-performance-death-by-a-thousand-tiny-cuts.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}

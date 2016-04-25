@@ -91,6 +91,8 @@ See the [ECMAScript compatibility table](http://kangax.github.io/compat-table/es
 
 Lead generation, eCommerce pixel partners, referral & affiliates, and commission tracking are some use cases that come to mind.  What are some other scenarios to guard your Javascript objects against?  And yes, unfortunately sometimes our own code can be our enemy too.
 
+{% include adsense.html %}
+
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-02-preventing-object-modification-in-javascript.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}

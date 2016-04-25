@@ -24,6 +24,8 @@ Not only is the next guy (or future self) and code reviewer going to appreciate 
 
 Does unit testing save you time often?  More at the beginning or the end of an iteration/sprint?  Or both?  Still haven't convinced yourself they are worth the effort?  Godspeed.
 
+{% include adsense.html %}
+
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-02-unit-testing-allowed-me-to-pick-up-my-kid-today.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}

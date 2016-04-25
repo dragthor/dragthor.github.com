@@ -41,6 +41,8 @@ Disclaimer: I am not anti-Ph.D..  I am anti-jerk.
 
 Stay tuned for some more [developer war stories](/dev-life/) as I remember them.  [Consultants Ate My Unit Tests](/consultants-ate-my-unit-tests/) was popular.
 
+{% include adsense.html %}
+
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-04-04-smartest-guy-in-the-room-not-the-best-developer.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}

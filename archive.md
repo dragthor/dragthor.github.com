@@ -5,7 +5,8 @@ permalink: /archive/
 description: "Archive of most recent blog posts about unit testing, zurb, android, and javascript."
 ---
 <div class="home">
-
+	{% include adsense.html %}
+	
 	<ul>
 	  {% for post in site.posts %}
 	  <li class="archive">

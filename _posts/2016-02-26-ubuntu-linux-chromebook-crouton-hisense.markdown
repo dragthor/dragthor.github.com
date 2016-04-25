@@ -28,6 +28,8 @@ In the future, I plan on purchasing two more Chromebooks for my kids (wink wink 
 
 Final thoughts - are you primarily a consumer or a producer?  And what is the ideal balance?  80% producer, 20% consumer?  And are you consuming too much?  Personally, I need to be producing more consuming less.
 
+{% include adsense.html %}
+
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-02-26-ubuntu-linux-chromebook-crouton-hisense.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}

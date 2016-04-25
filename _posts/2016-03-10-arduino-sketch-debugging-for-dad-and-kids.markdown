@@ -50,6 +50,8 @@ One way to change this is to run this command:
 
 Are you ready to take the Arduino plunge?  It's a great way to share your excitement, personality, and job (if you are a computer programmer) with your kids.  **Engage and interact**.  Build a robot that operates outside.  Watch Star Wars and Star Trek with them later.
 
+{% include adsense.html %}
+
 <span class="fi-page-edit size-21"></span> <a href="{{ site.post_source_root }}2016-03-10-arduino-sketch-debugging-for-dad-and-kids.markdown" target="_blank">Contribute and Fork</a>
 
 {% include disqus.html %}
