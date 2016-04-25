@@ -23,5 +23,7 @@ description: "Professional developer soft skills for sometimes socially ackward 
     {% endfor %}
   </ul>
   
-  {% include adsense.html %}
+  
 </div>
+
+{% include adsense.html %}

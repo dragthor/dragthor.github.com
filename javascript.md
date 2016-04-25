@@ -23,5 +23,7 @@ description: "Adventures in Javascript and Javascript unit testing."
     {% endfor %}
   </ul>
   
-  {% include adsense.html %}
+  
 </div>
+
+{% include adsense.html %}

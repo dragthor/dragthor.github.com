@@ -23,5 +23,7 @@ description: "Unit testing produces better code.  Better design.  Android and ja
     {% endfor %}
   </ul>
   
-  {% include adsense.html %}
+  
 </div>
+
+{% include adsense.html %}

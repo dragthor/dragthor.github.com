@@ -23,5 +23,7 @@ description: "Working with the Linux operating system to develop software."
     {% endfor %}
   </ul>
   
-  {% include adsense.html %}
+  
 </div>
+
+{% include adsense.html %}

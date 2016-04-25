@@ -23,5 +23,7 @@ description: "Developer war stories, lifestyle, work environment, coding culture
     {% endfor %}
   </ul>
   
-  {% include adsense.html %}
+  
 </div>
+
+{% include adsense.html %}

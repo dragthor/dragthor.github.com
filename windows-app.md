@@ -24,5 +24,7 @@ description: "Windows 10 Universal application development and testing."
     {% endfor %}
   </ul>
   
-  {% include adsense.html %}
+  
 </div>
+
+{% include adsense.html %}

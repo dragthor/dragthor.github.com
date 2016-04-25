@@ -24,5 +24,7 @@ description: "Android development, testing, unit testing, espresso, and automate
     {% endfor %}
   </ul>
   
-  {% include adsense.html %}
+ 
 </div>
+
+{% include adsense.html %}
