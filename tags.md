@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Tags
+title: Tags for blog posts.  Posts are grouped & cateorized by one or more tags.
 permalink: /tags/
-description: "Categorized blog posts using tags.  Posts are gouped by tag."
+description: "Categorized blog posts using tags.  Posts are gouped by one or more tags."
 ---
 * [android](/android) - Android Development and Testing
 
