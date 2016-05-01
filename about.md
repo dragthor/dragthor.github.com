@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Kris Krause, software developer & professional toolbar.
 description: "Hi.  My name is Kris Krause.  I write software.  Language and platform?  Depends on the problem."
 permalink: /about/
 redirect_from:
