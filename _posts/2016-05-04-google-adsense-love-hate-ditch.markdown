@@ -14,7 +14,7 @@ I’ve ditched [Google's AdSense](https://www.google.com/adsense) and hopefully,
 ## Loved It
 I made a few bucks (about $25 net) a month after hosting fees (today's cloud wasn't born yet).  It wasn't passive income because I still had to actively monitor and maintain the site on a daily basis (usually early morning or late evening around my full-time day job as a software developer).  Fighting internet trolls was a game I did not enjoy.  However, I used the income to pay my yearly hunting and fishing license fees.  Hunting and fishing were "games" I did enjoy: outside and away from the computer.  I use quotes around "games" because I do not mean to devalue the animal.  For those of you unfamiliar with recreational hunting, killing is just 1% of the overall hunting experience.
 
-One could say hunting and fishing were passions; I did enjoy discussing tactics, ideas, and sharing hunting and fishing stories on the forum.  Although I have not done either in several years (wife, kids, exercise, health, and a great full-time job are priorities), I still head to the local range here in New Jersey once in a while to shoot guns or practice traditional archery.  As the original passion waned, so did the forum and I eventually sold the website and domain name in October 2012 (1.5 million monthly page views). 
+One could say hunting and fishing were passions; I did enjoy discussing tactics, ideas, and sharing hunting and fishing stories on the forum.  Although I have not done either in several years (wife, kids, exercise, health, and a great full-time job are priorities), I still head to the local range here in New Jersey once in a while to shoot guns or practice traditional archery.  As the original passion waned, so did the forum and I eventually sold the website and domain name in October 2012 (averaging 1.5 million monthly page views). 
 
 One needs a thick skin to moderate a forum with thousands of members.  A lot of people complain and criticize you while offering zero ideas and zero help.  I kept telling myself that I could handle the trolls, personal attacks, and nastiness, but they did get to me at times.  They probably impacted me and others around me more than I would like to admit.  Sure, it was "just another hunting forum" with jerks hiding behind their keyboards, but people (not just me) made the site successful.  Without a doubt, the forum technology challenges were easier to manage than the members.
 
@@ -29,7 +29,7 @@ They had a great publisher platform with great payout logistics: drop a cookie, 
 
 After partnering with Tacoda, the Mercedes "cookie dream" never became reality.  However, the site was generating some nice side non-passive income (net $100 monthly) using Tacoda instead of Google AdSense.  Fighting trolls, site administration, technical headaches, and dealing with member criticism started to be worth it.  Well, at least financially: emotional and mental battles continued.
 
-Unfortunately, after several successful financial months, Tacoda was purchased by AOL.  After internal debate, politics, pushing, and shoving, AOL discontinued Tacoda's platform in favor of their own in-house advertising delivery system.  Today, AOL-TimeWarner-HuffPost-TechCrunch-Verizon search is powered by Microsoft's Bing.  And their advertising network, [AOL Platforms](http://www.aolplatforms.com/
+Unfortunately, after several successful financial months, Tacoda was purchased by AOL.  After internal debate, politics, pushing, and shoving, AOL discontinued Tacoda's platform in favor of their own in-house advertising delivery system.  Today, [AOL-TimeWarner-HuffPost-TechCrunch-Verizon](https://en.wikipedia.org/wiki/List_of_acquisitions_by_AOL) search is powered by Microsoft's Bing.  And their advertising network, [AOL Platforms](http://www.aolplatforms.com/
 ), is a Franken-tech collection of various corporate purchases since abandoning Tacoda.
 
 ## Loved It Again
@@ -43,7 +43,7 @@ I performed my own investigation and learned that hundreds of anti-hunting activ
 To keep up with the pace of growing traffic and increasing hosting fees, I turned to local advertising and voluntary membership fees.  I made the mistake of trying to manage it myself.  It was painful, way too time-consuming, and I had no skin to spare.  I eventually sold the site (and domain name) in October 2012.  Looking back, I should have outsourced the mundane to focus on managing content, building community, maintaining friendships, and continuing learning non-Microsoft technologies.
 
 ## Ditched It Again, But Not for Money
-Today, my decision to not use Google AdSense on metroize.com is not a personal vendetta against Google.  They can continue to plunder content.  And I can choose to not become an AdSense millionaire (joke) by not pimping out my content.
+Today, my decision to not use Google AdSense on [metroize.com](http://metroize.com) is not a personal vendetta against Google.  They can continue to plunder content.  And I can choose to not become an AdSense millionaire (joke) by not pimping out my content.
 
 I performed a gut check and decided I want:
 
@@ -53,7 +53,7 @@ I performed a gut check and decided I want:
 * A fast website.
 
 ### To Make the Web a Better Place
-Using AdSense to earn a few bucks a month is simply not worth it.  Of course, I do not have the number of visitors as before.  But even if I was fortunate to have thousands of page views, there is more to life than constantly making money or providing content for cheesy industries.  My visitors deserve more than seeing weight loss, non-accredited online college, gambling, and Viagra advertisements.  Yes, AdSense provides an option to block certain sites and advertisers, however, metroize.com is a tech blog that hopes to help others make the web better and more responsive (Zurb):  one ad-free page view at a time.
+Using AdSense to earn a few bucks a month is simply not worth it.  Of course, I do not have the number of visitors as before.  But even if I was fortunate to have thousands of page views, there is more to life than constantly making money or providing content for cheesy industries.  My visitors deserve more than seeing weight loss, non-accredited online college, gambling, and Viagra advertisements.  Yes, AdSense provides an option to block certain sites and advertisers, however, [metroize.com](http://metroize.com) is a tech blog that hopes to help others make the web better and more responsive (Zurb):  one ad-free page view at a time.
 
 ### To Not Annoy Visitors
 Supposedly AdSense is your friend.  You start generating traffic to your blog or website, slap on some AdSense, and then you are an AdSense millionaire sensation overnight, right?  Not exactly.  Users pay the price with frustration, distraction, and possibly misleading ad information.  Mobile ads are even more distracting.  Not only are ads on mobile devices annoying, most people end up accidentally clicking on them; diverting them away from your content.  Finally, let’s not forget that AdSense makes visitors leave your site.  
@@ -65,7 +65,7 @@ What does AdSense say about me and my content?  I hope to build a reputation by 
 I like my site to be as fast as possible.  AdSense slows things down.  I know, it’s Google, but removing AdSense saves at least one less network request.  Even worse, Google's latest mobile Page-level ad script wants to be in the head.  To be fair, the script is non-blocking, but I like to avoid putting things in the head.  If you look at my head today, I need to address foundation-icons.css since these are usually not visible above the fold anyway.  Performance is a feature and possibly another differentiator.
 
 ### Final Thoughts
-Like many others, I rode the AdSense roller coaster and became too fixated on earning advertising money at the expense of my visitors, members, and friends.  Unfortunately, I tried to bring it to metroize.com too.  It’s hard to admit, but I sacrificed my values and user experience for money.  In the future, I might recommend a book or bring on a sponsor like Telerik, Raygun, New Relic, Azure, Trello, or PluralSight in the future.  It’s important that I promote products and services that I use, own, relevant to my audience, and are not lame.
+Like many others, I rode the AdSense roller coaster and became too fixated on earning advertising money at the expense of my visitors, members, and friends.  Unfortunately, I tried to bring it to [metroize.com](http://metroize.com) too.  It’s hard to admit, but I sacrificed my values and user experience for money.  In the future, I might recommend a book or bring on a sponsor like Telerik, Raygun, New Relic, Azure, Trello, or PluralSight in the future.  It’s important that I promote products and services that I use, own, relevant to my audience, and are not lame.
 
 {% include adsense.html %}
 
