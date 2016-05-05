@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive for all blog posts published on metroize.com.
+title: Archive of all blog posts.
 permalink: /archive/
 description: "Archive of most recent blog posts about zurb, android, unit testing, and javascript."
 ---
