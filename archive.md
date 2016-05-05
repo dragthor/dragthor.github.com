@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive of all blog posts.
+title: Archive of Blog Posts
 permalink: /archive/
 description: "Archive of most recent blog posts about zurb, android, unit testing, and javascript."
 ---

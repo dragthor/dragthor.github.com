@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags for blog posts.
+title: Tags for Blog Posts
 permalink: /tags/
 description: "Categorized blog posts using tags.  Posts are gouped by one or more tags."
 ---
