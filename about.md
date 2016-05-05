@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Kris Krause, Software Veveloper & Professional Toolbar.
+title: About Kris Krause, Software Developer & Professional Toolbar.
 description: "Hi.  My name is Kris Krause.  I write software.  Language and platform?  Depends on the problem."
 permalink: /about/
 redirect_from:
