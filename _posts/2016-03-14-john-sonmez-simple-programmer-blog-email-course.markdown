@@ -17,7 +17,7 @@ His free [email course](http://devcareerboost.com/blog-course/) helps to get you
 
 Sure you might think that you know how to blog.  I am sure you do.  There are lots of tools and options out there.  But are you actually blogging?  **Are you producing something of value?**  Nothing is more disappointing than visiting a person's blog that has not been updated in over three, six, or twelve months.  I've been guilty too.  But John provides insight and methods for you to think, organize topic ideas, and avoid procrastinating.  Ultimately it's up to you and things that you can control.
 
-I even purchased his book [Soft Skills: The software developer's life manual](http://amzn.to/1pH565i) and cannot wait to read the productivity, financial, personal fitness chapters.
+I even purchased his book [Soft Skills: The software developer's life manual](http://amzn.to/26Zktr4) and cannot wait to read the productivity, financial, personal fitness chapters.
 
 Are you going to make a million dollars over night or even at all?  Of course not.  And John is not promising it.  Are you going to be successful?  Maybe.  Maybe not.  However, there are some things that you can learn from other successful people like John.  What's the final nail in the coffin to sign up for his [email course](http://devcareerboost.com/blog-course/)?  John is a software developer.  He's been in the trenches.  Just like you and me.
 

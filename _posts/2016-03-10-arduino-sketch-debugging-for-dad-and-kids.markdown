@@ -6,7 +6,7 @@ meta: arduino linux ubuntu
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/arduino.jpg
 description: "I did it.  I took the plunge.  I finally purchased an Arduino.  What took me so long to rekindle my childhood curiosity and tinker (um, break things)?  I don't know."
 ---
-I did it.  I took the plunge.  I finally purchased an [Arduino](http://amzn.to/1pAaAil).  What took me so long to rekindle my childhood curiosity and tinker (um, break things)?  I don't know.  Although recently I have been reading Charles Petzold's [Code](http://amzn.to/1pA0HkH) book and it definitely helps provide a jump start.  Many a time throughout the book I would pause and remember things - working with assembly, the Intel 8080 and 8088, the Motorola 6800, and little-endian vs. big-endian.  The good old days.  I was there.  Closer to the metal.
+I did it.  I took the plunge.  I finally purchased an [Arduino](http://amzn.to/1ZlBPsE).  What took me so long to rekindle my childhood curiosity and tinker (um, break things)?  I don't know.  Although recently I have been reading Charles Petzold's [Code](http://amzn.to/1VMiYc9) book and it definitely helps provide a jump start.  Many a time throughout the book I would pause and remember things - working with assembly, the Intel 8080 and 8088, the Motorola 6800, and little-endian vs. big-endian.  The good old days.  I was there.  Closer to the metal.
 
 ![alt text]({{ page.image }} "Arduino")
 
@@ -48,7 +48,7 @@ One way to change this is to run this command:
 
 `sudo chmod 666 /dev/ttyACM0`
 
-Are you ready to take the Arduino plunge?  It's a great way to share your excitement, personality, and job (if you are a computer programmer) with your kids.  **Engage and interact**.  Build a robot that operates outside.  Watch Star Wars and Star Trek with them later.
+Are you ready to take the [Arduino](http://amzn.to/1ZlBPsE) plunge?  It's a great way to share your excitement, personality, and job (if you are a computer programmer) with your kids.  **Engage and interact**.  Build a robot that operates outside.  Watch Star Wars and Star Trek with them later.
 
 {% include adsense.html %}
 
