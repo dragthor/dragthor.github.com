@@ -7,7 +7,7 @@ published: false
 description: "How to make a Zurb Foundation 6 pricing table.  They were removed from Zurb Foundation 5."
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb6-pricing-table.PNG
 ---
-Zurb Foundation 6 no longer includes a pricing table component.  No problem.  Let's put one in as these are great for marketing landing pages, signups, and product or subscription comparisons.  Both Zurb 5 and Zurb 6 utilize Sass, however the variables have either changed, were made obsolete, or flat-out no longer make sense.  After following the steps below, you will end up with a Zurb 6 pricing table looking like this:
+Zurb Foundation 6 no longer includes a pricing table component.  No problem.  Let's put one in because these are great for marketing landing pages, product signups, and subscription or product comparisons.  Unfortunately, I saw a few people on the interwebs indicate Zurb 6's lack of pricing tables a show stopper; preventing moving from Zurb 5.  At the end of day, regardless of version, Zurb is still CSS, HTML, and Javascript.  Both Zurb 5 and Zurb 6 utilize [Sass](http://sass-lang.com/), however some Scss variables have either changed, were made obsolete, or flat-out no longer make sense.  After following the steps below, you will end up with a Zurb 6 responsive pricing table (looking just like a Zurb 5 pricing table):
 
 ![alt text]({{ page.image }} "Zurb 6 Pricing Table")
 
@@ -25,7 +25,7 @@ Zurb Foundation 6 no longer includes a pricing table component.  No problem.  Le
 
 https://gist.github.com/dragthor/bab15cbee60c42f682f2a292791f3a66
 
-Pull down and install [Zurb Foundation](https://github.com/zurb/foundation-sites).
+Pull down and install [Zurb Foundation](https://github.com/zurb/foundation-sites).  If you are unsure, review the [Getting Started](https://github.com/zurb/foundation-sites#getting-started) instructions.
 
 Using your favorite text editor or IDE, create the following files:
 
