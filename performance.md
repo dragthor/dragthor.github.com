@@ -5,6 +5,9 @@ permalink: /performance/
 description: "Web page performance.  Web app, javascript, and CSS performance.  Mobile android performance."
 ---
 <div class="home">
+
+{% include amazon-books.html %}
+
   <ul class="post-list">
     {% for post in site.posts %}
 		{% if post.meta contains 'performance' %}

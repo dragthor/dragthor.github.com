@@ -5,6 +5,9 @@ permalink: /soft-skills/
 description: "Professional developer soft skills for sometimes socially ackward nerds and geeks."
 ---
 <div class="home">
+
+{% include amazon-books.html %}
+
   <ul class="post-list">
     {% for post in site.posts %}
 		{% if post.meta contains 'soft-skills' %}

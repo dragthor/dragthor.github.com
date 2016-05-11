@@ -5,6 +5,8 @@ permalink: /dev-life/
 description: "Developer war stories, lifestyle, work environment, coding culture, and consultant tales."
 ---
 <div class="home">
+{% include amazon-books.html %}
+
   <ul class="post-list">
     {% for post in site.posts %}
 		{% if post.meta contains 'dev-life' %}

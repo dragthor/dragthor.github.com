@@ -5,6 +5,9 @@ permalink: /ubuntu/
 description: "Using the Ubuntu operating system to develop software."
 ---
 <div class="home">
+
+{% include amazon-books.html %}
+
   <ul class="post-list">
     {% for post in site.posts %}
 		{% if post.meta contains 'ubuntu' %}

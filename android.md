@@ -6,6 +6,9 @@ permalink: /android/
 description: "Android development, testing, unit testing, espresso, and automated UI testing."
 ---
 <div class="home">
+
+{% include amazon-books.html %}
+
   <ul class="post-list">
     {% for post in site.posts %}
 		{% if post.meta contains 'android' %}

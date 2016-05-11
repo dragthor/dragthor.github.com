@@ -5,6 +5,9 @@ permalink: /unit-testing/
 description: "Unit testing produces better code.  Better design.  Android and javascript unit testing."
 ---
 <div class="home">
+
+{% include amazon-books.html %}
+
   <ul class="post-list">
     {% for post in site.posts %}
 		{% if post.meta contains 'unit-testing' %}

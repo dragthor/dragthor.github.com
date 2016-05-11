@@ -6,6 +6,9 @@ permalink: /zurb/
 description: "Zurb Foundation development, learning, and testing.  Zurb for Sites, Email, and mobile Apps."
 ---
 <div class="home">
+
+{% include amazon-books.html %}
+
   <ul class="post-list">
     {% for post in site.posts %}
 		{% if post.meta contains 'zurb' %}

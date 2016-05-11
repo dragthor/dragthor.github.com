@@ -6,6 +6,9 @@ permalink: /windows-app/
 description: "Windows 10 Universal application development and testing."
 ---
 <div class="home">
+
+{% include amazon-books.html %}
+
   <ul class="post-list">
     {% for post in site.posts %}
 		{% if post.meta contains 'windows-app' %}
