@@ -5,6 +5,9 @@ permalink: /archive/
 description: "Archive of most recent blog posts about zurb, android, unit testing, and javascript."
 ---
 <div class="home">
+
+	{% include amazon-books.html %}
+	
 	<ul>
 	  {% for post in site.posts %}
 	  <li class="archive">

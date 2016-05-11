@@ -4,6 +4,8 @@ title: Books
 permalink: /books/
 description: "Sofware development and responsive design books that I recommend."
 ---
+{% include amazon-books.html %}
+
 ## Sofware Development
 [Clean Code: A Handbook of Agile Software Craftsmanship](http://www.amazon.com/gp/product/0132350882/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0132350882&linkCode=as2&tag=kriskrausecom&linkId=EY6DKDXFKIX6TRNP)
 

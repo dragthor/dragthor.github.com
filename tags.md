@@ -4,6 +4,8 @@ title: Tags for Blog Posts
 permalink: /tags/
 description: "Categorized blog posts using tags.  Posts are gouped by one or more tags."
 ---
+{% include amazon-books.html %}
+
 * [android](/android) - Android Development and Testing
 
 * [arduino](/arduino) - Arduino IoT Hobby
