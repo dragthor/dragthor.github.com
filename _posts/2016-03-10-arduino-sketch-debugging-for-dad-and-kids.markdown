@@ -24,7 +24,7 @@ void setup() { Serial.begin(9600); }
 void loop() { Serial.println(someSensorValue); };
 {% endhighlight %}
 
-{% include amazon-tradeinelectronics.html %}
+{% include amazon-books.html %}
 
 An [Arduino Unit Test framework](https://github.com/mmurdoch/arduinounit) exists which can also help debug and design software logic.  Debugging hardware usually involves reading datasheets, voltage meters, triple checking the wiring, and at times contacting the component manufacturer.
 
