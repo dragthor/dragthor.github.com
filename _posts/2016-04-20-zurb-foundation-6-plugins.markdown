@@ -17,7 +17,7 @@ At the end of an electrical cord in your house, there can be numerous types of i
 
 ![alt text]({{ page.image }} "Zurb Foundation 6 plugin")
 
-{% include adsense.html %}
+{% include amazon-adobecloud.html %}
 
 ## Boilerplate Skeleton Code
 
@@ -62,8 +62,6 @@ Calling `registerPlugin` is how your plugin announces to the Zurb framework, "He
 Calling `unregisterPlugin` is the way your plugin announces to the Zurb framework, "Hey, I am done!"  Foundation removes the unique id pointer from the internal `Array`, removes the added `zfPlugin` data-attribute to clear stored data, and iterates over the object's property collection setting each to `null` to help nudge garbage collection.  Finally, it triggers the plugin's `destroy` event.
 
 <script src="https://gist.github.com/dragthor/8ca90a0cd019c1fcb3f45eec7f893904.js"></script> 
-
-{% include adsense.html %}
 
 ## Final Thoughts
 

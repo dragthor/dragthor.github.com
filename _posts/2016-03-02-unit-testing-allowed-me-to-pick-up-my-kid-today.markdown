@@ -12,7 +12,7 @@ As a parent, I cannot afford to waste time at work (my employer does not want me
 
 The answer is **no**.  There I said it.  Unit testing saves time in the **beginning** and the **end** of a sprint (or iteration).  And yes, unit testing is not developer style or preference.  It actually produces positive results.  And helps you write and design good testable code.
 
-{% include adsense.html %}
+{% include amazon-books.html %}
 
 Today I needed to get my head around a feature.  The act of actually typing out unit test case scenarios helped to solve the problem.  And not just technically.  With these test cases in hand, I can verbally review and discuss the feature/change/issue with the Business Analyst/SME before writing or changing a single line code.  And yes, not altering code isn't 100% pure because I usually have to review (um... break and not check in) existing code (or features) to provide a general estimate.
 
@@ -23,7 +23,5 @@ Once solidified (again nothing is 100% because things can and will change) the t
 Not only is the next guy (or future self) and code reviewer going to appreciate my coding effort, I was further ahead of schedule than expected.  Fortunately, when the need to leave early arose to pick my kid up from an after school activity - I was able to walk out the door with confidence.  Confident of a decent days work.  And confident that I'll be able to handle the change up ahead the next morning.
 
 Does unit testing save you time often?  More at the beginning or the end of an iteration/sprint?  Or both?  Still haven't convinced yourself they are worth the effort?  Godspeed.
-
-{% include adsense.html %}
 
 {% include disqus.html %}

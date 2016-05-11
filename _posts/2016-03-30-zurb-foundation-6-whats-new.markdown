@@ -13,7 +13,7 @@ Initially released in November 2015, Zurb's [Foundation for Sites 6](http://foun
 
 Although Foundation’s core principles and ideas remain, when comparing the latest code to the previous version, you can see an almost complete overhaul.  Immediately, you'll notice some [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/) syntax usage.  The arrows `=>` jumped out at me; the code now gets transpiled to ES5 with [Babel](https://babeljs.io/) during the [gulp](http://gulpjs.com/) build process.  [Grunt](http://gruntjs.com/) is no longer used.  Foundation 5 utilized the Javascript testing framework [Jasmine](http://jasmine.github.io/); it too has been replaced with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).  Unfortunately, a lot of the unit tests did not make it over to Foundation 6.  [Pull request](https://github.com/zurb/foundation-sites/tree/V5) idea: it's time to help write some new tests.
 
-{% include adsense.html %}
+{% include amazon-adobecloud.html %}
 
 ## Zurb Foundation 6 Browser Compatibility
 
@@ -83,8 +83,6 @@ A new [Motion UI](http://foundation.zurb.com/sites/docs/motion-ui.html) Sass lib
 The amount of Javascript is less monolithic because it’s easier to choose only the components, features, and plugins that you need.  However, one of the biggest changes is the onboarding of [Babel](https://babeljs.io/) to transpile [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/) within the [gulp](http://gulpjs.com/) build pipeline.  Before digging into the guts of the [Foundation 6 code](https://github.com/zurb/foundation-sites), it might be wise to read up on arrow syntax `(e) => {}`, custom iteration `forEach(id => {})`, and classes `class`.  You know, yummy delicious syntax sugar.  Homer Simpson voice: “Mmm... Zurb.”
 
 Components such as Tooltips sometimes like to leave behind footprints (i.e., the tooltip template).  Fortunately, a new `destroy` pattern is consistently implemented – when finished or when removed from the DOM, clean yourself up.  Think finalizer in object-oriented programming.  This would also be a great pattern to implement in Foundation 5.  [Pull request](https://github.com/zurb/foundation-sites/tree/V5), anyone?  `destroy` literally destroys instance and state, unbinds events, or removes elements completely.  Performance matters.  And I hate seeing unused Tooltip templates lingering in my DOM.  Sometimes, third party Javascript vendors like to haphazardly bind to these elements and never let go.
-
-{% include adsense.html %}
 
 ## Final Thoughts
 

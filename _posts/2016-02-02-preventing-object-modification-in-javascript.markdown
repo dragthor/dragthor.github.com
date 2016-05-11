@@ -12,7 +12,7 @@ Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three w
 
 The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive).
 
-{% include adsense.html %}
+{% include amazon-books.html %}
 
 At the top is [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions) -
 
@@ -90,7 +90,5 @@ When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 See the [ECMAScript compatibility table](http://kangax.github.io/compat-table/es5/) for strict mode support.
 
 Lead generation, eCommerce pixel partners, referral & affiliates, and commission tracking are some use cases that come to mind.  What are some other scenarios to guard your Javascript objects against?  And yes, unfortunately sometimes our own code can be our enemy too.
-
-{% include adsense.html %}
 
 {% include disqus.html %}

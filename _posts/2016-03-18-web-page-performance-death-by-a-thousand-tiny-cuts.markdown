@@ -25,7 +25,7 @@ Yes there are more, but some page "cuts" include (in no particular order):
 
 And how many third party javascript partners are doing things on your page too?  Are they performant and considerate?  What exactly are they downloading (and adding to your DOM)?  Hopefully, they are working asynchronously.  But I digress (you can sense my [disliking of third party javascript vendors](http://metroize.com/preventing-object-modification-in-javascript/)).
 
-{% include adsense.html %}
+{% include amazon-adobecloud.html %}
 
 ## Javascript Performance
 
@@ -87,7 +87,5 @@ Code suggested change:
 {% endhighlight %}
 
 Ignore the `outerHeight` call (we can discuss another time).  The self-invoking anonymous function might be overkill.  Although ideally it should be a named function organized within a namespace.  The `var` caching helps and the code is also more readable.  But this could just be personal style and not necessarily wrong.  What do you think?  Are the tiny javascript cuts I mentioned nit-picking?  I am positive there are a lot more out there.
-
-{% include adsense.html %}
 
 {% include disqus.html %}

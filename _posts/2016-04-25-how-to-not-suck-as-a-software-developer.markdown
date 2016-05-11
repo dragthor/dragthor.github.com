@@ -17,7 +17,7 @@ Most of the time software is complex, has a lot of moving pieces, and involves c
 
 Reasonably discuss the feature with the business owner (or customer).  Listen to them.  Communicate your ideas effectively.  I know that last sentence sounds like a cheesy resume bullet point, but show or walk through the feature (or bug) with the business owner.  Interact and value their time.
 
-{% include adsense.html %}
+{% include amazon-books.html %}
 
 Get your technical reviewer (or senior developer) involved early.  Do not over architect.  Yet, do not oversimplify.  Determine the balance and trade-offs.  Accept peer input.  Your code sucks.  My code sucks.  A second set of eyes is always good.  Get over yourself.
 
@@ -42,7 +42,5 @@ Bounce coding ideas off your co-workers and manager.  Self-educate yourself – 
 ## 5.  Admit mistakes.
 
 Own them.  We all make them.  Point the blame thrower at yourself.
-
-{% include adsense.html %}
 
 {% include disqus.html %}

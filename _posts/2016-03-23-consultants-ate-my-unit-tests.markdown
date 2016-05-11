@@ -15,7 +15,7 @@ About six years ago I was working as a solo software developer consultant for a 
 
 I worked directly with a project manager throughout each iteration/sprint.  I utilized unit testing and test-driven development to keep the code and myself in-check.  Did I have 100% code coverage?  Of course not.  Instead my tests mainly focused on difficult, important, and flat out weird (and sometimes vague) business rules.  The unit tests were something of value.  Something to fall back on for ever changing requirements. Something to document the vague.  Something to keep my sanity.
 
-{% include adsense.html %}
+{% include amazon-books.html %}
 
 A year later the project ended and was successful.  Perfect?  No.  But it shipped and the customer was happy.  I chalk most of the success up due to solid communication with project management, iterative steps, good PM planning, and unit testing the more complex feature areas.  On my way out the door, I kind of knew that I was going to be replaced by less expensive labor. 
 
@@ -38,7 +38,5 @@ Several less expensive programmers disregarded and ignored the unit tests since 
 And now not one single new unit test (the old ones rendered meaningless). The code base is in an inconsistent state.  Everyone is afraid to make a code change.  I guess that's why I was called?  And yes, I helped to resolve the bug but kindly and gracefully declined to regularly get directly involved again. I wonder how less expensive they are now?  Surely the company is paying now. 
 
 Disclaimer:  I am not anti-consultant.  And I am not anti-overseas consultant.
-
-{% include adsense.html %}
 
 {% include disqus.html %}

@@ -32,7 +32,7 @@ Title = @"My Cool App",
 });
 {% endhighlight %}
 
-{% include adsense.html %}
+{% include amazon-books.html %}
 
 If you work mostly offline (like I do), you can always pull up [Windows Character map](http://windows.microsoft.com/en-us/windows/using-special-characters-character-map-faq) and select Segoe MDL2 Assets -
 
@@ -40,7 +40,5 @@ If you work mostly offline (like I do), you can always pull up [Windows Characte
 
 
 See that U+E001 value?  That translates to - ```FontIcon = "\ue001"```
-
-{% include adsense.html %}
 
 {% include disqus.html %}

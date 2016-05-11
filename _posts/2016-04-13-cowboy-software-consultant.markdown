@@ -17,7 +17,7 @@ The trick is to look for red flags before hiring them.  Yes, there are short-ter
 
 Beware of the "sorry, they are no longer in business" story.  (I've had a manager give me this story when I casually asked about his mysterious previous experience, but that is another post).  Almost everyone has had a consulting gig turn bad for one reason or another.  And there are always two sides to a negative software consulting relationship.  Ask them about their side.  See if they are honest.  See what they learned from it (if anything).  If not, they may be a really [smart developer](/smartest-guy-in-the-room-not-the-best-developer/).
 
-{% include adsense.html %}
+{% include amazon-books.html %}
 
 Yes, the software cowboy disorder can apply to traditional employees too.  But traditional employees have more skin in the game.  They want their employer to do well as their success, potential stability, and long-term employment is tied to it.  Yes, success, stability, and long-term contracts apply to consultants too.  However, W-2 payroll employees prepare and plan to be intimate with the code long-term.  Cowboy consultants seem to come in, shoot it up, and then leave.  Afterwards, it's the traditional employee who has to revisit the cowboy's code for bugs, performance, security flaws, and feature enhancements.  Code reviewers - please help.  Hiring managers - please help.
 
@@ -54,7 +54,5 @@ Protect yourself.  Protect your project.  Protect your architecture.  Protect yo
  * Does not follow existing software patterns or project architecture decisions.
  * Rearranges code for the sake of rearranging code.  This "looks" like work, but it is not refactoring or helping much.
  * Poor time management.  Poor communication skills.  Poor [soft skills](/soft-skills/).
-
-{% include adsense.html %}
 
 {% include disqus.html %}

@@ -14,6 +14,8 @@ I’ve ditched [Google's AdSense](https://www.google.com/adsense) and hopefully,
 ## Loved It
 I made a few bucks (about $25 net) a month after hosting fees (today's cloud wasn't born yet).  It wasn't passive income because I still had to actively monitor and maintain the site on a daily basis (usually early morning or late evening around my full-time day job as a software developer).  Fighting internet trolls was a game I did not enjoy.  However, I used the income to pay my yearly hunting and fishing license fees.  Hunting and fishing were "games" I did enjoy: outside and away from the computer.  I use quotes around "games" because I do not mean to devalue the animal.  For those of you unfamiliar with recreational hunting, killing is just 1% of the overall hunting experience.
 
+{% include amazon-books.html %}
+
 One could say hunting and fishing were passions; I did enjoy discussing tactics, ideas, and sharing hunting and fishing stories on the forum.  Although I have not done either in several years (wife, kids, exercise, health, and a great full-time job are priorities), I still head to the local range here in New Jersey once in a while to shoot guns or practice traditional archery.  As the original passion waned, so did the forum and I eventually sold the website and domain name in October 2012 (averaging 1.5 million monthly page views). 
 
 One needs a thick skin to moderate a forum with thousands of members.  A lot of people complain and criticize you while offering zero ideas and zero help.  I kept telling myself that I could handle the trolls, personal attacks, and nastiness, but they did get to me at times.  They probably impacted me and others around me more than I would like to admit.  Sure, it was "just another hunting forum" with jerks hiding behind their keyboards, but people (not just me) made the site successful.  Without a doubt, the forum technology challenges were easier to manage than the members.
@@ -66,7 +68,5 @@ I like my site to be as fast as possible.  AdSense slows things down.  I know, i
 
 ### Final Thoughts
 Like many others, I rode the AdSense roller coaster and became too fixated on earning advertising money at the expense of my visitors, members, and friends.  Unfortunately, I tried to bring it to [metroize.com](http://metroize.com) too.  It’s hard to admit, but I sacrificed my values and user experience for money.  In the future, I might recommend a book or bring on a sponsor like [Telerik](http://www.telerik.com/), [Raygun](https://raygun.com/), [New Relic](https://newrelic.com/), [Azure](https://azure.microsoft.com/en-us/), [Trello](https://trello.com/), or [PluralSight](https://www.pluralsight.com/).  It’s important that I promote products and services that I use, own, are relevant to my audience, and are not lame.
-
-{% include adsense.html %}
 
 {% include disqus.html %}
