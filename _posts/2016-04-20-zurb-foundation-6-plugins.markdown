@@ -17,13 +17,13 @@ At the end of an electrical cord in your house, there can be numerous types of i
 
 ![alt text]({{ page.image }} "Zurb Foundation 6 plugin")
 
-{% include amazon-adobecloud.html %}
-
 ## Boilerplate Skeleton Code
 
 What do all plugins have in common and what are they made of?  At the end of the day, creating a Zurb plugin requires nothing more than providing custom CSS, HTML, and Javascript.  The idea is to not fight against the framework.  Work with it.  Extend that which has already been implemented by people smarter than you and I.  You can even wrap existing components to "plug in" into existing Zurb ideas.  For example, a custom Zurb datepicker could be composed of an input field to receive focus, then display a `reveal` with three dropdowns (one for day, month, and year).  Example markup for a Zurb datetime plugin is shown here:
 
 <script src="https://gist.github.com/dragthor/0cea3539e5eca54dc0f9fca0b82f5f48.js"></script>
+
+{% include amazon-adobecloud.html %}
 
 In the traditional object-oriented programming world, the aforementioned datepicker composes one or more existing components.  When the datepicker is destroyed via `destroy` (see below), the three dropdowns are also destroyed.  Depending on your plugin, destroy can mean DOM removal and unbinding events.  A custom Zurb plugin that owns (or wraps) another component that has no meaning or purpose outside the context of the plugin, is an example of composition.  Each dropdown would not make sense outside the container component.  They have a strong association to the datepicker plugin.  Moreover, each would probably look terrible on their own and confuse users.  Arrows bookending a filmstrip slider, a legend within a chart component, and a sortable grid column header are some other examples of not existing well on their own.
 

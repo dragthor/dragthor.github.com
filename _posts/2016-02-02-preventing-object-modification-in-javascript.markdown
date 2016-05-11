@@ -10,9 +10,9 @@ Currently ([ECMAScript 5](http://www.ecmascript.org/docs.php)) there are three w
 
 ![alt text]({{ page.image }} "Javascript")
 
-The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive).
-
 {% include amazon-books.html %}
+
+The methods below all "inherit" the abilities of the one above it (the one at the top is the least restrictive).
 
 At the top is [```Object.preventExtensions()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions) -
 

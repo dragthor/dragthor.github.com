@@ -10,8 +10,6 @@ I did it.  I took the plunge.  I finally purchased an [Arduino](http://amzn.to/1
 
 ![alt text]({{ page.image }} "Arduino")
 
-{% include amazon-tradeinelectronics.html %}
-
 What exactly am I trying to accomplish?  Admittedly it's another new toy for dad.  I enjoy this kind of stuff.  However, I am hopeful I can use the Arduino with my two young daughters.  Get them **involved**.  Get them interested.  Get them **excited**.  Show them a computer program that instructs a microcontroller to send and receive little tiny electrical impulses.  Demonstrate the humble beginnings of what is inside their smart phones and computers.  Plus who doesn't like colorful LED lights?  I ordered about 500 of them.
 
 Working with an Arduino is not my first attempt at combining circuit building and computer programming.  Here is an old image from the 90s of a [Palm Pilot](https://en.wikipedia.org/wiki/PalmPilot) robot I built using a [kit](http://www.cs.cmu.edu/~pprk/) designed by the [Carnegie Mellon Robotics Insitute](http://www.ri.cmu.edu/):
@@ -25,6 +23,8 @@ void setup() { Serial.begin(9600); }
 
 void loop() { Serial.println(someSensorValue); };
 {% endhighlight %}
+
+{% include amazon-tradeinelectronics.html %}
 
 An [Arduino Unit Test framework](https://github.com/mmurdoch/arduinounit) exists which can also help debug and design software logic.  Debugging hardware usually involves reading datasheets, voltage meters, triple checking the wiring, and at times contacting the component manufacturer.
 
