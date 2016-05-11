@@ -13,7 +13,7 @@ Initially released in November 2015, Zurb's [Foundation for Sites 6](http://foun
 
 Although Foundation’s core principles and ideas remain, when comparing the latest code to the previous version, you can see an almost complete overhaul.  Immediately, you'll notice some [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/) syntax usage.  The arrows `=>` jumped out at me; the code now gets transpiled to ES5 with [Babel](https://babeljs.io/) during the [gulp](http://gulpjs.com/) build process.  [Grunt](http://gruntjs.com/) is no longer used.  Foundation 5 utilized the Javascript testing framework [Jasmine](http://jasmine.github.io/); it too has been replaced with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).  Unfortunately, a lot of the unit tests did not make it over to Foundation 6.  [Pull request](https://github.com/zurb/foundation-sites/tree/V5) idea: it's time to help write some new tests.
 
-{% include amazon-books.html %}
+{% include amazon-webdevsoftware.html %}
 
 ## Zurb Foundation 6 Browser Compatibility
 
