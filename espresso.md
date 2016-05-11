@@ -4,8 +4,10 @@ title: Android Espresso Framework
 permalink: /espresso/
 description: "Android Espresso framework guides, quick start, how-to, up and running.  Android unit testing."
 ---
-<div class="home">
 {% include amazon-books.html %}
+
+<div class="home">
+
 
   <ul class="post-list">
     {% for post in site.posts %}

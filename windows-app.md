@@ -5,9 +5,11 @@ title: Windows Universal App Development and Testing
 permalink: /windows-app/
 description: "Windows 10 Universal application development and testing."
 ---
+{% include amazon-books.html %}
+
 <div class="home">
 
-{% include amazon-books.html %}
+
 
   <ul class="post-list">
     {% for post in site.posts %}

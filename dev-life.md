@@ -4,8 +4,10 @@ title: Developer War Stories and Lifestyle
 permalink: /dev-life/
 description: "Developer war stories, lifestyle, work environment, coding culture, and consultant tales."
 ---
-<div class="home">
 {% include amazon-books.html %}
+
+<div class="home">
+
 
   <ul class="post-list">
     {% for post in site.posts %}

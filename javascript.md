@@ -4,9 +4,11 @@ title: Javascript Development and Testing
 permalink: /javascript/
 description: "Adventures in Javascript and Javascript unit testing."
 ---
+{% include amazon-books.html %}
+
 <div class="home">
 
-{% include amazon-books.html %}
+
 
   <ul class="post-list">
     {% for post in site.posts %}

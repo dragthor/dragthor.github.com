@@ -4,9 +4,10 @@ title: Linux Related
 permalink: /linux/
 description: "Working with the Linux operating system to develop software."
 ---
+{% include amazon-books.html %}
+
 <div class="home">
 
-{% include amazon-books.html %}
 
   <ul class="post-list">
     {% for post in site.posts %}
