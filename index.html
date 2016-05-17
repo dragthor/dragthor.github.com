@@ -17,7 +17,8 @@ description: "Software development blog by Kris Krause - zurb, android, unit tes
         </h2>
 
 		<p>
-			{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+			{{ post.excerpt | remove: '<p>' | remove: '</p>' }} 
+      <br/><span class="fi-page"></span> <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
 		</p>
       </li>
     {% endfor %}
