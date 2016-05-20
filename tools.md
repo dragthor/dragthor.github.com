@@ -4,7 +4,15 @@ title: Tools
 permalink: /tools/
 description: "List of programmer tools to help develop better software.  And to help organize oneself.  Code easier."
 ---
-**Developer Tools**
+## Continual Learning
+
+[Audible](http://www.amazon.com/Audible-Free-Trial-Digital-Membership/dp/B00NB86OYE/?ref_=assoc_tag_ph_1422899139880&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=kriskrausecom&linkId=ZJELXRONNHIXVLY2)
+
+[Pocket Casts](http://www.shiftyjelly.com/pocketcasts)
+
+[Amazon Prime](http://www.amazon.com/tryprimefree/?ref_=assoc_tag_ph_1427739975520&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=kriskrausecom&linkId=C2B2V5GYRD7OC37X)
+
+## Developer Tools
 
 [ReSharper](https://www.jetbrains.com/resharper/)
 
@@ -14,7 +22,7 @@ description: "List of programmer tools to help develop better software.  And to 
 
 [Arduino Software IDE](https://www.arduino.cc/en/Main/Software)
 
-**Productivity**
+## Productivity
 
 [Inbox by Google](https://www.google.com/inbox/)
 
@@ -24,9 +32,7 @@ description: "List of programmer tools to help develop better software.  And to 
 
 [Office 365](https://products.office.com/en-us/office-365-personal)
 
-[Pocket Casts](http://www.shiftyjelly.com/pocketcasts)
-
-**Operating Systems**
+## Operating Systems
 
 [Ubuntu](http://www.ubuntu.com/)
 
@@ -34,6 +40,6 @@ description: "List of programmer tools to help develop better software.  And to 
 
 [Chrome OS](https://en.wikipedia.org/wiki/Chrome_OS)
 
-**Hobby Fun Projects**
+## Hobby Fun Projects
 
 [Arduino](https://www.arduino.cc/)
