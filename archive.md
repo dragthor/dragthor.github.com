@@ -4,8 +4,6 @@ title: Archive of Blog Posts
 permalink: /archive/
 description: "Archive of most recent blog posts about zurb, android, unit testing, and javascript."
 ---
-{% include amazon-books.html %}
-	
 <div class="home">
 
 

@@ -4,8 +4,6 @@ title: Tools
 permalink: /tools/
 description: "List of programmer tools to help develop better software.  And to help organize oneself.  Code easier."
 ---
-{% include amazon-books.html %}
-
 **Developer Tools**
 
 [ReSharper](https://www.jetbrains.com/resharper/)

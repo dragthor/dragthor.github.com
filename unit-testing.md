@@ -4,8 +4,6 @@ title: Unit Testing
 permalink: /unit-testing/
 description: "Unit testing produces better code.  Better design.  Android and javascript unit testing."
 ---
-{% include amazon-books.html %}
-
 <div class="home">
 
 

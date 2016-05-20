@@ -5,8 +5,6 @@ title: Android Development and Testing
 permalink: /android/
 description: "Android development, testing, unit testing, espresso, and automated UI testing."
 ---
-{% include amazon-books.html %}
-
 <div class="home">
 
 

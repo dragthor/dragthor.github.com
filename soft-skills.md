@@ -4,8 +4,6 @@ title: Professional Developer Soft Skills
 permalink: /soft-skills/
 description: "Professional developer soft skills for sometimes socially ackward nerds and geeks."
 ---
-{% include amazon-books.html %}
-
 <div class="home">
 
 

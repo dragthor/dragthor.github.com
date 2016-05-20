@@ -4,8 +4,6 @@ title: Linux Related
 permalink: /linux/
 description: "Working with the Linux operating system to develop software."
 ---
-{% include amazon-books.html %}
-
 <div class="home">
 
 

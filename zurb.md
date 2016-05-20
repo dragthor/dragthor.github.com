@@ -5,8 +5,6 @@ title: Zurb Foundation Development and Testing
 permalink: /zurb/
 description: "Zurb Foundation development, learning, and testing.  Zurb for Sites, Email, and mobile Apps."
 ---
-{% include amazon-books.html %}
-
 <div class="home">
 
 

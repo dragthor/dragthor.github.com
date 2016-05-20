@@ -8,8 +8,6 @@ redirect_from:
   - /author/kriskrause/page/3/
   - /member3911.htm
 ---
-{% include amazon-books.html %}
-
 Hi.  My name is Kris Krause.  I write software.  Language and platform?  Depends on the problem.  I also try to be a [healthy developer](http://healthydeveloper.com).
 
 First computer programmed?  [TRS-80](https://en.wikipedia.org/wiki/TRS-80)

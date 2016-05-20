@@ -4,8 +4,6 @@ title: "Web, Javascript, CSS, and App Performance"
 permalink: /performance/
 description: "Web page performance.  Web app, javascript, and CSS performance.  Mobile android performance."
 ---
-{% include amazon-books.html %}
-
 <div class="home">
 
 

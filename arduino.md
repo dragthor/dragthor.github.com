@@ -4,8 +4,6 @@ title: Arduino IoT Hobby
 permalink: /arduino/
 description: "Arduino IoT (internet of things) hobby posts using various sensors and LEDs.  Circuit building and computer programming."
 ---
-{% include amazon-books.html %}
-
 <div class="home">
 
 

@@ -4,8 +4,6 @@ title: Ubuntu Related
 permalink: /ubuntu/
 description: "Using the Ubuntu operating system to develop software."
 ---
-{% include amazon-books.html %}
-
 <div class="home">
 
 

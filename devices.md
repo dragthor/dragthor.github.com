@@ -4,8 +4,6 @@ title: Devices
 permalink: /devices/
 description: "Current list of devices that I use to develop and test software.  And for personal and professional enrichment."
 ---
-{% include amazon-books.html %}
-
 [Toshiba Satellite](http://amzn.to/1Tvqi5T)
 
 [Samsung Galaxy Note 3](http://amzn.to/1Tvqjqj)
