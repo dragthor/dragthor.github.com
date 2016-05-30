@@ -10,6 +10,14 @@ image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rack
 
 ![alt text]({{ page.image }} "Zurb 6 Pricing Table")
 
+Here is the issue:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OmuSAKOMjcQ?list=PLx-BRAFWgvyNCPrXLTvfmE4cNSPLhOKgp" frameborder="0" allowfullscreen></iframe>
+
+Here is the issue fixed:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D5BbHLIG4cE?list=PLx-BRAFWgvyNCPrXLTvfmE4cNSPLhOKgp" frameborder="0" allowfullscreen></iframe>
+
 
 {% include amazon-adobecloud.html %}
 
