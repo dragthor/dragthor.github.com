@@ -15,15 +15,19 @@ Internet Explorer likes to "jump" the user into position when jQuery's `.focus()
 
 The jumping behavior seems to only be an issue with IE.  Firefox, Safari, and Chrome do not have the weird `.focus()` issue.  It's not hard to see that Microsoft is trying to center the user within the `window`.  Pretty reasonable for some situations, yet it's not what I want.  I desire consistency among IE, Firefox, Safari, and Chrome.
 
-The fix?  Simply do not call `.focus()`.  Here is the [pull request](https://github.com/zurb/foundation-sites/pull/8885/files).  I added an additional setting named `no_focus` defaulting to the current behavior.  A developer can optionally override it when declaring the Zurb dropdown in HTML markup: `data-options="no_focus:true"`.
+The fix?  Simply do not call `.focus()`. View the [pull request](https://github.com/zurb/foundation-sites/pull/8885/files).  I added an additional setting named `no_focus` defaulting to the current behavior.  A developer can optionally override it when declaring the Zurb dropdown in HTML markup: `data-options="no_focus:true"`.
 
 We can grab a reference to the dropdown's instance settings inside the `open` function like this:
 
-`var settings = target.data(this.attr_name(true) + '-init') || this.settings;`
+{% highlight javascript %}
+var settings = target.data(this.attr_name(true) + '-init') || this.settings;
+{% endhighlight %}
 
 And then decide to avoid the focus:
 
-`if (settings.no_focus === false) { dropdown.focus(); }`
+{% highlight javascript %}
+if (settings.no_focus === false) { dropdown.focus(); }
+{% endhighlight %}
 
 Hurray!  No more jumping.  The video below demonstrates the desired behavior:
 
