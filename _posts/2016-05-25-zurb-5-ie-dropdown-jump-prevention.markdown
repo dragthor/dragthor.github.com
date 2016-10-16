@@ -35,12 +35,10 @@ Hurray!  No more jumping.  The video below demonstrates the desired behavior:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D5BbHLIG4cE?list=PLx-BRAFWgvyNCPrXLTvfmE4cNSPLhOKgp" frameborder="0" allowfullscreen></iframe>
 </div>
 
-{% include amazon-adobecloud.html %}
-
 ## Final Thoughts
 
 Browser quirks are still prevalent.  Fortunately, [Zurb Foundation 5](http://amzn.to/1Uo2lhg) is still alive, heavily used, and supported by the open-source community.  
 
-Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
+Disclaimer: I am a Foundation fan, user, and minor open-source contributor.   And yes, I work for a company that sells bras.
 
 {% include disqus.html %}

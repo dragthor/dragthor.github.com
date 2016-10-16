@@ -41,8 +41,6 @@ Javascript profiler after:
 ![alt text](https://cloud.githubusercontent.com/assets/156634/15751989/30daf980-28ba-11e6-9328-f189d395c489.PNG
  "Zurb 5 Tobar Profiled Before")
 
-{% include amazon-adobecloud.html %}
-
-Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
+Disclaimer: I am a Foundation fan, user, and minor open-source contributor.  And yes, I work for a company that sells bras.
 
 {% include disqus.html %}
