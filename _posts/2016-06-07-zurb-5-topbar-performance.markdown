@@ -7,7 +7,7 @@ published: true
 description: "Zurb Foundation 5 sticky topbar performance."
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-6.png
 ---
-While profiling our [Zurb 5](http://amzn.to/1Uo2lhg) implementation, we noticed a slight bottle neck using the "sticky" `topbar` component.  The user would sometimes experience a "stutter" or "glitch" while scrolling.  And users with lower end devices would experience the issue more often.
+While profiling our [Zurb 5](http://foundation.zurb.com/sites/docs/v/5.5.3/) implementation, we noticed a slight bottle neck using the "sticky" `topbar` component.  The user would sometimes experience a "stutter" or "glitch" while scrolling.  And users with lower end devices would experience the issue more often.
 
 The problem: `update_sticky_positioning` is called a lot. Too much.  After a couple of good scrolls, hundreds of times.
 
