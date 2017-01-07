@@ -4,16 +4,16 @@ title: Devices
 permalink: /devices/
 description: "Current list of devices that I use to develop and test software.  And for personal and professional enrichment."
 ---
-[Toshiba Satellite](http://amzn.to/1Tvqi5T)
+Lenovo Ideapad 710S (main machine, Windows 10 with Linux subsystem)
 
-[Samsung Galaxy Note 3](http://amzn.to/1Tvqjqj)
+BLU R1 HD Android 6 phone (zero games, but lots of audio books and podcasts)
 
-[Kindle](http://amzn.to/1rwYnLV)
+Amazon Kindle (cracked screen, my kids dropped it a couple of times)
 
-[Kindle Fire](http://amzn.to/1NlurwJ)
+Amazon Kindle Fire (loaded with 80% software books, 18% self-improvement, and 2% fiction)
 
-[Chromecast](https://www.google.com/intl/en_us/chromecast/tv/)
+Amazon Echo Dot (heavy metal, music witout words, and [body pump](https://www.lesmills.com/workouts/fitness-classes/bodypump/) tracks for coding)
 
-[Chromebook](http://amzn.to/1T25BRv) with [Crouton](https://github.com/dnschneid/crouton)
+Hisense Chromebook (touchpad does not work due to spilled milk (kids again))
 
-[Arduino](http://amzn.to/1ZlDb6I)
+Raspberry Pi 3 Model B

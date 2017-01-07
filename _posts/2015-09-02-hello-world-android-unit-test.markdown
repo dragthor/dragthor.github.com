@@ -14,7 +14,7 @@ Instrumentation tests save the developer time because the tests should run in se
 
 Historically extending [ApplicationTestCase](http://developer.android.com/reference/android/test/ApplicationTestCase.html) can have UI timing (thread synchronization) issues – and getting around these issues involves the "guess  sprinkling" of ```sleep``` statements in your test code (reminiscent of the web browser automation tool [Selenium](http://docs.seleniumhq.org/)).
 
-The latest version of [Android Studio](https://developer.android.com/sdk/index.html) provides the developer with [Espresso](http://developer.android.com/reference/android/support/test/package-summary.html) included in the [Android Testing Support Library](http://developer.android.com/tools/testing-support-library/index.html).  And yes no one is forcing you to stop using [Robolectric](http://robolectric.org) if desired.  However, I believe the fluid API of [Espresso](http://amzn.to/1szfc9y) makes it (and feels) easier to find views, perform actions, and verify state.  
+The latest version of [Android Studio](https://developer.android.com/sdk/index.html) provides the developer with [Espresso](http://developer.android.com/reference/android/support/test/package-summary.html) included in the [Android Testing Support Library](http://developer.android.com/tools/testing-support-library/index.html).  And yes no one is forcing you to stop using [Robolectric](http://robolectric.org) if desired.  However, I believe the fluid API of Espresso makes it (and feels) easier to find views, perform actions, and verify state.  
 
 {% highlight java %}
 onView(withId(R.id.txtHello))
@@ -31,7 +31,7 @@ onView(withId(R.id.btnHello))
 	.check(matches(not(isEnabled())));
 {% endhighlight %}
 
-And yes, [JUnit](http://amzn.to/1TxSbuO) tests tend to be faster than [Espresso](http://amzn.to/1szfc9y) tests since they can avoid context and the android framework.
+And yes, JUnit tests tend to be faster than Espresso tests since they can avoid context and the android framework.
 
 Important for your app's build.gradle -
 
@@ -41,13 +41,13 @@ Important for your app's build.gradle -
 	}
 {% endhighlight %}
 
-And then utilize your project's Build Variants to toggle between [JUnit](http://amzn.to/1TxSbuO) tests and [Espresso](http://amzn.to/1szfc9y) tests.
+And then utilize your project's Build Variants to toggle between JUnit tests and Espresso tests.
 
 Get up and running with Espresso using a [sample Android Studio project](https://github.com/dragthor/HelloWorldAndroidUnitTesting).
 
 Android Studio 1.5.1
-[JUnit](http://amzn.to/1TxSbuO) 4.1.1
-[Espresso](http://amzn.to/1szfc9y) 2.+
+JUnit 4.1.1
+Espresso 2.+
 Android Support Library 23.1.1
 
 {% include disqus.html %}
