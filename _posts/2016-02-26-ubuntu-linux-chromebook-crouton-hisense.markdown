@@ -14,6 +14,7 @@ Recently I purchase a $90 USD refurbished Chromebook on Woot (Amazon has them to
 
 > Hisense C11 11.6" Chromebook, Rockchip RK3288 Quad-Core, 16GB Internal Storage, 2GB Memory, 802.11ac, Bluetooth, Chrome OS
 
+Enter [Crouton](https://github.com/dnschneid/crouton).  The installation instructions are straight forward so I won't repeat them.  However at first you should read through it entirely to learn about options (ie, how not to install the [Unity desktop](https://unity.ubuntu.com/)).  You end up with the ability to run [Chrome OS](https://en.wikipedia.org/wiki/Chrome_OS) and linux (Ubuntu or Debian) simultaneously.  You literally can ```Alt-Tab``` between environments, although it's more like ```Ctrl-Shift-Alt-Arrow``` which can be a little clumsy.
 
 Personally, I think 2GB of RAM is a little too slim to run Unity Ubuntu so I opted for the [lxde](http://lxde.org/) desktop with Ubuntu.  Forget about Android Studio - I tried.  It simply uses too much memory.  And it seems that a few of its tools favor Intel x86.  You can still install the JDK to run and compile Java.  Gimp, Git, Ruby, Python, PyCharm, and WebStorm work well.  I did not try to install IntelliJ or a [LAMP stack](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29).
 
