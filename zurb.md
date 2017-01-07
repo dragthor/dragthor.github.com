@@ -28,5 +28,3 @@ description: "Zurb Foundation development, learning, and testing.  Zurb for Site
   </ul>
    
 </div>
-
-{% include adsense.html %}

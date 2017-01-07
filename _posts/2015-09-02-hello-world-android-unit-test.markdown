@@ -14,8 +14,6 @@ Instrumentation tests save the developer time because the tests should run in se
 
 Historically extending [ApplicationTestCase](http://developer.android.com/reference/android/test/ApplicationTestCase.html) can have UI timing (thread synchronization) issues – and getting around these issues involves the "guess  sprinkling" of ```sleep``` statements in your test code (reminiscent of the web browser automation tool [Selenium](http://docs.seleniumhq.org/)).
 
-{% include amazon-books.html %}
-
 The latest version of [Android Studio](https://developer.android.com/sdk/index.html) provides the developer with [Espresso](http://developer.android.com/reference/android/support/test/package-summary.html) included in the [Android Testing Support Library](http://developer.android.com/tools/testing-support-library/index.html).  And yes no one is forcing you to stop using [Robolectric](http://robolectric.org) if desired.  However, I believe the fluid API of [Espresso](http://amzn.to/1szfc9y) makes it (and feels) easier to find views, perform actions, and verify state.  
 
 {% highlight java %}

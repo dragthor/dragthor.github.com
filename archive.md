@@ -29,5 +29,3 @@ description: "Archive of most recent blog posts about zurb, android, unit testin
   </p>
  
 </div>
-
-{% include adsense.html %}

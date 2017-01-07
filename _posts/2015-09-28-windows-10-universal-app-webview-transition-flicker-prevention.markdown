@@ -12,8 +12,6 @@ Currently, I am developing a [Windows 10](http://amzn.to/1YWMjik) Universal App 
 
 [Xaml](https://msdn.microsoft.com/en-us/library/cc295302%28v=expression.40%29.aspx) is fine and probably preferred for a larger app (and this is a small app with less than six screens) using [Blend](https://en.wikipedia.org/wiki/Microsoft_Blend).  I am not a designer.  As a weekend warrior after hours programming hobbyist, I have no problem offloading as much design as possible to the [Zurb](http://foundation.zurb.com/) framework.  And I want to personally prove that it can be done (and get another app in the store) while leveraging my existing knowledge of C#, Javascript, and [Zurb](http://foundation.zurb.com/).
 
-{% include amazon-books.html %}
-
 I really like the idea of a [Zurb](http://foundation.zurb.com) frontend communicating with a C# backend utilizing -
 
 `window.external.notify` in Javascript with the [WebView.ScriptNotify event in C#](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.webview.scriptnotify.aspx)

@@ -29,8 +29,6 @@ The HTML stays exactly the same.  Notice we are **not** using a `<table/>` tag.
 </ul>
 {% endhighlight %}
 
-{% include amazon-adobecloud.html %}
-
 ## CSS
 If you haven't already done so, pull down and install [Zurb Foundation](https://github.com/zurb/foundation-sites).  If you are unsure, review the [Getting Started](https://github.com/zurb/foundation-sites#getting-started) instructions.  If you are coming from Zurb 5, check out a previous post: [What's new in Zurb Foundation 6?](/zurb-foundation-6-whats-new/).
 

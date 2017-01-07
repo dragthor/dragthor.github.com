@@ -28,5 +28,3 @@ description: "Adventures in Javascript and Javascript unit testing."
   
   
 </div>
-
-{% include adsense.html %}

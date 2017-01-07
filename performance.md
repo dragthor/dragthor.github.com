@@ -28,5 +28,3 @@ description: "Web page performance.  Web app, javascript, and CSS performance.  
   
   
 </div>
-
-{% include adsense.html %}

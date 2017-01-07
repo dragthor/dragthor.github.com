@@ -19,8 +19,6 @@ Reasonably discuss the feature with the business owner (or customer).  Listen to
 
 Get your technical reviewer (or senior developer) involved early.  Do not over architect.  Yet, do not oversimplify.  Determine the balance and trade-offs.  Accept peer input.  Your code sucks.  My code sucks.  A second set of eyes is always good.  Get over yourself.
 
-{% include amazon-books.html %}
-
 ## 2.  Literally test your feature.
 
 If this means using a mobile device, then use one.  Usually, it doesn’t really matter how long testing takes.  Ideally testing time should be built into estimates.  Unsure how much testing is involved?  Ask your technical reviewer (or senior developer) for additional test scenarios after you have shown him yours, but remember that you own the testing.  

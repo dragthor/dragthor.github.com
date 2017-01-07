@@ -32,4 +32,3 @@ description: "Categorized blog posts using tags.  Posts are gouped by one or mor
 	<span class="fi-rss size-21"></span> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
 </p>
   
-{% include adsense.html %}

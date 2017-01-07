@@ -28,5 +28,3 @@ description: "Using the Ubuntu operating system to develop software."
   
   
 </div>
-
-{% include adsense.html %}

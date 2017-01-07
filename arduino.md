@@ -27,5 +27,3 @@ description: "Arduino IoT (internet of things) hobby posts using various sensors
   
   
 </div>
-
-{% include adsense.html %}

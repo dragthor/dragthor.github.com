@@ -28,5 +28,3 @@ description: "Unit testing produces better code.  Better design.  Android and ja
   
   
 </div>
-
-{% include adsense.html %}

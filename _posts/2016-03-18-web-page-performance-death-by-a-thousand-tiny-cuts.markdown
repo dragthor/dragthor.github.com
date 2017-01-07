@@ -25,8 +25,6 @@ Yes there are more, but some page "cuts" include (in no particular order):
 
 And how many third party javascript partners are doing things on your page too?  Are they performant and considerate?  What exactly are they downloading (and adding to your DOM)?  Hopefully, they are working asynchronously.  But I digress (you can sense my [disliking of third party javascript vendors](http://metroize.com/preventing-object-modification-in-javascript/)).
 
-{% include amazon-books.html %}
-
 ## Javascript Performance
 
 Javascript is an important performance factor too.  Sure there is the obvious low-hanging fruit "code smells" that you should keep an eye out for like duplicate or unused code.  Using tools (from [JetBrains](http://www.jetbrains.com/), Microsoft, Google, etc.) definitely help spot mistakes, suggest improvements, and avoid common gotchas while helping to enforce team coding standards.  Code reviews and unit testing each lends a **big time** helping hand.  [Unit tests](http://amzn.to/1RoncPs) help to isolate code which is convenient and critical for performance testing and evaluation.  Code reviews help you learn because they invite others to look at your code and tell you it sucks (or not).  And sometimes as a developer you need to hear how others would tackle a similar problem.  Take a breath.  Prepare yourself.  You do not know everything.  Your code isn't perfect all the time.

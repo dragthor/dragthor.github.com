@@ -15,8 +15,6 @@ image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rack
 
 Mocha.  28 tests.
 
-{% include amazon-adobecloud.html %}
-
 ## Javascript
 
 Mocha phantom js.  19 passing. 6 pending.

@@ -20,6 +20,4 @@ Next, you need to utilize a different computer (or phone, or phablet) to [downlo
 
 You can now either [set up a local aptget offline repository](https://help.ubuntu.com/community/AptGet/Offline/Repository) or even easier - just right-click on the file from within [Ubuntu](http://amzn.to/1TUYoQT) and select "Open with Ubuntu Software Center" to install.
 
-{% include amazon-laptops.html %}
-
 {% include disqus.html %}

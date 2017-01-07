@@ -18,8 +18,6 @@ Control Panel > Power Options > Choose what the power button does >  Change sett
 
 Reboot and go into your BIOS.  My system (a [Toshiba laptop](http://amzn.to/20xtxyu)) involves holding down F2.  Visit your manufacturer's website to learn how to boot to your BIOS.
 
-{% include amazon-laptops.html %}
-
 Double check your Boot options and ordering to boot from [USB](http://amzn.to/1TxT5XW).  This should be no different than five to ten years ago.
 
 Once in BIOS go to the security tab and disable "Secure Boot".  Then go to the Advanced tab... then System Configuration to locate "Boot Mode".  Change it from UEFI Boot to CSM Boot.  What's difference?  Read more [here](http://superuser.com/questions/496026/what-is-the-difference-in-boot-with-bios-and-boot-with-uefi).

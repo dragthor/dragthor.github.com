@@ -24,8 +24,6 @@ void setup() { Serial.begin(9600); }
 void loop() { Serial.println(someSensorValue); };
 {% endhighlight %}
 
-{% include amazon-tradeinelectronics.html %}
-
 An [Arduino Unit Test framework](https://github.com/mmurdoch/arduinounit) exists which can also help debug and design software logic.  Debugging hardware usually involves reading datasheets, voltage meters, triple checking the wiring, and at times contacting the component manufacturer.
 
 Additionally, I picked up [temperature, light, and carbon monoxide sensors](http://amzn.to/20xx0NB) as well as a [tiny LCD screen](http://amzn.to/1Rom8v0) and a [bluetooth shield](http://amzn.to/20xxseE).  I plan to send commands to [Arduino](http://amzn.to/1TxU3Ub) via bluetooth from my Android device.  Shields are boards (or components) that literally plug into your [Arduino](http://amzn.to/1TxU3Ub) to extend functionality.  To prevent against fraudulent (and illegal) parts (and personal frustration and disappointment) utilize [Octopart](https://octopart.com/) to locate an Authorized Distributor.  Expect fake and high defect rate [Arduino components](http://amzn.to/1Tw2bK9) from [AliExpress](http://www.aliexpress.com/).  If the price is too good to be true, it probably is.  And do not let the five-star seller ratings and reviews fool you either!

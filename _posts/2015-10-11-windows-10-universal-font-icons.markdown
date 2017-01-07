@@ -32,8 +32,6 @@ Title = @"My Cool App",
 });
 {% endhighlight %}
 
-{% include amazon-books.html %}
-
 If you work mostly offline (like I do), you can always pull up [Windows Character map](http://windows.microsoft.com/en-us/windows/using-special-characters-character-map-faq) and select Segoe MDL2 Assets -
 
 ![character map](http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/character-map.PNG)

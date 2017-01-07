@@ -27,5 +27,3 @@ description: "Android Espresso framework guides, quick start, how-to, up and run
   
   
 </div>
-
-{% include adsense.html %}

@@ -15,8 +15,6 @@ About six years ago I was working as a solo software developer consultant for a 
 
 I worked directly with a project manager throughout each iteration/sprint.  I utilized unit testing and test-driven development to keep the code and myself in-check.  Did I have 100% code coverage?  Of course not.  Instead my tests mainly focused on difficult, important, and flat out weird (and sometimes vague) business rules.  The unit tests were something of value.  Something to fall back on for ever changing requirements. Something to document the vague.  Something to keep my sanity.
 
-{% include amazon-books.html %}
-
 A year later the project ended and was successful.  Perfect?  No.  But it shipped and the customer was happy.  I chalk most of the success up due to solid communication with project management, iterative steps, good PM planning, and unit testing the more complex feature areas.  On my way out the door, I kind of knew that I was going to be replaced by less expensive labor. 
 
 > On my way out the door I kind of knew that I was going to be replaced by less expensive labor. 

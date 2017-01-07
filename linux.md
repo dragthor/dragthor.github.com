@@ -27,5 +27,3 @@ description: "Working with the Linux operating system to develop software."
   
   
 </div>
-
-{% include adsense.html %}
