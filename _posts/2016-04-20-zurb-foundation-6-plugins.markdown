@@ -69,8 +69,6 @@ I hope to have a non-fictitious Zurb datepicker plugin available soon if there i
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
-## Zurb Alert
-
 {% include signup.html %}
 
 {% include disqus.html %}

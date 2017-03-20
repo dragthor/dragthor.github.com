@@ -72,3 +72,21 @@ $on-laptop:        800px;
   height: 100%;
   position: absolute;
 }
+
+.za-container {
+  background: #ccc;
+  padding: .25rem;
+  border-radius: 4px;
+}
+
+.za-container a {
+  color:darkred;
+}
+
+.za-container a:visited {
+  color:darkred;
+}
+
+.za-header {
+  font-size: 28px;
+}

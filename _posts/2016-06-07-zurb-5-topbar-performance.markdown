@@ -43,8 +43,6 @@ Javascript profiler after:
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.  And yes, I work for a company that sells bras.
 
-## Zurb Alert
-
 {% include signup.html %}
 
 {% include disqus.html %}

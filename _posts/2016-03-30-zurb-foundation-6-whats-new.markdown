@@ -88,8 +88,6 @@ Zurb [Foundation 6 for Sites](http://foundation.zurb.com/sites/docs/) is good an
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
-## Zurb Alert
-
 {% include signup.html %}
 
 {% include disqus.html %}

@@ -29,6 +29,4 @@ description: "Zurb Foundation development, learning, and testing.  Zurb for Site
    
 </div>
 
-## Zurb Alert
-
 {% include signup.html %}

@@ -25,8 +25,6 @@ Mocha phantom js.  19 passing. 6 pending.
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
-## Zurb Alert
-
 {% include signup.html %}
 
 {% include disqus.html %}

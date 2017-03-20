@@ -42,8 +42,6 @@ Another way to prevent the flicker is set your ```frame.ContentTransitions = nul
 </Frame>
 {% endhighlight %}
 
-## Zurb Alert
-
 {% include signup.html %}
 
 {% include disqus.html %}
