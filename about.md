@@ -10,7 +10,7 @@ redirect_from:
 ---
 Hi.  My name is Kris Krause.  I write software.  Language and platform?  Depends on the problem.
 
-My current list of tech tools and [devices](/devices).
+My current list of tech tools and [devices](/devices).  My current list of tech [books](/books).
 
 First computer programmed?  [TRS-80](https://en.wikipedia.org/wiki/TRS-80)
 
