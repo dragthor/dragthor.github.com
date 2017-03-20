@@ -49,4 +49,8 @@ Pricing tables were missed.  And I agree with Zurb's decision to not make them p
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.
 
+## Zurb Alert
+
+{% include signup.html %}
+
 {% include disqus.html %}

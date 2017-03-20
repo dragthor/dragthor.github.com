@@ -41,4 +41,8 @@ Browser quirks are still prevalent.  Fortunately, [Zurb Foundation 5](http://fou
 
 Disclaimer: I am a Foundation fan, user, and minor open-source contributor.   And yes, I work for a company that sells bras.
 
+## Zurb Alert
+
+{% include signup.html %}
+
 {% include disqus.html %}
