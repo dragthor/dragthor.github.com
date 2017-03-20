@@ -1,7 +1,7 @@
 ---
 redirect_from: "/tag/zurb/"
 layout: page
-title: Zurb Foundation Development and Testing
+title: Zurb Foundation Development
 permalink: /zurb/
 description: "Zurb Foundation development, learning, and testing.  Zurb for Sites, Email, and mobile Apps."
 ---
