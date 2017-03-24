@@ -46,7 +46,7 @@ Foundation 6 uses [what-input](https://github.com/ten1seven/what-input) to deter
 }
 {% endhighlight %}
 
-All Foundation components are keyboard-accessible and screen reader-friendly.  Checkout the [source code](https://github.com/zurb/foundation-sites) to see that relevant ARIA HTML attributes are baked into the plugins.  However, it’s important to remember that ultimately you own the markup. Whether it’s aria-hidden or the no brainer img alt text.  Want to show or hide an element based on the aria-hidden state?  Here you go:
+All Foundation components are keyboard-accessible and screen reader-friendly.  Checkout the [source code](https://github.com/zurb/foundation-sites) to see that relevant ARIA HTML attributes are baked into the plugins.  However, it’s important to remember that ultimately you own the markup. Whether it’s `aria-hidden` or the no brainer `img alt` text.  Want to show or hide an element based on the aria-hidden state?  Here you go:
 
 {% highlight css %}
 [aria-hidden=true] {
