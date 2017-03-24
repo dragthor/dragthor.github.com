@@ -56,4 +56,6 @@ All Foundation components are keyboard-accessible and screen reader-friendly.  C
 
 I recommend following standard accessibility principles (see [WCAG](https://www.w3.org/TR/WCAG20/) or [MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility) documentation) for your website.  And don’t worry.  The extra ARIA HTML attributes won’t significantly increase your page size.  I am sure your webserver is gzip compressing them anyway.  The additional attributes are probably the least of your web performance worries (see [death by a thousand tiny cuts](/web-page-performance-death-by-a-thousand-tiny-cuts/)).
 
+{% include signup.html %}
+
 {% include disqus.html %}
