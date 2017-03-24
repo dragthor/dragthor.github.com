@@ -24,8 +24,9 @@ IE8 is not ES5-compatible.  Foundation transpiles ES6 down to ES5 with [Babel](h
 
 ### Internet Explorer 9
 
-My Zurb Foundation 5 and 6 framework experience has taught me that IE9 can be finicky.  But it’s not the framework's problem, its IE problem for not supporting HTML5 attributes like `placeholder` where you need to use some type of fallback polyfill.
-Media Queries
+My Zurb Foundation 5 and 6 framework experience has taught me that IE9 can be finicky.  But it’s not the framework's problem, its IE's problem for not supporting HTML5 attributes like `placeholder` where you need to use some type of fallback polyfill.
+
+### Media Queries
 
 Finally, be aware that browsers that do not support media queries will render your website as small (mobile).  This should be fine as you’re ideally developing and designing from a mobile-first attitude and perspective.  Hey, at least your website will still function and be usable.
 
