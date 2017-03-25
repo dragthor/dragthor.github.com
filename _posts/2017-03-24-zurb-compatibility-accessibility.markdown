@@ -58,6 +58,7 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 
 ### Common Foundation ARIA
 
+| Attribute | Description |
 | --- | --- |
 | aria-label | Defines a string value that labels the current element. |
 | aria-hidden | Sets or retrieves the hidden state of this element. |
