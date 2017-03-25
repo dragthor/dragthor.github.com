@@ -56,6 +56,41 @@ All Foundation components are keyboard-accessible and screen reader-friendly.  C
 
 I recommend following standard accessibility principles (see [WCAG](https://www.w3.org/TR/WCAG20/) or [MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility) documentation) for your website.  And don’t worry.  The extra ARIA HTML attributes won’t significantly increase your page size.  I am sure your webserver is gzip compressing them anyway.  The additional attributes are probably the least of your web performance worries (see [death by a thousand tiny cuts](/web-page-performance-death-by-a-thousand-tiny-cuts/)).
 
+### Common Foundation ARIA
+
+| --- | --- |
+| aria-label | Defines a string value that labels the current element. |
+| aria-hidden | Sets or retrieves the hidden state of this element. |
+| aria-expanded |	Sets or gets the expanded state of this element. |        |     
+| aria-controls	| Sets or gets the list of elements that are controlled by the current element. |
+
+### Foundation Slider ARIA
+
+| --- | --- |
+| aria-valuenow	| Sets or gets the current value of the element. |
+| aria-valuemin	| Sets or gets the minimum value that a user can provide. |
+| aria-valuemax	| Sets or gets the maximum value that a user can provide. |
+| aria-orientation | Indicates whether the element and orientation is horizontal or vertical. |
+
+### Foundation Component ARIA
+
+| --- | --- | --- |
+| aria-live | Sets or gets how assistive technology should announce updates to live regions. | Orbit |
+| aria-describedb | Sets or gets a list of elements that describe the current object. | Tooltip |
+| aria-selected | Sets or gets the selection state of this element. | Accordion, Tab |
+| aria-haspopup | Indicates whether this element may display a pop-up window. | Dropdown, Reveal, Tooltip |
+| aria-labelledby | Sets or gets a list of elements that provide a label for the current object. | Accordion, Dropdown, Tabs |
+| aria-multiselectable | Sets or gets the multiple-selection state of this element. | Accordion Menu |
+
+### Suggested Optional ARIA – Your Responsibility
+
+| --- | --- | --- |
+| aria-disabled | Sets or gets the disabled state of this element. | Button |
+| aria-invalid | Sets or retrieves the error state of this element. | Abide form error |
+| aria-errormessage | Identifies the element that provides an error message. | Abide form error |
+| aria-required | Sets or retrieves the form-completion requirement of this element. | Abide form error |
+| aria-valuetext | Defines the human-readable text alternative of aria-valuenow for a range control. | Progress Bar |
+
 {% include signup.html %}
 
 {% include disqus.html %}
