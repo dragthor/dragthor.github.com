@@ -62,7 +62,7 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 | --- | --- |
 | aria-label | Defines a string value that labels the current element. |
 | aria-hidden | Sets or retrieves the hidden state of this element. |
-| aria-expanded |	Sets or gets the expanded state of this element. |        |     
+| aria-expanded |	Sets or gets the expanded state of this element. |
 | aria-controls	| Sets or gets the list of elements that are controlled by the current element. |
 
 ### Foundation Slider ARIA
