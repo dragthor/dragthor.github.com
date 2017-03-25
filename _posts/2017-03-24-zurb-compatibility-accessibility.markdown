@@ -18,13 +18,13 @@ Let’s cut to the chase. In my cynical web developer voice, what’s supposed t
 
 ### Internet Explorer 8
 
-What does not work?  IE8 doesn't support the `box-sizing: border-box` CSS property.  Foundation uses it to apply gutters to columns in their 12-column grid system.  In designer speak, a gutter is a “lane” of padding or margin between cells or columns.  I like to visualize a bowling alley lane with gutters on each side.  Gutters in Foundation 6 are responsive and increase for larger viewports.  They also provide space between the edge of a grid and the edge of the page.
+What does not work?  The usual suspect IE8 doesn't support the `box-sizing: border-box` CSS property.  Foundation uses it to apply gutters to columns in their 12-column grid system.  In designer speak, a gutter is a “lane” of padding or margin between cells or columns.  I like to visualize a bowling alley lane with gutters on each side.  Gutters in Foundation 6 are responsive and increase for larger viewports.  They also provide space between the edge of a grid and the edge of the page.
 
 IE8 is not ES5-compatible.  Foundation transpiles ES6 down to ES5 with [Babel](https://babeljs.io/).  However, IE8 lacks some ECMAScript 5 features used in plugins.  Per Microsoft, [support ended for older versions of IE](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) on January 12th, 2016.
 
 ### Internet Explorer 9
 
-My Zurb Foundation 5 and 6 framework experience has taught me that IE9 can be finicky.  But it’s not the framework's problem, its IE's problem for not supporting HTML5 attributes like `placeholder` where you need to use some type of fallback polyfill.
+My Zurb Foundation 5 and 6 framework experience has taught me that IE9 can be finicky.  But it’s not the framework's problem, its IE's problem for not supporting some HTML5 attributes like `placeholder` where you need to use some type of fallback polyfill.
 
 ### Media Queries
 
