@@ -48,6 +48,43 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, table tbody tr td, table tr td {
+    display: table-cell;
+    line-height: 1rem;
+}
+
+table thead tr th, table thead tr td {
+    color: #222222;
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding: 0.44444rem 0.55556rem 0.55556rem;
+}
+
+table tr th, table tr td {
+    color: #222222;
+    font-size: 0.77rem;
+    padding: 0.5rem 0.55556rem;
+    text-align: left;
+}
+
+table tr th, table tr td {
+    color: #222222;
+    font-size: 0.77rem;
+    padding: 0.5rem 0.55556rem;
+    text-align: left;
+}
+
+table {
+    background: #FFFFFF;
+    border: solid 1px #DDDDDD;
+    margin-bottom: 1.11rem;
+    table-layout: auto;
+}
+
+table thead {
+    background: #F5F5F5;
+}
+
 .js-video {
   height: 0;
   padding-top: 25px;
