@@ -67,6 +67,7 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 
 ### Foundation Slider ARIA
 
+| Attribute | Description |
 | --- | --- |
 | aria-valuenow	| Sets or gets the current value of the element. |
 | aria-valuemin	| Sets or gets the minimum value that a user can provide. |
@@ -75,6 +76,7 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 
 ### Foundation Component ARIA
 
+| Attribute | Description | Component |
 | --- | --- | --- |
 | aria-live | Sets or gets how assistive technology should announce updates to live regions. | Orbit |
 | aria-describedb | Sets or gets a list of elements that describe the current object. | Tooltip |
@@ -85,19 +87,13 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 
 ### Suggested Optional ARIA – Your Responsibility
 
+| Attribute | Description | Component |
 | --- | --- | --- |
 | aria-disabled | Sets or gets the disabled state of this element. | Button |
 | aria-invalid | Sets or retrieves the error state of this element. | Abide form error |
 | aria-errormessage | Identifies the element that provides an error message. | Abide form error |
 | aria-required | Sets or retrieves the form-completion requirement of this element. | Abide form error |
 | aria-valuetext | Defines the human-readable text alternative of aria-valuenow for a range control. | Progress Bar |
-
-### Test Table
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
 {% include signup.html %}
 
