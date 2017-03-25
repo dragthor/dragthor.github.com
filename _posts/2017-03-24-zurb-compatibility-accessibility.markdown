@@ -92,6 +92,13 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 | aria-required | Sets or retrieves the form-completion requirement of this element. | Abide form error |
 | aria-valuetext | Defines the human-readable text alternative of aria-valuenow for a range control. | Progress Bar |
 
+### Test Table
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 {% include signup.html %}
 
 {% include disqus.html %}
