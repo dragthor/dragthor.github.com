@@ -95,7 +95,7 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 | aria-required | Sets or retrieves the form-completion requirement of this element. | Abide form error |
 | aria-valuetext | Defines the human-readable text alternative of aria-valuenow for a range control. | Progress Bar |
 
-Source: https://msdn.microsoft.com/en-us/library/hh968245(v=vs.85).aspx
+Source: [https://msdn.microsoft.com/en-us/library/hh968245(v=vs.85).aspx](https://msdn.microsoft.com/en-us/library/hh968245(v=vs.85).aspx)
 
 {% include signup.html %}
 
