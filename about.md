@@ -17,7 +17,7 @@ The [TRS-80](https://en.wikipedia.org/wiki/TRS-80).  I remember hanging out at t
 In middle school I disliked studying for history tests.  So I developed (in BASIC) a multiple choice quiz that randomly selected questions and randomized answer choices.  At the end, it summed up your score and told the user (which was just me) which ones I got wrong.  I regret losing the 5.25 inch floppy and not entering my program in the school science fair.  It would have been so much better than a typical volcano project.
 
 ## First computer owned?
-The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) with the floppy and tape drives.  I spent a lot of time entering in programs from [Compute! magazine](http://www.atarimagazines.com/compute/).  The `DATA` was exteremly frustration.  And I copied games like crazy (using both sides of the floppy) as well as learning BASIC.  Summer Games, Winter Games, and Impossible Mission which was one of the first games to synthesize voice using the famous SID chip that made it possible - "[Another visitor.  Stay a while.  Stay forever!](https://www.youtube.com/watch?v=k35dUj5kG90)"
+The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) with the floppy and tape drives.  I spent a lot of time entering programs from [Compute! magazine](http://www.atarimagazines.com/compute/).  The `DATA` was exteremly frustration!  And I copied games like crazy (using both sides of the floppy) as well as learning BASIC.  Summer Games, Winter Games, and Impossible Mission which was one of the first games to synthesize voice using the famous [SID chip](https://www.c64-wiki.com/wiki/SID) that made it possible - "[Another visitor.  Stay a while.  Stay forever!](https://www.youtube.com/watch?v=k35dUj5kG90)"
 
 ## High school?
 I joined the computer club.  Unfortunately, it was mostly [Wang](https://en.wikipedia.org/wiki/Wang_Laboratories) terminals, word processing, and setting UNIX directory permissions `-rwx`.
@@ -30,6 +30,8 @@ C++ and [VB3](https://en.wikipedia.org/wiki/Visual_Basic) in 1996 for a pharmace
 
 ## Will I ever stop programming?
 No.
+
+***
 
 My current list of tech tools and [devices](/devices).
 
