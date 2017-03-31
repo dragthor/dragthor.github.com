@@ -4,15 +4,17 @@ title: Devices
 permalink: /devices/
 description: "Current list of devices that I use to develop and test software.  And for personal and professional enrichment."
 ---
-Lenovo Ideapad 710S (main machine, Windows 10 with Linux subsystem)
+## Primary
+Lenovo Ideapad 710S (main machine, Windows 10, Intel i7, SSD)
 
-BLU R1 HD Android 6 phone (zero games, but lots of audio books and podcasts)
+BLU R1 HD Android 6 phone (zero games, lots of audio books and podcasts)
 
-Amazon Kindle (cracked screen, my kids dropped it a couple of times)
+Amazon Echo Dot (heavy metal, music without words, and [body pump](https://www.lesmills.com/workouts/fitness-classes/bodypump/) tracks for coding)
 
-Amazon Kindle Fire (loaded with 80% software books, 18% self-improvement, and 2% fiction)
+## Secondary
+Amazon Kindle Fire (cracked screen, my kids dropped it a couple of times)
 
-Amazon Echo Dot (heavy metal, music witout words, and [body pump](https://www.lesmills.com/workouts/fitness-classes/bodypump/) tracks for coding)
+Amazon Kindle (loaded with 80% software books, 18% self-improvement, and 2% fiction)
 
 Hisense Chromebook (touchpad does not work due to spilled milk (kids again))
 
