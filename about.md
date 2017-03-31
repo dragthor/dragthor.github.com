@@ -23,7 +23,7 @@ The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) with the floppy a
 I joined the computer club.  Unfortunately, it was mostly [Wang](https://en.wikipedia.org/wiki/Wang_Laboratories) terminals, word processing, and setting UNIX directory permissions `-rwx`.
 
 ## College?
-Undergraduate courses used mostly Assembly, C, C++, and Pascal.  Graduate courses used mostly Java and C#.
+[Undergraduate](http://www.lvc.edu/) courses used mostly Assembly, C, C++, and Pascal.  [Graduate](http://www.du.edu/) courses used mostly Java and C#.
 
 ## First professional job?
 C++ and [VB3](https://en.wikipedia.org/wiki/Visual_Basic) in 1996 for a pharmaceutical sofware company that used the [waterfall model](https://en.wikipedia.org/wiki/Waterfall_model) (we were regulated my the Food and Drug Administration).
@@ -31,11 +31,9 @@ C++ and [VB3](https://en.wikipedia.org/wiki/Visual_Basic) in 1996 for a pharmace
 ## Will I ever stop programming?
 No.
 
-***
+## Devices and books?
 
-My current list of tech tools and [devices](/devices).
-
-My current list of favorite tech [books](/books).
+My current list of tech tools and [devices](/devices).  My current list of favorite tech [books](/books).
 
 **Disclaimer:** The opinions expressed here represent my own and not those of my employer.
 
