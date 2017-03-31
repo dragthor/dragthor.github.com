@@ -13,7 +13,7 @@ You have heard the usual computer programmer stereotype: we are all overweight. 
 
 ## Black Coffee
 
-Start drinking black coffee.  Avoid artificial sweeteners, sugar, brown sugar, and those crazy dessert-like frappuccino coffees from Star Bucks and Dunkin Donuts.  Use cinnamon to curb your dessert craving.  Do not use the cheap stuff from your local grocery chain.  Rather, try some delicious Vietnamese cinnamon.  Coffee with cinnamon after a meal is a good dessert.
+Start drinking black coffee.  Avoid artificial sweeteners, sugar, brown sugar, and those crazy dessert-like frappuccino coffees from Star Bucks and Dunkin Donuts.  Use cinnamon to curb your dessert craving.  Do not use the cheap stuff from your local grocery chain.  Rather, try some delicious Vietnamese cinnamon.  Coffee with cinnamon after a meal is a good dessert replacement.
 
 ## Cheese
 
@@ -21,7 +21,7 @@ Simply put: cheese is not worth the calories.  American cheese is the worst.  Is
 
 ## Carbohydrates
 
-Bread, muffins, pasta, and bagels.  Unfortunately, people at work like to frequently bring in a dozen bagels for a "special" occasion or if they want to "be nice" and "thoughtful".  A bag of bagels (with delicious cream cheese) is neither thoughtful nor nice.  Bagels are not healthy.  Not even the special "multigrain" bagels.
+Bread, muffins, pasta, and bagels.  Unfortunately, people at work like to frequently bring in a dozen bagels for a "special" occasion or if they want to "be nice" and "thoughtful".  A bag of bagels (with delicious cream cheese) is neither thoughtful nor nice.  Bagels are not healthy.  Not even the special "multigrain" bagels.  Bagels might be a little better than a box of donuts.  Choose to consume neither.
 
 ## Alcohol
 
@@ -29,7 +29,7 @@ Zero alcohol.  There, I said it.  It makes you tired and creates lazy eating hab
 
 ## Breakfast
 
-Eat breakfast daily.  Sometimes when I wake up in the morning, my stomach and thoughts are saying "no" to food, but you have to eat.  If you skip, you might make a bad decision on the way to work (like stopping at McDonalds) or at work (someone bringing in unhealthy food to share).  Let's face it.  Whenever someone brings food into work, it's not healthy or nutritional.  Rather, it's leftover brownies, cake, and extra Halloween or Easter candy.  Willpower alone won't help.  But a full stomach (or completely avoiding the cafeteria) will help.
+Eat breakfast daily.  Sometimes when I wake up in the morning, my stomach and thoughts are saying "no" to food, but you have to eat.  If you skip, you might make a bad decision on the way to work (like stopping at McDonalds) or at work (someone bringing in unhealthy food to share).  Let's face it.  Whenever someone brings food into work, it's neither healthy nor nutritional.  Rather, it's leftover brownies, cake, and extra Halloween or Easter candy.  Willpower alone won't help.  But a full stomach (or completely avoiding the cafeteria) will help.
 
 In summary, start small using the five tips above.  I wanted to keep them narrow and focused.  Losing weight is a marathon, not a sprint.  There is an old database saying: garbage in, garbage out.  This same rule applies to your body.  The aforementioned tips are applicable for everyone, not just software developers.  However, developers are people who tend to sit most of the day.  Developers are also my coworkers, peers, and friends.  Are there any other tips that should be added to the list?  Maybe some that are more specific to computer programmers?  Last time I checked programmers are people too.  Stay tuned for more posts.
 
