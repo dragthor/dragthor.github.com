@@ -21,7 +21,7 @@ Simply put: cheese is not worth the calories.  American cheese is the worst.  Is
 
 ## Carbohydrates
 
-Bread, muffins, pasta, and bagels.  Unfortunately, people at work like to frequently bring in a dozen bagels for a "special" occassion or if they want to "be nice" and "thoughtful".  A bag of bagels (with delicous cream cheese) is neither thoughtful nor nice.  Bagels are not healthy.  Not even the special "multigrain" bagels.
+Bread, muffins, pasta, and bagels.  Unfortunately, people at work like to frequently bring in a dozen bagels for a "special" occasion or if they want to "be nice" and "thoughtful".  A bag of bagels (with delicious cream cheese) is neither thoughtful nor nice.  Bagels are not healthy.  Not even the special "multigrain" bagels.
 
 ## Alcohol
 
