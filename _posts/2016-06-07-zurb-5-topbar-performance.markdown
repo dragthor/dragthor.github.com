@@ -2,7 +2,7 @@
 layout: post
 title: "Zurb 5 Sticky Topbar Performance"
 permalink: /zurb-foundation-5-sticky-topbar-performance/
-meta: zurb
+meta: zurb performance
 published: true
 description: "Zurb Foundation 5 sticky topbar performance."
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/zurb-6.png
