@@ -31,6 +31,7 @@ Object.preventExtensions(order);
 order.AffiliateCode = "BAD_THIRD_PARTY_VENDOR";
 {% endhighlight %}
 
+
 Next is [```Object.seal()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal) -
 
 * Cannot remove properties
@@ -60,6 +61,7 @@ order.Items.Count = 2;
 delete order.AffiliateCode;
 {% endhighlight %}
 
+
 At the bottom and most restrictive is [```Object.freeze()```](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) -
 
 * Non-writable data properties
@@ -82,6 +84,7 @@ Object.freeze(order);
 order.Total = 500;
 order.AffiliateCode = "BAD_THIRD_PARTY_VENDOR";
 {% endhighlight %}
+
 
 When [Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is invoked an exception is thrown when attempting to modify an object using the aforementioned methods.  If ```use strict``` is not invoked then no exception is thrown and the modification attempt silently fails.
 
