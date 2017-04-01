@@ -3,30 +3,44 @@ layout: default
 title: metroize.com - Software development blog by Kris Krause
 description: "Software development blog by Kris Krause - zurb, javascript, unit testing, and anything that might be helpful to someone."
 ---
-<div class="home">
-  
-  <h1 class="page-heading">Recent Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts limit: 5 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="row">
+  <div class="small-12 columns">
+    <h1>Recent Posts</h1>
+  </div>
+</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
 
-		<p>
-			{{ post.excerpt | remove: '<p>' | remove: '</p>' }} 
+    {% for post in site.posts limit: 6 %}
+
+<div class="row">
+  <div class="small-12 columns">
+
+
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+
+
+    <span class="post-meta">• {{ post.date | date: "%b %-d, %Y" }} </span>
+    
+    <p>
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
       <br/><span class="fi-page"></span> <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
-		</p>
-      </li>
-    {% endfor %}
-  </ul>
+    </p>
 
-  <p class="rss-subscribe">
-	<span class="fi-rss size-21"></span> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-  </p>
+  </div>
+
+</div>
+
+   {% endfor %}
+
+<div class="row">
+  <div class="small-12 columns">
+   
+      <span class="fi-rss size-21"></span> subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a>
+  
+  </div>
 </div>
 
 <script type="application/ld+json">

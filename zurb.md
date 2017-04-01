@@ -5,28 +5,24 @@ title: Zurb Foundation Development
 permalink: /zurb/
 description: "Zurb Foundation development, learning, and testing.  Zurb for Sites, Email, and mobile Apps."
 ---
-<div class="home">
+{% for post in site.posts %}
+{% if post.meta contains 'zurb' %}
+<div class="row">
+<div class="small-12 columns">
+	
+	<h2>
+		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	</h2>
+	• <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<p>
+	
+		{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <br/><span class="fi-page"></span> <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+	</p>
 
+</div></div>
 
+{% endif %}
+{% endfor %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-		{% if post.meta contains 'zurb' %}
-		  <li>
-			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-			<h2>
-			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
-
-			<p>
-				{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
-			</p>
-		  </li>
-		{% endif %}
-    {% endfor %}
-  </ul>
-   
-</div>
 
 {% include signup.html %}

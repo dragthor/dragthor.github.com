@@ -4,27 +4,22 @@ title: Ubuntu Related
 permalink: /ubuntu/
 description: "Using the Ubuntu operating system to develop software."
 ---
-<div class="home">
+{% for post in site.posts %}
+{% if post.meta contains 'ubuntu' %}
+<div class="row">
+<div class="small-12 columns">
 
+<h2>
+	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</h2>
+• <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<p>
 
+	{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <br/><span class="fi-page"></span> <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
+</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-		{% if post.meta contains 'ubuntu' %}
-		  <li>
-			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+</div></div>
+{% endif %}
+{% endfor %}
 
-			<h2>
-			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
-
-			<p>
-				{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
-			</p>
-		  </li>
-		{% endif %}
-    {% endfor %}
-  </ul>
-  
-  
-</div>
+{% include signup.html %}

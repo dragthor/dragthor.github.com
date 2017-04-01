@@ -1,54 +1,46 @@
-<footer class="site-footer">
+<footer>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li><a href="/">{{ site.title }}</a> by Kris Krause</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-   
-		  <li>&copy; Copyright <a href="/about/">2017</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            <span class="fi-social-github size-18"></span> <a href="https://github.com/{{ site.github_username }}">
-              <span class="username">{{ site.github_username }}</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            <span class="fi-social-twitter size-18"></span> <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="username">{{ site.twitter_username }}</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.stackoverflow_account %}
-          <li>
-            <span class="fi-social-stack-overflow size-18"></span> <a href="http://stackoverflow.com/users/139547/{{ site.stackoverflow_account }}">
-				 <span class="username">{{ site.stackoverflow_account }}</span>
-			</a>
-          </li>
-          {% endif %}
-       
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <hr/>
     </div>
 
+    <div class="small-12 medium-4 columns">
+
+      <a href="/">{{ site.title }}</a> by Kris Krause<br/>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a><br/> &copy; Copyright <a href="/about/">2017</a>
+
+    </div>
+
+    <div class="small-12 medium-4 columns">
+      <hr class="show-for-small-only" /> {% if site.github_username %}
+
+      <span class="fi-social-github size-18"></span>
+      <a href="https://github.com/{{ site.github_username }}">
+        <span class="username">{{ site.github_username }}</span>
+      </a>
+      <br/> {% endif %} {% if site.twitter_username %}
+
+      <span class="fi-social-twitter size-18"></span>
+      <a href="https://twitter.com/{{ site.twitter_username }}">
+        <span class="username">{{ site.twitter_username }}</span>
+      </a>
+      <br/> {% endif %} {% if site.stackoverflow_account %}
+
+      <span class="fi-social-stack-overflow size-18"></span>
+      <a href="http://stackoverflow.com/users/139547/{{ site.stackoverflow_account }}">
+        <span class="username">{{ site.stackoverflow_account }}</span>
+      </a>
+
+      {% endif %}
+
+
+    </div>
+
+    <div class="small-12 medium-4 columns">
+      <hr class="show-for-small-only" /> {{ site.description }}
+    </div>
+
+
   </div>
-
 </footer>
-

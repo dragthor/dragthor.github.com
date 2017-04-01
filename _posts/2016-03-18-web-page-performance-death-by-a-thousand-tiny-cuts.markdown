@@ -2,7 +2,7 @@
 layout: post
 title: "Web Page Performance Death by a Thousand Tiny Cuts"
 permalink: /web-page-performance-death-by-a-thousand-tiny-cuts/
-meta: javascript unit-testing performance
+meta: javascript performance
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/performance-thousand-cuts.jpg
 description: "Web page performance is literally a death by a thousand tiny little cuts.  Keep the requests down and your web page performance increases.  No magic just common sense."

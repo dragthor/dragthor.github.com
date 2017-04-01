@@ -1,7 +1,7 @@
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 	  
@@ -33,7 +33,7 @@
 	<meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<link rel="alternate" type="application/rss+xml" title="Software development blog by Kris Krause" href="http://metroize.com/feed.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Software development by Kris Krause" href="http://metroize.com/feed.xml" />
 
 	{% if page.image %}
 	<meta property="og:title" content="{{ page.title }}" />
@@ -58,7 +58,9 @@
 	
 	{% endif %}
 	
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
+	<link rel="stylesheet" href="/css/foundation.min.css">
+
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
     <meta name="google-site-verification" content="QOiZylsFfYbBwYTCV7Y3h_MfOQSj2LfIDE5Sj-GvPkY" />

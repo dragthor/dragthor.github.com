@@ -7,14 +7,14 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+
+
         {{ content }}
-      </div>
-    </div>
+
 
     {% include footer.html %}
 
+<br/>
 
 <link rel="stylesheet" href="/foundation-icons/foundation-icons.css" />
     
@@ -31,7 +31,12 @@
     .size-72 { font-size: 72px; }
 </style>
 
-
+    <script src="/js/vendor/jquery.min.js"></script>
+    <script src="/js/vendor/what-input.min.js"></script>
+    <script src="/js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 
   </body>
 </html>
