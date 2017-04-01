@@ -19,14 +19,11 @@ The latest version of [Android Studio](https://developer.android.com/sdk/index.h
 {% highlight java %}
 onView(withId(R.id.txtHello))
 	.check(matches(withText("")));
-
 onView(withId(R.id.btnHello))
 	.check(matches(withText(R.string.clickme)))
 	.perform(click());
-
 onView(withId(R.id.txtHello))
 	.check(matches(withText(R.string.helloworld)));
-
 onView(withId(R.id.btnHello))
 	.check(matches(not(isEnabled())));
 {% endhighlight %}
@@ -36,9 +33,9 @@ And yes, JUnit tests tend to be faster than Espresso tests since they can avoid 
 Important for your app's build.gradle -
 
 {% highlight json %}
-	defaultConfig { 
-		testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
-	}
+defaultConfig { 
+	testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+}
 {% endhighlight %}
 
 And then utilize your project's Build Variants to toggle between JUnit tests and Espresso tests.
