@@ -4,7 +4,7 @@ title: "Zurb Foundation 6 Compatibility and Accessibility"
 permalink: /zurb-foundation-compatibility-accessibility/
 meta: zurb
 published: true
-image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/lego-guys.png
+image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/lego-guys.jpg
 ---
 Accessibility and compatibility are difficult to write about.  Neither are a day in, day out concern for the average developer.  Most of the time we do not worry about either until the very end of a project or worse, after a release to production.
 
