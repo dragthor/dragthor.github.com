@@ -6,12 +6,12 @@ meta: zurb
 published: true
 image: http://abe90238e3b628565257-c47b312812e6878374960f5d0b7661c9.r73.cf1.rackcdn.com/foundation-dude-blue.png
 ---
-You've read the [Zurb 6 plugin introduction](/zurb-foundation-6-plugins/).  You've read the [documentation](http://foundation.zurb.com/sites/docs/).  You want to develop your own plugin, but you still have questions or want to see a working plugin example.  This article demonstrates a working Zurb `blink` tag plugin.  It's nothing elaborate, but hopefully it will help get you started.  You can jump right to the [working example](/zurb-6/plugin-blink.html) or follow along below.
+You've read the [Zurb 6 plugin introduction](/zurb-foundation-6-plugins/).  You've read the [documentation](http://foundation.zurb.com/sites/docs/).  You want to develop your own plugin, but you still have questions or want to see a working plugin example.  This article demonstrates a working Zurb `blink` tag plugin.  Remember these from the old Netscape days?  It's nothing elaborate, but hopefully it will help get you started.  You can jump right to the [working example](/zurb-6/plugin-blink.html) or follow along below.
 
 ![alt text]({{ page.image }} "Zurb Plugin Working Example")
 
-## Warning
-This example is using the generated version of Foundation.  Which means that it's not using Sass nor transpiled ES5 via [Babel](https://babeljs.io/).  Thus, it won't work with IE or older Android browsers until you incorporate the plugin into your Foundation build pipeline (check [ES6 classes compatibility](http://caniuse.com/#feat=es6-class)).  I've personally tested the `Blink` plugin with the latest and greatest versions of Firefox, Chrome, and Edge.  Zero issues found.  However, if you find any please let me know by leaving a comment below.
+## Compatibility Warning
+This example is using the generated version of Foundation.  Which means that it's not using Sass nor transpiled ES5 via [Babel](https://babeljs.io/).  Thus, it won't work with IE or older Android browsers until you incorporate the plugin into your Foundation build pipeline (check [ES6 classes compatibility](http://caniuse.com/#feat=es6-class)).  I've personally tested the `Blink` plugin with the latest and greatest versions of Firefox, Chrome, and Edge.  Zero issues found.  However, if you find any, please let me know by leaving a comment below.
 
 ## Markup
 Below is the vanilla HTML markup.  `data-blink` signals to the registered javascript that it's a `Blink` plugin.  The `data-interval` overrides the default option value of 500.  It's used for the blink visible/invisible rate.  This data attribute usage is consistent throughout the framework.  The `Blink` plugin follows along with the pattern.  No need to implement `data-options` differently, which could lead to confusion.  And yes, you can place multiple `Blink` components on the same page (see [working example](/zurb-6/plugin-blink.html)) similar to having multiple `Reveals`, `Tooltips`, `DropDowns`, etc.
