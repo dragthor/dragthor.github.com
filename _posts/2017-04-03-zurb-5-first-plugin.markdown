@@ -22,6 +22,7 @@ Below is the vanilla HTML markup.  `data-blink` signals to the registered javasc
 </div>
 {% endhighlight %}
 
+<br/>
 
 And yes, you can place multiple `Blink` components on the same page (see [working example](/zurb-6/plugin-blink.html)) similar to having multiple `Reveals`, `Tooltips`, `DropDowns`, etc.
 
