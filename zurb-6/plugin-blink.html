@@ -1,0 +1,134 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plugin Blink</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <style>
+  .blink {
+    font-weight: bold;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="row">
+    <div class="medium-12 columns">
+      <h1>Zurb Foundation 6 - Plugin Blink</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="blink" data-blink data-interval="400">
+        <h2>Under Construction!</h2>
+      </div>
+    </div>
+
+    <div class="small-12 columns">
+      <div class="blink" data-blink data-interval="1000">
+        <h2>Coming Soon!</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <button type="button" class="success button">Start</button>
+      <button type="button" class="alert button">Stop</button>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+
+  <script>
+  'use strict';
+
+  !function ($) {
+    class Blink {
+      constructor(element, options) {
+        this.$element = element; 
+        this.options = $.extend({}, Blink.defaults, this.$element.data(), options); 
+        this.timer = 0;
+
+        this._init(); 
+
+        Foundation.registerPlugin(this, 'Blink');
+      }
+
+      _init() { 
+        this._events();
+        this.start();
+      }
+
+      _events() { /* None at this time. */ }
+
+      start() {
+        if (this.timer > 0) return; // Already started.
+
+        var blink = this.$element;
+
+        this.timer = setInterval(function () {
+          if (blink.hasClass('active')) {
+            blink.css('visibility', 'hidden');
+            blink.removeClass('active');
+          } else {
+            blink.css('visibility', 'visible');
+            blink.addClass('active');
+          }
+        
+        }, this.options.interval);
+      }
+
+      stop() {
+        clearTimeout(this.timer);
+
+        this.timer = 0;
+      }
+
+      destroy() {
+        clearTimeout(this.timer);
+        Foundation.unregisterPlugin(this);
+      }
+    }
+
+    Blink.defaults = {
+      interval: 500
+    };
+
+    // Window exports
+    Foundation.plugin(Blink, 'Blink');
+  }(jQuery);
+  </script>
+
+  <script>
+      $(document).foundation();
+
+      // Foundation.Blink.defaults.interval = 100;
+     
+      // If you are creating your plugins programmatically, you can, of course, invoke methods directly:
+      // var blink = new Foundation.Blink($('h1'), { interval:100 });
+      // blink.stop();
+      // blink.start();
+
+      $("button.alert").on("click", function(e) {
+        e.preventDefault();
+
+        $(".blink").foundation("stop");
+      });
+
+      $("button.success").on("click", function(e) {
+        e.preventDefault();
+
+        $(".blink").foundation("start");
+      });
+  </script>
+
+</body>
+
+</html>
