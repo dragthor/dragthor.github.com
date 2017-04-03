@@ -22,6 +22,7 @@ Below is the vanilla HTML markup.  `data-blink` signals to the registered javasc
 </div>
 {% endhighlight %}
 
+
 And yes, you can place multiple `Blink` components on the same page (see [working example](/zurb-6/plugin-blink.html)) similar to having multiple `Reveals`, `Tooltips`, `DropDowns`, etc.
 
 ## Blink Plugin JavaScript
@@ -41,6 +42,7 @@ And, similarly you can call the `Blink` plugin methods too.
 $(".blink").foundation("stop");
 $(".blink").foundation("start");
 {% endhighlight %}
+
 
 In the [working example](/zurb-6/plugin-blink.html), I added two buttons to handle `click` events and call the appropriate method.
 
