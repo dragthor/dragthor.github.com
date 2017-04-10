@@ -79,7 +79,7 @@ I recommend following standard accessibility principles (see [WCAG](https://www.
 | Attribute | Description | Component |
 | --- | --- | --- |
 | aria-live | Sets or gets how assistive technology should announce updates to live regions. | Orbit |
-| aria-describedb | Sets or gets a list of elements that describe the current object. | Tooltip |
+| aria-describedby | Sets or gets a list of elements that describe the current object. | Tooltip |
 | aria-selected | Sets or gets the selection state of this element. | Accordion, Tab |
 | aria-haspopup | Indicates whether this element may display a pop-up window. | Dropdown, Reveal, Tooltip |
 | aria-labelledby | Sets or gets a list of elements that provide a label for the current object. | Accordion, Dropdown, Tabs |
