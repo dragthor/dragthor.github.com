@@ -20,7 +20,7 @@ In middle school I disliked studying for history tests.  So I developed (in BASI
 The [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) with the floppy and tape drives.  I spent a lot of time entering programs from [Compute! magazine](http://www.atarimagazines.com/compute/).  The `DATA` was exteremly frustration!  And I copied games like crazy (using both sides of the floppy) as well as learning BASIC.  Summer Games, Winter Games, and Impossible Mission which was one of the first games to synthesize voice using the famous [SID chip](https://www.c64-wiki.com/wiki/SID) that made it possible - "[Another visitor.  Stay a while.  Stay forever!](https://www.youtube.com/watch?v=k35dUj5kG90)"
 
 ## High school?
-I joined the computer club.  Unfortunately, it was mostly [Wang](https://en.wikipedia.org/wiki/Wang_Laboratories) terminals, word processing, and setting UNIX directory permissions `-rwx`.
+I joined the computer club.  Unfortunately, it was mostly [Wang](https://en.wikipedia.org/wiki/Wang_Laboratories) terminals, word processing, and setting UNIX directory permissions `-rwx`.  I wanted to program games, a D&D dice roller, hangman, and text-based adventures (like [Zork](https://en.wikipedia.org/wiki/Zork)).
 
 ## College?
 [Undergraduate](http://www.lvc.edu/) courses used mostly Assembly, C, C++, and Pascal.  [Graduate](http://www.du.edu/) courses used mostly Java and C#.
@@ -30,6 +30,9 @@ C++ and [VB3](https://en.wikipedia.org/wiki/Visual_Basic) in 1996 for a pharmace
 
 ## Will I ever stop programming?
 No.
+
+## Even if you won the lottery you wouldn't stop coding?
+Nope.
 
 ## Devices and books?
 

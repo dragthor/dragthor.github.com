@@ -7,7 +7,7 @@ description: "Current list of devices that I use to develop and test software.  
 ## Primary
 Lenovo Ideapad 710S (main machine, Windows 10, Intel i7, SSD)
 
-BLU R1 HD Android 6 phone (zero games, lots of audio books and podcasts)
+alcatel Android 7 phone (zero games, lots of audio books and podcasts)
 
 Amazon Echo Dot (heavy metal, music without words, and [body pump](https://www.lesmills.com/workouts/fitness-classes/bodypump/) tracks for coding)
 
