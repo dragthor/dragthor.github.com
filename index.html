@@ -4,21 +4,21 @@ title: metroize.com - Software development blog by Kris Krause
 description: "Software development blog by Kris Krause - zurb, javascript, unit testing, and anything that might be helpful to someone."
 ---
 
-<div class="row">
-  <div class="small-12 columns">
+<div class="grid-x">
+  <div class="small-12 cell">
     <h1>Recent Posts</h1>
   </div>
 </div>
 
-<div class="row">
-  <div class="small-12 medium-9 columns">
+<div class="grid-x">
+  <div class="small-12 medium-9 cell">
 
 
 
     {% for post in site.posts limit: 6 %}
 
-<div class="row">
-  <div class="small-12 columns">
+<div class="grid-x">
+  <div class="small-12 cell">
 
 
     <h2>
@@ -40,7 +40,7 @@ description: "Software development blog by Kris Krause - zurb, javascript, unit 
    {% endfor %}
 
   </div>
-  <div class="small-12 medium-3 columns">
+  <div class="small-12 medium-3 cell">
       
 
 <div class="card">
@@ -113,8 +113,8 @@ description: "Software development blog by Kris Krause - zurb, javascript, unit 
   </div>
 </div>
 
-<div class="row">
-  <div class="small-12 columns">
+<div class="grid-x">
+  <div class="small-12 cell">
    
       <span class="fi-rss size-21"></span> subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a>
   
