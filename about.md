@@ -37,7 +37,7 @@ My current list of tech tools and [devices](/devices).  My current list of favor
 
 **Disclaimer:** The opinions expressed here represent my own and not those of my employer.
 
-The materials herein are all (c) 2015-2017 Kristofer Krause.
+The materials herein are all (c) 2015-2018 Kristofer Krause.
 
 <p class="rss-subscribe">
 	<span class="fi-rss size-21"></span> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
