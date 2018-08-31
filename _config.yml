@@ -5,7 +5,6 @@ description: > # this means to ignore newlines until "baseurl:"
   Software development by Kris Krause - zurb, javascript, unit testing, and anything that might be helpful to someone.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://metroize.com" # the base hostname & protocol for your site
-twitter_username: metroize
 github_username:  dragthor
 stackoverflow_account: kris-krause
 post_source_root: https://github.com/dragthor/dragthor.github.com/blob/master/_posts/
